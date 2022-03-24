@@ -100,11 +100,11 @@
 			}]
 		}
 		{
-			title: "Slumber Dumber"
+			title: "One Eye Open..."
 			icon: "minecraft:red_bed"
 			x: -1.5d
 			y: 0.0d
-			subtitle: "It does a number."
+			subtitle: "...when I'm sleeepiing. One eeeyyyeee open when I'm sleeeping."
 			description: ["Have you ever thought that sleeping in minecraft was an annoying chore with no purpose beside warding off phantoms and other hostile mobs? If so, you'll be glad to hear the Bed Benefits mod will heal you and even cure negative potion effects when you sleep!"]
 			dependencies: ["4727D07B32AF00EF"]
 			id: "2B7EB59AE774EB45"
@@ -127,6 +127,8 @@
 			icon: "comforts:sleeping_bag_red"
 			x: -1.5d
 			y: 1.0d
+			subtitle: "Mortuary Affairs was here."
+			description: ["Effectively a portable bed, that doesn't set your spawn point."]
 			dependencies: ["2B7EB59AE774EB45"]
 			dependency_requirement: "one_completed"
 			id: "3035EE8090CABFC0"
@@ -166,6 +168,30 @@
 				id: "0F6C27E724BF5431"
 				type: "item"
 				item: "pamhc2foodextended:pinacoladaitem"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 1.0d
+			subtitle: "Story time."
+			description: ["Prevents mob spawning within 48 blocks. Mobs withing 24 will actively burn."]
+			dependencies: ["4727D07B32AF00EF"]
+			id: "625AD13C0C9C6826"
+			tasks: [{
+				id: "562303807E7ABBD0"
+				type: "item"
+				item: "minecraft:campfire"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 2.0d
+			dependencies: ["625AD13C0C9C6826"]
+			id: "3981BAF1F02B3688"
+			tasks: [{
+				id: "4A14FBB9F578EEA8"
+				type: "item"
+				item: "farmersdelight:stove"
 			}]
 		}
 	]

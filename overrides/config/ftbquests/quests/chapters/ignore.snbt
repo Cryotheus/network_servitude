@@ -11,6 +11,7 @@
 		{
 			x: -0.5d
 			y: -2.5d
+			shape: "circle"
 			dependencies: ["2B7EB59AE774EB45"]
 			id: "49674277CCF1F209"
 			tasks: [{
