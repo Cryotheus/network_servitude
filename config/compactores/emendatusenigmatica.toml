@@ -1,0 +1,95 @@
+["!local"]
+rockTexture = "minecraft:block/stone"
+
+[":aluminum_ore"]
+oreTexture = ":blocks/overlays/aluminum"
+
+[":apatite_ore"]
+oreTexture = ":blocks/overlays/apatite"
+
+[":arcane_ore"]
+oreTexture = ":blocks/overlays/arcane"
+
+[":bitumen_ore"]
+oreTexture = ":blocks/overlays/bitumen"
+
+[":certus_quartz_ore"]
+oreTexture = ":blocks/overlays/certus_quartz"
+
+[":charged_certus_quartz_ore"]
+oreTexture = ":blocks/overlays/charged_certus_quartz"
+
+[":cinnabar_ore"]
+oreTexture = ":blocks/overlays/cinnabar"
+
+[":coal_ore"]
+oreTexture = ":blocks/overlays/coal"
+
+[":cobalt_ore"]
+oreTexture = ":blocks/overlays/cobalt"
+
+[":copper_ore"]
+oreTexture = ":blocks/overlays/copper"
+
+[":diamond_ore"]
+oreTexture = ":blocks/overlays/diamond"
+
+[":dimensional_ore"]
+oreTexture = ":blocks/overlays/dimensional"
+
+[":emerald_ore"]
+oreTexture = ":blocks/overlays/emerald"
+
+[":fluorite_ore"]
+oreTexture = ":blocks/overlays/fluorite"
+
+[":gold_ore"]
+oreTexture = ":blocks/overlays/gold"
+
+[":iridium_ore"]
+oreTexture = ":blocks/overlays/iridium"
+
+[":iron_ore"]
+oreTexture = ":blocks/overlays/iron"
+
+[":lapis_ore"]
+oreTexture = ":blocks/overlays/lapis"
+
+[":lead_ore"]
+oreTexture = ":blocks/overlays/lead"
+
+[":nickel_ore"]
+oreTexture = ":blocks/overlays/nickel"
+
+[":osmium_ore"]
+oreTexture = ":blocks/overlays/osmium"
+
+[":peridot_ore"]
+oreTexture = ":blocks/overlays/peridot"
+
+[":potassium_nitrate_ore"]
+oreTexture = ":blocks/overlays/potassium_nitrate"
+
+[":redstone_ore"]
+oreTexture = ":blocks/overlays/redstone"
+
+[":ruby_ore"]
+oreTexture = ":blocks/overlays/ruby"
+
+[":sapphire_ore"]
+oreTexture = ":blocks/overlays/sapphire"
+
+[":silver_ore"]
+oreTexture = ":blocks/overlays/silver"
+
+[":sulfur_ore"]
+oreTexture = ":blocks/overlays/sulfur"
+
+[":tin_ore"]
+oreTexture = ":blocks/overlays/tin"
+
+[":uranium_ore"]
+oreTexture = ":blocks/overlays/uranium"
+
+[":zinc_ore"]
+oreTexture = ":blocks/overlays/zinc"

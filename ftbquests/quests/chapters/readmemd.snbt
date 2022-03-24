@@ -1,0 +1,172 @@
+{
+	id: "359BE0A6119D6EEE"
+	group: "4EBA197B494853F9"
+	order_index: 0
+	filename: "readmemd"
+	title: "Freshly Spawned"
+	icon: {
+		id: "botania:cosmetic_questgiver_mark"
+		Count: 1b
+		tag: { }
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "README.md"
+			icon: "akashictome:tome"
+			x: 0.0d
+			y: 0.0d
+			subtitle: "Fook you too!"
+			description: ["This pack focuses on Applied Energistics 2 and the popular Tech mods. Screw Create though."]
+			size: 2.0d
+			id: "4727D07B32AF00EF"
+			tasks: [{
+				id: "294DBE0E200BEB6A"
+				type: "checkmark"
+				title: "Good Morning Laborer"
+			}]
+			rewards: [
+				{
+					id: "492777C5A8E1C6F4"
+					type: "item"
+					item: "akashictome:tome"
+				}
+				{
+					id: "44FD78F5B65433DD"
+					type: "choice"
+					title: "Cosmetic Bauble"
+					icon: {
+						id: "botania:cosmetic_groucho_glasses"
+						Count: 1b
+						tag: { }
+					}
+					table_id: 7833936591177016032L
+				}
+			]
+		}
+		{
+			title: "Frunace"
+			x: 1.5d
+			y: 0.0d
+			subtitle: "The eldest."
+			description: ["Typo intended."]
+			dependencies: ["4727D07B32AF00EF"]
+			id: "48B952AFB8710A50"
+			tasks: [{
+				id: "6D542740811D2BCD"
+				type: "item"
+				item: "minecraft:furnace"
+			}]
+		}
+		{
+			disable_toast: true
+			x: 2.5d
+			y: 0.0d
+			subtitle: "The famous."
+			description: ["Smelts ores faster, but in modded you will find it has a LOT of additional recipes. Mod developers seem to be obsessed with blast furnace recipes."]
+			dependencies: ["48B952AFB8710A50"]
+			id: "028D064237F142C4"
+			tasks: [{
+				id: "7437BEFE9A087C80"
+				type: "item"
+				item: "minecraft:blast_furnace"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 1.0d
+			subtitle: "The middle child."
+			description: ["Smelts glass, stone, clay, as well as other odds and ends faster! Severly underrated."]
+			dependencies: ["48B952AFB8710A50"]
+			id: "7B9A2192D04C378E"
+			tasks: [{
+				id: "69D29559BD36544E"
+				type: "item"
+				item: "environmental:kiln"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -1.0d
+			subtitle: "The youngest."
+			description: ["Not so useful, as Pam's Harvest Craft and Cooking For Blockheads will render this obsolete."]
+			dependencies: ["48B952AFB8710A50"]
+			id: "6871F210431FE0B1"
+			tasks: [{
+				id: "6A490D234998D41F"
+				type: "item"
+				item: "minecraft:smoker"
+			}]
+		}
+		{
+			title: "Slumber Dumber"
+			icon: "minecraft:red_bed"
+			x: -1.5d
+			y: 0.0d
+			subtitle: "It does a number."
+			description: ["Have you ever thought that sleeping in minecraft was an annoying chore with no purpose beside warding off phantoms and other hostile mobs? If so, you'll be glad to hear the Bed Benefits mod will heal you and even cure negative potion effects when you sleep!"]
+			dependencies: ["4727D07B32AF00EF"]
+			id: "2B7EB59AE774EB45"
+			tasks: [{
+				id: "56C3A8BD0561739D"
+				type: "item"
+				title: "Any #minecraft:beds"
+				tags: ["beds"]
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:beds"
+					}
+				}
+			}]
+		}
+		{
+			title: "Body Bag for the Living"
+			icon: "comforts:sleeping_bag_red"
+			x: -1.5d
+			y: 1.0d
+			dependencies: ["2B7EB59AE774EB45"]
+			dependency_requirement: "one_completed"
+			id: "3035EE8090CABFC0"
+			tasks: [{
+				id: "26DDF268F9023096"
+				type: "gamestage"
+				title: "Sleeping Bag"
+				icon: "comforts:sleeping_bag_red"
+				stage: "stryker_sleeping_bag"
+			}]
+		}
+		{
+			title: "Lazy Labor"
+			icon: "comforts:hammock_red"
+			x: -1.5d
+			y: -1.0d
+			subtitle: "The sun... it burns..."
+			description: ["Skip straight to the evening in lieu of the morning."]
+			dependencies: ["2B7EB59AE774EB45"]
+			id: "7B5C6CE74A0A5489"
+			tasks: [
+				{
+					id: "3055DC253F92C4A3"
+					type: "gamestage"
+					title: "Hammock"
+					icon: "comforts:hammock_red"
+					stage: "stryker_hammock"
+				}
+				{
+					id: "542C54E97F42C7C6"
+					type: "item"
+					item: "comforts:rope_and_nail"
+					count: 2L
+				}
+			]
+			rewards: [{
+				id: "0F6C27E724BF5431"
+				type: "item"
+				item: "pamhc2foodextended:pinacoladaitem"
+			}]
+		}
+	]
+}

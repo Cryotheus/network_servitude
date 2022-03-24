@@ -1,0 +1,244 @@
+{
+	id: "6CB7BBD2DE0A62E0"
+	order_index: 0
+	title: "Cosmetic Bauble"
+	icon: {
+		id: "botania:cosmetic_groucho_glasses"
+		Count: 1b
+		tag: { }
+	}
+	loot_size: 1
+	rewards: [
+		{
+			item: {
+				id: "botania:cosmetic_black_bowtie"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "botania:cosmetic_black_tie"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "botania:cosmetic_red_glasses"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "botania:cosmetic_puffy_scarf"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "botania:cosmetic_engineer_goggles"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "botania:cosmetic_eyepatch"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "botania:cosmetic_wicked_eyepatch"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "botania:cosmetic_red_ribbons"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "botania:cosmetic_pink_flower_bud"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "botania:cosmetic_polka_dotted_bows"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "botania:cosmetic_blue_butterfly"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "botania:cosmetic_cat_ears"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "botania:cosmetic_witch_pin"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "botania:cosmetic_devil_tail"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "botania:cosmetic_kamui_eye"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "botania:cosmetic_googly_eyes"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "botania:cosmetic_four_leaf_clover"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "botania:cosmetic_clock_eye"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "botania:cosmetic_unicorn_horn"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "botania:cosmetic_devil_horns"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "botania:cosmetic_hyper_plus"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "botania:cosmetic_botanist_emblem"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "botania:cosmetic_ancient_mask"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "botania:cosmetic_eerie_mask"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "botania:cosmetic_alien_antenna"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "botania:cosmetic_anaglyph_glasses"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "botania:cosmetic_orange_shades"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "botania:cosmetic_groucho_glasses"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "botania:cosmetic_thick_eyebrows"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "botania:cosmetic_lusitanic_shield"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "botania:cosmetic_tiny_potato_mask"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "botania:cosmetic_questgiver_mark"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "botania:cosmetic_thinking_hand"
+				Count: 1b
+				tag: { }
+			}
+		}
+	]
+}

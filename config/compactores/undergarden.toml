@@ -1,0 +1,33 @@
+["!local"]
+rockTexture = ":block/depthrock"
+spawnProbability = 0.25
+
+[":coal_ore"]
+maxOreLayerColorDiff = 14
+oreTexture = ":block/coal_ore"
+
+[":cloggrum_ore"]
+oreTexture = ":block/cloggrum_ore"
+
+[":diamond_ore"]
+oreTexture = ":block/diamond_ore"
+
+[":froststeel_ore"]
+oreTexture = ":block/froststeel_ore"
+rockTexture = ":block/shiverstone"
+
+[":gold_ore"]
+oreTexture = ":block/gold_ore"
+
+[":iron_ore"]
+oreTexture = ":block/iron_ore"
+
+[":otherside_utherium_ore"]
+oreTexture = ":block/otherside_utherium_ore"
+rockTexture = ":block/tremblecrust"
+
+[":regalium_ore"]
+oreTexture = ":block/regalium_ore"
+
+[":utherium_ore"]
+oreTexture = ":block/utherium_ore"

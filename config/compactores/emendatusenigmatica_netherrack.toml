@@ -1,0 +1,96 @@
+["!local"]
+rockTexture = "minecraft:block/netherrack"
+spawnProbability = 0.35
+
+["emendatusenigmatica:aluminum_netherrack_ore"]
+oreTexture = "emendatusenigmatica:blocks/overlays/aluminum"
+
+["emendatusenigmatica:apatite_netherrack_ore"]
+oreTexture = "emendatusenigmatica:blocks/overlays/apatite"
+
+["emendatusenigmatica:arcane_netherrack_ore"]
+oreTexture = "emendatusenigmatica:blocks/overlays/arcane"
+
+["emendatusenigmatica:bitumen_netherrack_ore"]
+oreTexture = "emendatusenigmatica:blocks/overlays/bitumen"
+
+["emendatusenigmatica:certus_quartz_netherrack_ore"]
+oreTexture = "emendatusenigmatica:blocks/overlays/certus_quartz"
+
+["emendatusenigmatica:charged_certus_quartz_netherrack_ore"]
+oreTexture = "emendatusenigmatica:blocks/overlays/charged_certus_quartz"
+
+["emendatusenigmatica:cinnabar_netherrack_ore"]
+oreTexture = "emendatusenigmatica:blocks/overlays/cinnabar"
+
+["emendatusenigmatica:coal_netherrack_ore"]
+oreTexture = "emendatusenigmatica:blocks/overlays/coal"
+
+["emendatusenigmatica:cobalt_netherrack_ore"]
+oreTexture = "emendatusenigmatica:blocks/overlays/cobalt"
+
+["emendatusenigmatica:copper_netherrack_ore"]
+oreTexture = "emendatusenigmatica:blocks/overlays/copper"
+
+["emendatusenigmatica:diamond_netherrack_ore"]
+oreTexture = "emendatusenigmatica:blocks/overlays/diamond"
+
+["emendatusenigmatica:dimensional_netherrack_ore"]
+oreTexture = "emendatusenigmatica:blocks/overlays/dimensional"
+
+["emendatusenigmatica:emerald_netherrack_ore"]
+oreTexture = "emendatusenigmatica:blocks/overlays/emerald"
+
+["emendatusenigmatica:fluorite_netherrack_ore"]
+oreTexture = "emendatusenigmatica:blocks/overlays/fluorite"
+
+["emendatusenigmatica:gold_netherrack_ore"]
+oreTexture = "emendatusenigmatica:blocks/overlays/gold"
+
+["emendatusenigmatica:iridium_netherrack_ore"]
+oreTexture = "emendatusenigmatica:blocks/overlays/iridium"
+
+["emendatusenigmatica:iron_netherrack_ore"]
+oreTexture = "emendatusenigmatica:blocks/overlays/iron"
+
+["emendatusenigmatica:lapis_netherrack_ore"]
+oreTexture = "emendatusenigmatica:blocks/overlays/lapis"
+
+["emendatusenigmatica:lead_netherrack_ore"]
+oreTexture = "emendatusenigmatica:blocks/overlays/lead"
+
+["emendatusenigmatica:nickel_netherrack_ore"]
+oreTexture = "emendatusenigmatica:blocks/overlays/nickel"
+
+["emendatusenigmatica:osmium_netherrack_ore"]
+oreTexture = "emendatusenigmatica:blocks/overlays/osmium"
+
+["emendatusenigmatica:peridot_netherrack_ore"]
+oreTexture = "emendatusenigmatica:blocks/overlays/peridot"
+
+["emendatusenigmatica:potassium_nitrate_netherrack_ore"]
+oreTexture = "emendatusenigmatica:blocks/overlays/potassium_nitrate"
+
+["emendatusenigmatica:redstone_netherrack_ore"]
+oreTexture = "emendatusenigmatica:blocks/overlays/redstone"
+
+["emendatusenigmatica:ruby_netherrack_ore"]
+oreTexture = "emendatusenigmatica:blocks/overlays/ruby"
+
+["emendatusenigmatica:sapphire_netherrack_ore"]
+oreTexture = "emendatusenigmatica:blocks/overlays/sapphire"
+
+["emendatusenigmatica:silver_netherrack_ore"]
+oreTexture = "emendatusenigmatica:blocks/overlays/silver"
+
+["emendatusenigmatica:sulfur_netherrack_ore"]
+oreTexture = "emendatusenigmatica:blocks/overlays/sulfur"
+
+["emendatusenigmatica:tin_netherrack_ore"]
+oreTexture = "emendatusenigmatica:blocks/overlays/tin"
+
+["emendatusenigmatica:uranium_netherrack_ore"]
+oreTexture = "emendatusenigmatica:blocks/overlays/uranium"
+
+["emendatusenigmatica:zinc_netherrack_ore"]
+oreTexture = "emendatusenigmatica:blocks/overlays/zinc"

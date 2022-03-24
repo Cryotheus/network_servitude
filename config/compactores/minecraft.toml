@@ -1,0 +1,6 @@
+["!local"]
+rockTexture = ":block/stone"
+
+[":gilded_blackstone"]
+oreTexture = ":block/gilded_blackstone"
+rockTexture = ":block/blackstone"
