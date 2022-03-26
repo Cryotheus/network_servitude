@@ -1,0 +1,98 @@
+["!local"]
+rockTexture = "byg:block/brimstone"
+
+["emendatusenigmatica:aluminum_brimstone_ore"]
+oreTexture = "emendatusenigmatica:blocks/overlays/aluminum"
+maxOreLayerColorDiff = 17
+
+["emendatusenigmatica:apatite_brimstone_ore"]
+oreTexture = "emendatusenigmatica:blocks/overlays/apatite"
+
+["emendatusenigmatica:arcane_brimstone_ore"]
+oreTexture = "emendatusenigmatica:blocks/overlays/arcane"
+
+["emendatusenigmatica:bitumen_brimstone_ore"]
+oreTexture = "emendatusenigmatica:blocks/overlays/bitumen"
+
+["emendatusenigmatica:certus_quartz_brimstone_ore"]
+oreTexture = "emendatusenigmatica:blocks/overlays/certus_quartz"
+
+["emendatusenigmatica:charged_certus_quartz_brimstone_ore"]
+oreTexture = "emendatusenigmatica:blocks/overlays/charged_certus_quartz"
+
+["emendatusenigmatica:cinnabar_brimstone_ore"]
+oreTexture = "emendatusenigmatica:blocks/overlays/cinnabar"
+
+["emendatusenigmatica:coal_brimstone_ore"]
+oreTexture = "emendatusenigmatica:blocks/overlays/coal"
+maxOreLayerColorDiff = 31
+
+["emendatusenigmatica:cobalt_brimstone_ore"]
+oreTexture = "emendatusenigmatica:blocks/overlays/cobalt"
+
+["emendatusenigmatica:copper_brimstone_ore"]
+oreTexture = "emendatusenigmatica:blocks/overlays/copper"
+
+["emendatusenigmatica:diamond_brimstone_ore"]
+oreTexture = "emendatusenigmatica:blocks/overlays/diamond"
+
+["emendatusenigmatica:dimensional_brimstone_ore"]
+oreTexture = "emendatusenigmatica:blocks/overlays/dimensional"
+
+["emendatusenigmatica:emerald_brimstone_ore"]
+oreTexture = "emendatusenigmatica:blocks/overlays/emerald"
+
+["emendatusenigmatica:fluorite_brimstone_ore"]
+oreTexture = "emendatusenigmatica:blocks/overlays/fluorite"
+
+["emendatusenigmatica:gold_brimstone_ore"]
+oreTexture = "emendatusenigmatica:blocks/overlays/gold"
+
+["emendatusenigmatica:iridium_brimstone_ore"]
+oreTexture = "emendatusenigmatica:blocks/overlays/iridium"
+
+["emendatusenigmatica:iron_brimstone_ore"]
+oreTexture = "emendatusenigmatica:blocks/overlays/iron"
+
+["emendatusenigmatica:lapis_brimstone_ore"]
+oreTexture = "emendatusenigmatica:blocks/overlays/lapis"
+
+["emendatusenigmatica:lead_brimstone_ore"]
+oreTexture = "emendatusenigmatica:blocks/overlays/lead"
+
+["emendatusenigmatica:nickel_brimstone_ore"]
+oreTexture = "emendatusenigmatica:blocks/overlays/nickel"
+
+["emendatusenigmatica:osmium_brimstone_ore"]
+oreTexture = "emendatusenigmatica:blocks/overlays/osmium"
+
+["emendatusenigmatica:peridot_brimstone_ore"]
+oreTexture = "emendatusenigmatica:blocks/overlays/peridot"
+
+["emendatusenigmatica:potassium_nitrate_brimstone_ore"]
+oreTexture = "emendatusenigmatica:blocks/overlays/potassium_nitrate"
+
+["emendatusenigmatica:redstone_brimstone_ore"]
+oreTexture = "emendatusenigmatica:blocks/overlays/redstone"
+
+["emendatusenigmatica:ruby_brimstone_ore"]
+oreTexture = "emendatusenigmatica:blocks/overlays/ruby"
+
+["emendatusenigmatica:sapphire_brimstone_ore"]
+oreTexture = "emendatusenigmatica:blocks/overlays/sapphire"
+
+["emendatusenigmatica:silver_brimstone_ore"]
+oreTexture = "emendatusenigmatica:blocks/overlays/silver"
+
+["emendatusenigmatica:sulfur_brimstone_ore"]
+oreTexture = "emendatusenigmatica:blocks/overlays/sulfur"
+
+["emendatusenigmatica:tin_brimstone_ore"]
+oreTexture = "emendatusenigmatica:blocks/overlays/tin"
+
+["emendatusenigmatica:uranium_brimstone_ore"]
+oreTexture = "emendatusenigmatica:blocks/overlays/uranium"
+maxOreLayerColorDiff = 42
+
+["emendatusenigmatica:zinc_brimstone_ore"]
+oreTexture = "emendatusenigmatica:blocks/overlays/zinc"

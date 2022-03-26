@@ -1,0 +1,191 @@
+{
+	id: "5188ACD302C9FFE1"
+	group: "67DDE435B9A9A680"
+	order_index: 0
+	filename: "dimensions"
+	title: "Dimensions"
+	icon: "extendedcrafting:ultimate_singularity"
+	default_quest_shape: "hexagon"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "MY EEEEAAARRS"
+			icon: "blue_skies:everbright_portal"
+			x: 1.0d
+			y: 0.0d
+			subtitle: "I'll never hear the same again."
+			description: ["You can get your first Zeal Lighter from a Gatekeeper. You can find a Gatekeeper by searching the plains for his house. His history with the Everbright... is tough. The portal to the Everbright will most likely be hidden in his attic or shed."]
+			id: "2D05CFD85A5C3EC8"
+			tasks: [
+				{
+					id: "4348A02EF547D52F"
+					type: "item"
+					item: {
+						id: "blue_skies:zeal_lighter"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6133AD6774152D98"
+					type: "dimension"
+					title: "Enter the Everbright"
+					icon: "blue_skies:turquoise_stonebrick"
+					dimension: "blue_skies:everbright"
+				}
+			]
+		}
+		{
+			icon: {
+				id: "twilightforest:fiery_pickaxe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 0.0d
+			y: 0.0d
+			id: "08335EA5C60202EF"
+			tasks: [
+				{
+					id: "7D415F53CA0EC00A"
+					type: "item"
+					item: "jamd:mine_portal_block"
+				}
+				{
+					id: "76A5A845760DB8C8"
+					type: "dimension"
+					icon: {
+						id: "minecraft:golden_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					dimension: "jamd:mining"
+				}
+			]
+		}
+		{
+			title: "Here we go again..."
+			x: 0.5d
+			y: 1.0d
+			subtitle: "Same old depths again."
+			id: "0FC19AC46B51DAD9"
+			tasks: [{
+				id: "4EAF73758AD3E225"
+				type: "dimension"
+				title: "Visit the Nether"
+				icon: "minecraft:crying_obsidian"
+				dimension: "minecraft:the_nether"
+			}]
+			rewards: [{
+				id: "2DDA87E78F89CEF1"
+				type: "item"
+				item: {
+					id: "inventorypets:pet_nether_portal"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Certainly Not!"
+			x: -0.5d
+			y: 1.0d
+			subtitle: "Never fear Gordon! She's dangerous, and completely harmless."
+			id: "5B42E036C3671CD9"
+			tasks: [{
+				id: "712F9F6DB02A8EBD"
+				type: "dimension"
+				title: "Visit the End"
+				icon: "minecraft:end_portal_frame"
+				dimension: "minecraft:the_end"
+			}]
+		}
+		{
+			title: "Dyschronometria"
+			x: -1.0d
+			y: 0.0d
+			subtitle: "Always morning... or evening?"
+			description: ["Make a 2x2 pool of water in the grass, surround all adjacent blocks (12 total) with flowers and throw a diamond into the water."]
+			id: "49CB2F06E61A99F4"
+			tasks: [{
+				id: "23095089FCDB90BF"
+				type: "dimension"
+				title: "Visit the Twilight Forest"
+				icon: "twilightforest:twilight_portal_miniature_structure"
+				dimension: "twilightforest:skylight_forest"
+			}]
+		}
+		{
+			title: "Rotten Nether"
+			icon: "undergarden:catalyst"
+			x: -0.5d
+			y: -1.0d
+			subtitle: "This place sucks!"
+			id: "0F9EAEB81DF168E5"
+			tasks: [
+				{
+					id: "4BB561192E5BA9DD"
+					type: "dimension"
+					title: "Visit the Undergarden"
+					icon: "undergarden:gloomgourd_pie"
+					dimension: "undergarden:undergarden"
+				}
+				{
+					id: "14B383E9BC64F792"
+					type: "item"
+					item: "undergarden:catalyst"
+				}
+				{
+					id: "0956049F6D47CD2A"
+					type: "item"
+					item: "minecraft:stone_bricks"
+					count: 10L
+				}
+			]
+		}
+		{
+			icon: "blue_skies:everdawn_portal"
+			x: 1.5d
+			y: 1.0d
+			subtitle: "Same process as the previous portal, just use Lunar Stone Bricks instead."
+			dependencies: ["2D05CFD85A5C3EC8"]
+			id: "78EB78B0DD68576D"
+			tasks: [
+				{
+					id: "7DC059AAE21E5B30"
+					type: "dimension"
+					title: "Enter the Everdawn"
+					icon: "byg:skyris_vine"
+					dimension: "blue_skies:everdawn"
+				}
+				{
+					id: "2749E1F2E62B29AE"
+					type: "item"
+					item: "blue_skies:lunar_stonebrick"
+					count: 10L
+				}
+			]
+		}
+		{
+			title: "The Last Millenium"
+			x: 0.5d
+			y: -1.0d
+			subtitle: "But a whole lot more empty... and lonely."
+			id: "1AA9A385310DF48B"
+			tasks: [{
+				id: "6357035A70F573B7"
+				type: "dimension"
+				title: "Visit the Void"
+				icon: "forbidden_arcanus:dark_matter"
+				dimension: "javd:void"
+			}]
+		}
+	]
+}

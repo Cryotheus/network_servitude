@@ -1,0 +1,99 @@
+["!local"]
+rockTexture = "byg:block/subzero_ash"
+
+["emendatusenigmatica:aluminum_subzero_ash_ore"]
+oreTexture = "emendatusenigmatica:blocks/overlays/aluminum"
+
+["emendatusenigmatica:apatite_subzero_ash_ore"]
+oreTexture = "emendatusenigmatica:blocks/overlays/apatite"
+
+["emendatusenigmatica:arcane_subzero_ash_ore"]
+oreTexture = "emendatusenigmatica:blocks/overlays/arcane"
+
+["emendatusenigmatica:bitumen_subzero_ash_ore"]
+oreTexture = "emendatusenigmatica:blocks/overlays/bitumen"
+
+["emendatusenigmatica:certus_quartz_subzero_ash_ore"]
+oreTexture = "emendatusenigmatica:blocks/overlays/certus_quartz"
+
+["emendatusenigmatica:charged_certus_quartz_subzero_ash_ore"]
+oreTexture = "emendatusenigmatica:blocks/overlays/charged_certus_quartz"
+
+["emendatusenigmatica:cinnabar_subzero_ash_ore"]
+oreTexture = "emendatusenigmatica:blocks/overlays/cinnabar"
+
+["emendatusenigmatica:coal_subzero_ash_ore"]
+oreTexture = "emendatusenigmatica:blocks/overlays/coal"
+
+["emendatusenigmatica:cobalt_subzero_ash_ore"]
+oreTexture = "emendatusenigmatica:blocks/overlays/cobalt"
+
+["emendatusenigmatica:copper_subzero_ash_ore"]
+oreTexture = "emendatusenigmatica:blocks/overlays/copper"
+
+["emendatusenigmatica:diamond_subzero_ash_ore"]
+oreTexture = "emendatusenigmatica:blocks/overlays/diamond"
+
+["emendatusenigmatica:dimensional_subzero_ash_ore"]
+oreTexture = "emendatusenigmatica:blocks/overlays/dimensional"
+
+["emendatusenigmatica:emerald_subzero_ash_ore"]
+oreTexture = "emendatusenigmatica:blocks/overlays/emerald"
+
+["emendatusenigmatica:fluorite_subzero_ash_ore"]
+oreTexture = "emendatusenigmatica:blocks/overlays/fluorite"
+
+["emendatusenigmatica:gold_subzero_ash_ore"]
+oreTexture = "emendatusenigmatica:blocks/overlays/gold"
+
+["emendatusenigmatica:iridium_subzero_ash_ore"]
+oreTexture = "emendatusenigmatica:blocks/overlays/iridium"
+
+["emendatusenigmatica:iron_subzero_ash_ore"]
+oreTexture = "emendatusenigmatica:blocks/overlays/iron"
+
+["emendatusenigmatica:lapis_subzero_ash_ore"]
+oreTexture = "emendatusenigmatica:blocks/overlays/lapis"
+
+["emendatusenigmatica:lead_subzero_ash_ore"]
+oreTexture = "emendatusenigmatica:blocks/overlays/lead"
+maxOreLayerColorDiff = 6
+
+["emendatusenigmatica:nickel_subzero_ash_ore"]
+oreTexture = "emendatusenigmatica:blocks/overlays/nickel"
+maxOreLayerColorDiff = 31
+
+["emendatusenigmatica:osmium_subzero_ash_ore"]
+oreTexture = "emendatusenigmatica:blocks/overlays/osmium"
+
+["emendatusenigmatica:peridot_subzero_ash_ore"]
+oreTexture = "emendatusenigmatica:blocks/overlays/peridot"
+
+["emendatusenigmatica:potassium_nitrate_subzero_ash_ore"]
+oreTexture = "emendatusenigmatica:blocks/overlays/potassium_nitrate"
+
+["emendatusenigmatica:redstone_subzero_ash_ore"]
+oreTexture = "emendatusenigmatica:blocks/overlays/redstone"
+
+["emendatusenigmatica:ruby_subzero_ash_ore"]
+oreTexture = "emendatusenigmatica:blocks/overlays/ruby"
+
+["emendatusenigmatica:sapphire_subzero_ash_ore"]
+oreTexture = "emendatusenigmatica:blocks/overlays/sapphire"
+
+["emendatusenigmatica:silver_subzero_ash_ore"]
+oreTexture = "emendatusenigmatica:blocks/overlays/silver"
+maxOreLayerColorDiff = 17
+
+["emendatusenigmatica:sulfur_subzero_ash_ore"]
+oreTexture = "emendatusenigmatica:blocks/overlays/sulfur"
+
+["emendatusenigmatica:tin_subzero_ash_ore"]
+oreTexture = "emendatusenigmatica:blocks/overlays/tin"
+maxOreLayerColorDiff = 28
+
+["emendatusenigmatica:uranium_subzero_ash_ore"]
+oreTexture = "emendatusenigmatica:blocks/overlays/uranium"
+
+["emendatusenigmatica:zinc_subzero_ash_ore"]
+oreTexture = "emendatusenigmatica:blocks/overlays/zinc"

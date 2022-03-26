@@ -57,8 +57,10 @@ oreTexture = ":blocks/overlays/lapis"
 
 [":lead_ore"]
 oreTexture = ":blocks/overlays/lead"
+maxOreLayerColorDiff = 31
 
 [":nickel_ore"]
+maxOreLayerColorDiff = 17
 oreTexture = ":blocks/overlays/nickel"
 
 [":osmium_ore"]

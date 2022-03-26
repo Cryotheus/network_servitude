@@ -1,0 +1,29 @@
+{
+	id: "75A76EE7892A068D"
+	group: ""
+	order_index: 3
+	filename: "rewards"
+	title: "Rewards"
+	icon: "aquaculture:treasure_chest"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		x: 0.0d
+		y: 0.0d
+		dependencies: ["359BE0A6119D6EEE"]
+		hide: true
+		id: "36DCD981F4891762"
+		tasks: [{
+			id: "21B542B031272838"
+			type: "gamestage"
+			title: "Complete Initilization"
+			icon: "akashictome:tome"
+			stage: "starting_items"
+		}]
+		rewards: [{
+			id: "4D7DDD0CC071FD19"
+			type: "loot"
+			table_id: 9007378594819785422L
+		}]
+	}]
+}

@@ -1,0 +1,198 @@
+{
+	id: "2678E7FFFDF6122C"
+	group: "45CDD83BAB0D341A"
+	order_index: 1
+	filename: "sweatshop_boys_ep"
+	title: "Sweatshop Boys EP"
+	icon: {
+		id: "tconstruct:tinkers_anvil"
+		Count: 1b
+		tag: {
+			texture: "minecraft:netherite_block"
+		}
+	}
+	default_quest_shape: "square"
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: 0.0d
+			y: -2.0d
+			width: 4.0d
+			height: 4.0d
+			rotation: 0.0d
+			image: "kubejs:textures/quest/smeltery.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -1.5d
+			y: 2.0d
+			width: 4.0d
+			height: 4.0d
+			rotation: 0.0d
+			image: "kubejs:textures/quest/smeltery_automation.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+			dependency: "703353EE421C43CC"
+		}
+	]
+	quests: [
+		{
+			title: "Melting Material"
+			icon: "tconstruct:seared_melter"
+			x: -0.5d
+			y: 0.0d
+			subtitle: "Discount smeltery."
+			description: ["Place the Seared Smelter on top of the Seared Heater. Place some fuel in the heater and metals in the melter to melt them. Place the Seared Faucet on the Seared Melter, and the Seared Basin below the Seared Faucet."]
+			dependencies: ["7664B6C51E52EBF5"]
+			id: "248E854F59DAB792"
+			tasks: [
+				{
+					id: "1F00FBC14BDC3CA9"
+					type: "item"
+					item: "tconstruct:seared_melter"
+				}
+				{
+					id: "7FBC3B487BBE7C7B"
+					type: "item"
+					item: "tconstruct:seared_heater"
+				}
+				{
+					id: "3B24B697C03BC36D"
+					type: "item"
+					item: "tconstruct:seared_basin"
+				}
+				{
+					id: "2E658818157909E8"
+					type: "item"
+					item: "tconstruct:seared_faucet"
+				}
+			]
+		}
+		{
+			title: "DOUBLE TIIIIIME"
+			icon: "tconstruct:smeltery_controller"
+			x: 0.5d
+			y: 0.0d
+			subtitle: "MARCH!"
+			description: [
+				"You can just break the Seared Heater and place it in the Seared Basin once you've melted enough copper to craft the Smeltery Controller."
+				"{image:kubejs:textures/quest/smeltery.png width:100 height:100 align:1}"
+			]
+			dependencies: ["248E854F59DAB792"]
+			id: "703353EE421C43CC"
+			tasks: [
+				{
+					id: "6B5C341EDA363149"
+					type: "item"
+					item: "tconstruct:smeltery_controller"
+				}
+				{
+					id: "460D16D5AFF4228C"
+					type: "item"
+					item: "tconstruct:seared_bricks"
+					count: 17L
+				}
+				{
+					id: "1DC832632D14DF0D"
+					type: "item"
+					item: "tconstruct:seared_drain"
+					count: 2L
+				}
+				{
+					id: "2F0607E126D3FD0B"
+					type: "item"
+					item: "tconstruct:seared_faucet"
+					count: 2L
+				}
+				{
+					id: "5694C40CB0E775DB"
+					type: "item"
+					item: "tconstruct:seared_basin"
+				}
+				{
+					id: "5D3FF6AD943376EF"
+					type: "item"
+					item: "tconstruct:seared_table"
+				}
+				{
+					id: "5345E655B37730D5"
+					type: "item"
+					item: "tconstruct:seared_fuel_tank"
+				}
+			]
+		}
+		{
+			title: "Tinker Tables"
+			x: -1.5d
+			y: 0.0d
+			subtitle: "The Ikea of Minecraft."
+			description: ["These tables let you build your ideal tool by crafting the parts with the Part Builder and assembling them in the Tinker Station. Click on the tools in the Tinker Station to see what parts you need to make with Part Builder. If you place these tables adjacent to each other, you can quickly swap between them using the tabs at the top of the menu."]
+			dependencies: ["5FA895F0EB066471"]
+			hide: true
+			id: "7664B6C51E52EBF5"
+			tasks: [
+				{
+					id: "6C0190312FC4B2B3"
+					type: "item"
+					item: {
+						id: "tconstruct:tinker_station"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "79DBF13D0E93B793"
+					type: "item"
+					item: {
+						id: "tconstruct:part_builder"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "2806CEE2E2BA4FA6"
+					type: "item"
+					item: {
+						id: "tconstruct:crafting_station"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 0.0d
+			dependencies: ["703353EE421C43CC"]
+			id: "5E2060FDE4FD9DBB"
+			tasks: [{
+				id: "3DE01737BCE9A14F"
+				type: "item"
+				item: {
+					id: "tconstruct:tinkers_anvil"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			title: "Ingout"
+			x: 0.5d
+			y: 1.0d
+			subtitle: "Sequel to Orein."
+			description: ["You will need casts to shape molten metal into your desired item."]
+			dependencies: ["703353EE421C43CC"]
+			id: "4A94C1261E150A1D"
+			tasks: [{
+				id: "711767B778D0C7C5"
+				type: "item"
+				item: "tconstruct:ingot_cast"
+			}]
+		}
+	]
+}

@@ -1,0 +1,99 @@
+{
+	id: "0FC40F8F736C3142"
+	group: "45CDD83BAB0D341A"
+	order_index: 0
+	filename: "applied_energistics_2"
+	title: "Flagship EP"
+	icon: "chisel:futura/controller"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Fluix"
+			icon: "appliedenergistics2:fluix_crystal"
+			x: 1.5d
+			y: 0.0d
+			id: "25505432C621F454"
+			tasks: [{
+				id: "2BE9D904314945AF"
+				type: "item"
+				title: "Any #forge:gems/fluix"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:gems/fluix"
+					}
+				}
+			}]
+		}
+		{
+			title: "Quartz Dust"
+			icon: "emendatusenigmatica:quartz_dust"
+			x: -1.5d
+			y: 0.0d
+			dependencies: ["1968438CF277AF3A"]
+			id: "3F1A7E08318274AB"
+			tasks: [{
+				id: "522B07CE90A2A03E"
+				type: "item"
+				title: "Any #appliedenergistics2:dusts/quartz"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "appliedenergistics2:dusts/quartz"
+					}
+				}
+			}]
+		}
+		{
+			title: "Honey, I downloaded the kids."
+			icon: "appliedenergistics2:2_cubed_spatial_storage_cell"
+			x: 0.5d
+			y: -2.5d
+			subtitle: "The ultimate smuggling technique."
+			id: "4B3D853A11FF787E"
+			tasks: [
+				{
+					id: "6B14F7EDCB5E7AAB"
+					type: "item"
+					item: "appliedenergistics2:spatial_pylon"
+					count: 6L
+				}
+				{
+					id: "22B1D6E55D341E86"
+					type: "item"
+					item: "appliedenergistics2:spatial_io_port"
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: 0.0d
+			dependencies: [
+				"1968438CF277AF3A"
+				"25505432C621F454"
+			]
+			id: "20DCDE77CA3525F3"
+			tasks: [{
+				id: "3292B95257B7BABA"
+				type: "item"
+				item: "emendatusenigmatica:fluix_dust"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 0.0d
+			dependencies: ["273925E8890FB28B"]
+			id: "1968438CF277AF3A"
+			tasks: [{
+				id: "2DBD11474349EEE9"
+				type: "gamestage"
+				title: "Quartz Grindstone Quest"
+				icon: "appliedenergistics2:grindstone"
+				stage: "starting_items"
+			}]
+		}
+	]
+}

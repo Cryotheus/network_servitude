@@ -2333,10 +2333,10 @@
 	active = true
 
 ["Stratum Config: minecraft_granite"]
-	active = false
+	active = true
 
 ["Stratum Config: minecraft_diorite"]
-	active = false
+	active = true
 
 ["Stratum Config: minecraft_sand"]
 	active = false

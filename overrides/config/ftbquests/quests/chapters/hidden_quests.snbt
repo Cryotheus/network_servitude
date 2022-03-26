@@ -1,0 +1,64 @@
+{
+	id: "6FF6AD946F34289B"
+	group: ""
+	order_index: 1
+	filename: "hidden_quests"
+	title: "Hidden Quests"
+	icon: "psi:cad_colorizer_rainbow"
+	subtitle: ["Unfair optional quests."]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "You're Doing Something Right"
+			x: 0.0d
+			y: 0.0d
+			subtitle: "That \"Something\" is hoarding."
+			dependencies: ["5D31E9B8586A3688"]
+			hide: true
+			optional: true
+			id: "64E64A8DAA36B969"
+			tasks: [{
+				id: "44AF41C7BEA085B1"
+				type: "gamestage"
+				title: "Insert 20,340 items into an ME system."
+				icon: {
+					id: "appliedenergistics2:wireless_terminal"
+					Count: 1b
+					tag: { }
+				}
+				stage: "initial_items"
+			}]
+		}
+		{
+			title: "Ghoustovski Detected"
+			x: -1.5d
+			y: 0.0d
+			subtitle: "Who else would mine like that?"
+			hide: true
+			optional: true
+			id: "2AC277E1CD713564"
+			tasks: [{
+				id: "36D657BCB47C41F3"
+				type: "custom"
+			}]
+			rewards: [{
+				id: "0AD8AF01059A4254"
+				type: "loot"
+				table_id: 9007378594819785422L
+			}]
+		}
+		{
+			x: -1.5d
+			y: 1.0d
+			dependencies: ["39A31EAD4E0FC3C6"]
+			hide: true
+			optional: true
+			id: "501053786AECDA76"
+			tasks: [{
+				id: "361F69BFEAC570FE"
+				type: "custom"
+			}]
+		}
+	]
+}

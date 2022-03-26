@@ -1,3 +1,6 @@
 {
-	chapter_groups: [{ id: "4EBA197B494853F9", title: "Initialization" }]
+	chapter_groups: [
+		{ id: "45CDD83BAB0D341A", title: "Technologic" }
+		{ id: "67DDE435B9A9A680", title: "The Crusade" }
+	]
 }

@@ -1,0 +1,619 @@
+{
+	id: "6A969F5D2D8F016A"
+	group: ""
+	order_index: 0
+	filename: "ignore"
+	title: "Internal (Developer Only)"
+	icon: "appliedenergistics2:encoded_pattern"
+	always_invisible: true
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 3.0d
+			y: -2.5d
+			shape: "circle"
+			dependencies: ["2B7EB59AE774EB45"]
+			id: "49674277CCF1F209"
+			tasks: [{
+				id: "69CD2E6EC71BC786"
+				type: "item"
+				item: "comforts:sleeping_bag_white"
+			}]
+			rewards: [{
+				id: "4EDA1FCDCDB7B0AE"
+				type: "gamestage"
+				auto: "invisible"
+				stage: "stryker_sleeping_bag"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -2.5d
+			dependencies: ["2B7EB59AE774EB45"]
+			id: "4C2327498E1BB817"
+			tasks: [{
+				id: "12D36A713B600AF8"
+				type: "item"
+				item: "comforts:sleeping_bag_pink"
+			}]
+			rewards: [{
+				id: "430362D4F952FCC2"
+				type: "gamestage"
+				auto: "invisible"
+				stage: "stryker_sleeping_bag"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -1.5d
+			dependencies: ["2B7EB59AE774EB45"]
+			id: "3A7A2950A36504F2"
+			tasks: [{
+				id: "15748D8D2E3074C8"
+				type: "item"
+				item: "comforts:sleeping_bag_orange"
+			}]
+			rewards: [{
+				id: "148F051EAEA8AAFE"
+				type: "gamestage"
+				auto: "invisible"
+				stage: "stryker_sleeping_bag"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -1.5d
+			dependencies: ["2B7EB59AE774EB45"]
+			id: "71447143D729FE00"
+			tasks: [{
+				id: "5726E9987E79C884"
+				type: "item"
+				item: "comforts:sleeping_bag_gray"
+			}]
+			rewards: [{
+				id: "22EBFCA4AAC35CB5"
+				type: "gamestage"
+				auto: "invisible"
+				stage: "stryker_sleeping_bag"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -0.5d
+			dependencies: ["2B7EB59AE774EB45"]
+			id: "58AFAD060B1E92E3"
+			tasks: [{
+				id: "3E0A011AB6E9DD6A"
+				type: "item"
+				item: "comforts:sleeping_bag_magenta"
+			}]
+			rewards: [{
+				id: "304C794E9D67E0D6"
+				type: "gamestage"
+				auto: "invisible"
+				stage: "stryker_sleeping_bag"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -0.5d
+			dependencies: ["2B7EB59AE774EB45"]
+			id: "4C3B9EE050D6E42D"
+			tasks: [{
+				id: "146CBD4B98C04476"
+				type: "item"
+				item: "comforts:sleeping_bag_light_gray"
+			}]
+			rewards: [{
+				id: "22A62D83FC021C21"
+				type: "gamestage"
+				auto: "invisible"
+				stage: "stryker_sleeping_bag"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -0.5d
+			dependencies: ["2B7EB59AE774EB45"]
+			id: "2FD1A4AEA298ABCE"
+			tasks: [{
+				id: "0BA41D4E5976DDA2"
+				type: "item"
+				item: "comforts:sleeping_bag_black"
+			}]
+			rewards: [{
+				id: "37E73BED30CC0FE5"
+				type: "gamestage"
+				auto: "invisible"
+				stage: "stryker_sleeping_bag"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.5d
+			dependencies: ["2B7EB59AE774EB45"]
+			id: "0A0068A8C7F45E1A"
+			tasks: [{
+				id: "74ED1D66A5DFAA70"
+				type: "item"
+				item: "comforts:sleeping_bag_red"
+			}]
+			rewards: [{
+				id: "3006023D3DB4B94D"
+				type: "gamestage"
+				auto: "invisible"
+				stage: "stryker_sleeping_bag"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.5d
+			dependencies: ["2B7EB59AE774EB45"]
+			id: "5238C9D871861349"
+			tasks: [{
+				id: "3BC01A30FA11B68E"
+				type: "item"
+				item: "comforts:sleeping_bag_cyan"
+			}]
+			rewards: [{
+				id: "7C20D688BE8083C9"
+				type: "gamestage"
+				auto: "invisible"
+				stage: "stryker_sleeping_bag"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 0.5d
+			dependencies: ["2B7EB59AE774EB45"]
+			id: "4F79708E8074FA4F"
+			tasks: [{
+				id: "6B2D713587929086"
+				type: "item"
+				item: "comforts:sleeping_bag_light_blue"
+			}]
+			rewards: [{
+				id: "18DF7FF252891DB5"
+				type: "gamestage"
+				auto: "invisible"
+				stage: "stryker_sleeping_bag"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 1.5d
+			dependencies: ["2B7EB59AE774EB45"]
+			id: "23C9DCEE0BF73475"
+			tasks: [{
+				id: "61BA74D0BE8725E9"
+				type: "item"
+				item: "comforts:sleeping_bag_yellow"
+			}]
+			rewards: [{
+				id: "3060CAD999155393"
+				type: "gamestage"
+				auto: "invisible"
+				stage: "stryker_sleeping_bag"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 1.5d
+			dependencies: ["2B7EB59AE774EB45"]
+			id: "62E0B64741F4B85A"
+			tasks: [{
+				id: "190DB2DE077CA729"
+				type: "item"
+				item: "comforts:sleeping_bag_purple"
+			}]
+			rewards: [{
+				id: "7B134E2F56170A69"
+				type: "gamestage"
+				auto: "invisible"
+				stage: "stryker_sleeping_bag"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 1.5d
+			dependencies: ["2B7EB59AE774EB45"]
+			id: "04E1491CEF18E637"
+			tasks: [{
+				id: "3A0719DF136100C4"
+				type: "item"
+				item: "comforts:sleeping_bag_green"
+			}]
+			rewards: [{
+				id: "0BD1016DA1CD2FC8"
+				type: "gamestage"
+				auto: "invisible"
+				stage: "stryker_sleeping_bag"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 2.5d
+			dependencies: ["2B7EB59AE774EB45"]
+			id: "24DA8659B8286B30"
+			tasks: [{
+				id: "2477C6F93C81C85C"
+				type: "item"
+				item: "comforts:sleeping_bag_brown"
+			}]
+			rewards: [{
+				id: "16E7119A658464D1"
+				type: "gamestage"
+				auto: "invisible"
+				stage: "stryker_sleeping_bag"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 2.5d
+			dependencies: ["2B7EB59AE774EB45"]
+			id: "2D3E55122E324825"
+			tasks: [{
+				id: "48C1FCA947391ADC"
+				type: "item"
+				item: "comforts:sleeping_bag_blue"
+			}]
+			rewards: [{
+				id: "43EBA86DD9C021AC"
+				type: "gamestage"
+				auto: "invisible"
+				stage: "stryker_sleeping_bag"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 2.5d
+			dependencies: ["2B7EB59AE774EB45"]
+			id: "3DA4B1A5985D2704"
+			tasks: [{
+				id: "559F932E438226C2"
+				type: "item"
+				item: "comforts:sleeping_bag_lime"
+			}]
+			rewards: [{
+				id: "755EEC908442EB20"
+				type: "gamestage"
+				auto: "invisible"
+				stage: "stryker_sleeping_bag"
+			}]
+		}
+		{
+			x: 5.5d
+			y: -2.5d
+			dependencies: ["2B7EB59AE774EB45"]
+			id: "6063E524A6762855"
+			tasks: [{
+				id: "3C3CADF49386C059"
+				type: "item"
+				item: "comforts:hammock_white"
+			}]
+			rewards: [{
+				id: "1CDF7D27E696DF79"
+				type: "gamestage"
+				auto: "invisible"
+				stage: "stryker_hammock"
+			}]
+		}
+		{
+			x: 6.5d
+			y: -2.5d
+			dependencies: ["2B7EB59AE774EB45"]
+			id: "644781AAAAE56012"
+			tasks: [{
+				id: "112F04A0C51935E6"
+				type: "item"
+				item: "comforts:hammock_orange"
+			}]
+			rewards: [{
+				id: "23304F03CA2A042A"
+				type: "gamestage"
+				auto: "invisible"
+				stage: "stryker_hammock"
+			}]
+		}
+		{
+			x: 5.5d
+			y: -1.5d
+			dependencies: ["2B7EB59AE774EB45"]
+			id: "473D2E29EC148C4B"
+			tasks: [{
+				id: "62528876BE5596D7"
+				type: "item"
+				item: "comforts:hammock_magenta"
+			}]
+			rewards: [{
+				id: "39E9B3A8E02D53E5"
+				type: "gamestage"
+				auto: "invisible"
+				stage: "stryker_hammock"
+			}]
+		}
+		{
+			x: 6.5d
+			y: -1.5d
+			dependencies: ["2B7EB59AE774EB45"]
+			id: "4B03B068FA694040"
+			tasks: [{
+				id: "5831A58FDD5634B9"
+				type: "item"
+				item: "comforts:hammock_light_blue"
+			}]
+			rewards: [{
+				id: "3939F25A850FE3A7"
+				type: "gamestage"
+				auto: "invisible"
+				stage: "stryker_hammock"
+			}]
+		}
+		{
+			x: 5.5d
+			y: -0.5d
+			dependencies: ["2B7EB59AE774EB45"]
+			id: "6B0DC21A1DA9A89C"
+			tasks: [{
+				id: "335A23445B819C0A"
+				type: "item"
+				item: "comforts:hammock_yellow"
+			}]
+			rewards: [{
+				id: "4DE2D78475419F4B"
+				type: "gamestage"
+				auto: "invisible"
+				stage: "stryker_hammock"
+			}]
+		}
+		{
+			x: 6.5d
+			y: -0.5d
+			dependencies: ["2B7EB59AE774EB45"]
+			id: "47B805F953C413D0"
+			tasks: [{
+				id: "527E92D5E56AC241"
+				type: "item"
+				item: "comforts:hammock_lime"
+			}]
+			rewards: [{
+				id: "7E71714AF266A91B"
+				type: "gamestage"
+				auto: "invisible"
+				stage: "stryker_hammock"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 0.5d
+			dependencies: ["2B7EB59AE774EB45"]
+			id: "5ADFFAEDA1C37E52"
+			tasks: [{
+				id: "3FFF3F4C59474A78"
+				type: "item"
+				item: "comforts:hammock_pink"
+			}]
+			rewards: [{
+				id: "7CA8EF80C7A9CE59"
+				type: "gamestage"
+				auto: "invisible"
+				stage: "stryker_hammock"
+			}]
+		}
+		{
+			x: 6.5d
+			y: 0.5d
+			dependencies: ["2B7EB59AE774EB45"]
+			id: "7442B87DA54EFBA6"
+			tasks: [{
+				id: "17EB39B302F912CB"
+				type: "item"
+				item: "comforts:hammock_gray"
+			}]
+			rewards: [{
+				id: "1133913398F02C88"
+				type: "gamestage"
+				auto: "invisible"
+				stage: "stryker_hammock"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 1.5d
+			dependencies: ["2B7EB59AE774EB45"]
+			id: "680A615A01FB993B"
+			tasks: [{
+				id: "6FD9E9A8B6240A27"
+				type: "item"
+				item: "comforts:hammock_light_gray"
+			}]
+			rewards: [{
+				id: "07D64A65E7F611F2"
+				type: "gamestage"
+				auto: "invisible"
+				stage: "stryker_hammock"
+			}]
+		}
+		{
+			x: 6.5d
+			y: 1.5d
+			dependencies: ["2B7EB59AE774EB45"]
+			id: "344AA2131325169D"
+			tasks: [{
+				id: "7BC35B39F62AD09F"
+				type: "item"
+				item: "comforts:hammock_cyan"
+			}]
+			rewards: [{
+				id: "6646F81E4343B1A6"
+				type: "gamestage"
+				auto: "invisible"
+				stage: "stryker_hammock"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 2.5d
+			dependencies: ["2B7EB59AE774EB45"]
+			id: "2695101078ED6DAA"
+			tasks: [{
+				id: "77683095D3AC5DE1"
+				type: "item"
+				item: "comforts:hammock_purple"
+			}]
+			rewards: [{
+				id: "29C62A4EA9591DE7"
+				type: "gamestage"
+				auto: "invisible"
+				stage: "stryker_hammock"
+			}]
+		}
+		{
+			x: 6.5d
+			y: 2.5d
+			dependencies: ["2B7EB59AE774EB45"]
+			id: "79B141445274AD7B"
+			tasks: [{
+				id: "0401BA739DC55FBE"
+				type: "item"
+				item: "comforts:hammock_blue"
+			}]
+			rewards: [{
+				id: "75355060D74465EA"
+				type: "gamestage"
+				auto: "invisible"
+				stage: "stryker_hammock"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -2.5d
+			dependencies: ["2B7EB59AE774EB45"]
+			id: "702D5C5039FE6EBF"
+			tasks: [{
+				id: "110F4626C3C7B1BD"
+				type: "item"
+				item: "comforts:hammock_brown"
+			}]
+			rewards: [{
+				id: "3FE7481822C801E0"
+				type: "gamestage"
+				auto: "invisible"
+				stage: "stryker_hammock"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -1.5d
+			dependencies: ["2B7EB59AE774EB45"]
+			id: "1D608F2241866606"
+			tasks: [{
+				id: "5E6AA844CCEA4716"
+				type: "item"
+				item: "comforts:hammock_green"
+			}]
+			rewards: [{
+				id: "19F1F07A7E35512E"
+				type: "gamestage"
+				auto: "invisible"
+				stage: "stryker_hammock"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -0.5d
+			dependencies: ["2B7EB59AE774EB45"]
+			id: "756AECA61CC9872F"
+			tasks: [{
+				id: "24FAD095E6578399"
+				type: "item"
+				item: "comforts:hammock_red"
+			}]
+			rewards: [{
+				id: "5BEC24FE671AD26D"
+				type: "gamestage"
+				auto: "invisible"
+				stage: "stryker_hammock"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 0.5d
+			dependencies: ["2B7EB59AE774EB45"]
+			id: "25B7109EFB22C43C"
+			tasks: [{
+				id: "35DBB8C0F36341D5"
+				type: "item"
+				item: "comforts:hammock_black"
+			}]
+			rewards: [{
+				id: "30E3B169E5FDD4D3"
+				type: "gamestage"
+				auto: "invisible"
+				stage: "stryker_hammock"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.0d
+			id: "1A06E94257DB45A8"
+			tasks: [{
+				id: "1EB76FFE3675EA6F"
+				type: "dimension"
+				dimension: "appliedenergistics2:spatial_storage"
+			}]
+			rewards: [{
+				id: "76BE07D502E4E6E0"
+				type: "gamestage"
+				auto: "invisible"
+				stage: "stryker_spatial_cell_visited"
+			}]
+		}
+		{
+			tags: ["initial_items"]
+			x: 0.0d
+			y: 0.0d
+			description: ["Gives initial items."]
+			id: "5359272821778B96"
+			tasks: [{
+				id: "6889CB2F9D9B58BA"
+				type: "checkmark"
+				title: "Test initial items"
+			}]
+			rewards: [{
+				id: "7AE9D8367D8B0811"
+				type: "custom"
+				title: "KubeJS: strykerdebug"
+				auto: "disabled"
+			}]
+		}
+		{
+			title: "Hidden Quests"
+			icon: "psi:cad_colorizer_rainbow"
+			x: 2.0d
+			y: -4.5d
+			hide_text_until_complete: true
+			optional: true
+			id: "39EEEE177619C8DB"
+			tasks: [
+				{
+					id: "5D31E9B8586A3688"
+					type: "stat"
+					icon: {
+						id: "appliedenergistics2:wireless_terminal"
+						Count: 1b
+						tag: { }
+					}
+					stat: "appliedenergistics2:items_inserted"
+					value: 23040
+				}
+				{
+					id: "39A31EAD4E0FC3C6"
+					type: "item"
+					item: "quark:diamond_heart"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,85 @@
+{
+	id: "7D00A31BDDB0C2CE"
+	order_index: 1
+	title: "Trinkets"
+	icon: "losttrinkets:treasure_bag"
+	loot_size: 1
+	rewards: [
+		{ item: "losttrinkets:piggy", weight: 7 }
+		{ item: "losttrinkets:creepo", weight: 7 }
+		{ item: "losttrinkets:horseshoe", weight: 7 }
+		{ item: "losttrinkets:butchers_cleaver", weight: 7 }
+		{ item: "losttrinkets:slingshot", weight: 7 }
+		{ item: "losttrinkets:magneto", weight: 7 }
+		{ item: "losttrinkets:rock_candy", weight: 6 }
+		{ item: "losttrinkets:lunch_bag", weight: 6 }
+		{ item: "losttrinkets:luck_coin", weight: 6 }
+		{ item: "losttrinkets:miners_pick", weight: 6 }
+		{ item: "losttrinkets:tha_cloud", weight: 6 }
+		{ item: "losttrinkets:turtle_shell", weight: 6 }
+		{ item: "losttrinkets:ice_shard", weight: 6 }
+		{ item: "losttrinkets:empty_amulet", weight: 5 }
+		{ item: "losttrinkets:tha_spider", weight: 5 }
+		{ item: "losttrinkets:glass_shard", weight: 5 }
+		{ item: "losttrinkets:blaze_heart", weight: 5 }
+		{ item: "losttrinkets:tha_ghost", weight: 5 }
+		{ item: "losttrinkets:treble_hooks", weight: 5 }
+		{ item: "losttrinkets:tha_wizard", weight: 5 }
+		{ item: "losttrinkets:tha_bat", weight: 5 }
+		{ item: "losttrinkets:blank_eyes", weight: 5 }
+		{ item: "losttrinkets:big_foot", weight: 5 }
+		{ item: "losttrinkets:book_o_enchanting", weight: 4 }
+		{ item: "losttrinkets:warm_void", weight: 4 }
+		{ item: "losttrinkets:golden_melon", weight: 4 }
+		{ item: "losttrinkets:wither_nail", weight: 4 }
+		{ item: "losttrinkets:serpent_tooth", weight: 4 }
+		{ item: "losttrinkets:mad_piggy", weight: 4 }
+		{ item: "losttrinkets:minds_eye", weight: 4 }
+		{ item: "losttrinkets:golden_swatter", weight: 4 }
+		{ item: "losttrinkets:sticky_mind", weight: 4 }
+		{ item: "losttrinkets:fire_mind", weight: 4 }
+		{ item: "losttrinkets:tha_golem", weight: 4 }
+		{ item: "losttrinkets:dragon_breath", weight: 4 }
+		{ item: "losttrinkets:karma", weight: 3 }
+		{ item: "losttrinkets:dark_dagger", weight: 3 }
+		{ item: "losttrinkets:starfish", weight: 3 }
+		{ item: "losttrinkets:drop_spindle", weight: 3 }
+		{ item: "losttrinkets:ember", weight: 3 }
+		{ item: "losttrinkets:tea_leaf", weight: 3 }
+		{ item: "losttrinkets:coffee_bean", weight: 3 }
+		{ item: "losttrinkets:oxalis", weight: 3 }
+		{ item: "losttrinkets:golden_skull", weight: 3 }
+		{ item: "losttrinkets:dark_egg", weight: 2 }
+		{ item: "losttrinkets:pillow_of_secrets", weight: 2 }
+		{ item: "losttrinkets:tha_spirit", weight: 2 }
+		{ item: "losttrinkets:mirror_shard", weight: 2 }
+		{ item: "losttrinkets:mossy_ring", weight: 2 }
+		{ item: "losttrinkets:mossy_belt", weight: 2 }
+		{ item: "losttrinkets:treasure_ring", weight: 2 }
+		{ item: "losttrinkets:octopick", weight: 2 }
+		{ item: "losttrinkets:silver_nail", weight: 2 }
+		{ item: "losttrinkets:glory_shards", weight: 2 }
+		{ item: "losttrinkets:ash_gloves" }
+		{ item: "losttrinkets:ruby_heart" }
+		{ item: "losttrinkets:golden_horseshoe" }
+		{ item: "losttrinkets:golden_tooth" }
+		{ item: "losttrinkets:broken_heart_1" }
+		{ item: "losttrinkets:broken_heart_2" }
+		{ item: "losttrinkets:broken_heart_3" }
+		{ item: "losttrinkets:broken_heart_4" }
+		{ item: "losttrinkets:broken_heart_5" }
+		{ item: "losttrinkets:octopus_leg" }
+		{ item: "losttrinkets:magical_herbs" }
+		{ item: "losttrinkets:magical_feathers" }
+		{ item: "losttrinkets:mad_aura" }
+	]
+	loot_crate: {
+		drops: {
+			boss: 0
+			passive: 0
+			monster: 0
+		}
+		color: 16777215
+		string_id: "trinkets"
+	}
+}

@@ -2,7 +2,7 @@
 [Misc]
 	#Maximum possible stack size for dropped items
 	#Range: 1 ~ 64
-	stacksize = 4
+	stacksize = 1
 	#How many items drop when a loot bag is used
 	#Range: 1 ~ 1000
 	dropamount = 1
@@ -21,7 +21,52 @@
 	#Use the whitelist
 	enablewhitelist = false
 	#BlackList (Syntax "minecraft or modid : item or block name"; example "minecraft:air" or "lootbagmod:lootbag")
-	blacklist = ["lootbagmod:lootbag", "minecraft:air", "minecraft:command_block", "minecraft:structure_block", "minecraft:knowledge_book", "minecraft:chain_command_block", "minecraft:repeating_command_block", "minecraft:barrier", "minecraft:enchanted_book", "minecraft:written_book", "minecraft:potion", "minecraft:splash_potion", "minecraft:lingering_potion", "minecraft:spawn_egg", "minecraft:structure_void", "minecraft:mob_spawner", "minecraft:bedrock"]
+	blacklist = [
+		"lootbagmod:lootbag",
+		"minecraft:air",
+		"minecraft:command_block",
+		"minecraft:structure_block",
+		"minecraft:knowledge_book",
+		"minecraft:chain_command_block",
+		"minecraft:repeating_command_block",
+		"minecraft:barrier",
+		"minecraft:enchanted_book",
+		"minecraft:written_book",
+		"minecraft:potion",
+		"minecraft:splash_potion",
+		"minecraft:lingering_potion",
+		"minecraft:spawn_egg",
+		"minecraft:structure_void",
+		"minecraft:mob_spawner",
+		"minecraft:bedrock",
+		
+		"culinaryconstruct:food_bowl",
+		"culinaryconstruct:sandwich",
+		
+		"enigmaticlegacy:enigmatic_item",
+		"enigmaticlegacy:loot_generator",
+		
+		"inventorypets:cloud_spawn",
+		"inventorypets:nether_spawn",
+		"inventorypets:pet_meta",
+		"inventorypets:pet_meta_25",
+		"inventorypets:pet_meta_50",
+		"inventorypets:pet_meta_75",
+		"inventorypets:pet_meta_100",
+		"inventorypets:sand_spawn",
+		"inventorypets:space_spawn",
+		"inventorypets:stone_spawn",
+		
+		"twilightforest:lich_tower_miniature_structure",
+		"twilightforest:naga_courtyard_miniature_structure",
+		"twilightforest:force_field_blue",
+		"twilightforest:force_field_green",
+		"twilightforest:force_field_orange",
+		"twilightforest:force_field_pink",
+		"twilightforest:force_field_purple",
+		"twilightforest:twilight_portal_miniature_structure",
+		
+	]
 	#WhiteList Syntax "minecraft or modid : item or block name"; example minecraft:air or lootbagmod:lootbag)
 	whitelist = ["minecraft:stone", "minecraft:nether_star"]
 
@@ -31,7 +76,7 @@
 
 ["Mod List"]
 	#Mod black/whitelist (Syntax " modid ")
-	modlist = ["tconstruct"]
+	modlist = ["ftbquests"]
 
 ["Contains List"]
 	#Contains List (Synyax "word")
