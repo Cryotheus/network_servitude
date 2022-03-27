@@ -1,4 +1,5 @@
 onEvent('recipes', (event) => {
+    //mekanism:compressing
     event.custom({
         "type": "mekanism:compressing",
         "itemInput": {
@@ -13,10 +14,11 @@ onEvent('recipes', (event) => {
         }
     })
 
+    //mekanism:metallurgic_infusing
     event.custom({
         "type": "mekanism:metallurgic_infusing",
         "itemInput": {
-            "item": "appliedenergistics2:sky_stone_block"
+            "item": "appliedenergistics2:sky_dust"
         },
         "infusionInput": {
             "amount": 80,
