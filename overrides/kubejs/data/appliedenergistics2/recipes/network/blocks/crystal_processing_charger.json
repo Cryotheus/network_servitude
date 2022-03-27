@@ -1,0 +1,9 @@
+{
+	"result": {"item": "appliedenergistics2:charger"},
+	"type": "minecraft:crafting_shaped",
+	"pattern": ["afa", "a  ", "afa"],
+	"key": {
+		"a": {"tag": "forge:ingots/aluminum"},
+		"f": {"tag": "appliedenergistics2:crystals/fluix"}
+	}
+}

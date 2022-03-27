@@ -1,0 +1,12 @@
+{
+	"result": {
+		"item": "appliedenergistics2:fluix_covered_cable",
+		"count": 8
+	},
+	"type": "minecraft:crafting_shaped",
+	"pattern": ["ccc", "cwc", "ccc"],
+	"key": {
+		"c": {"item": "appliedenergistics2:fluix_glass_cable"},
+		"w": {"tag": "appliedenergistics2:wool"}
+	}
+}

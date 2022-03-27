@@ -1,8 +1,8 @@
 {
-	id: "359BE0A6119D6EEE"
+	id: "0E650E7149AD19D1"
 	group: ""
-	order_index: 2
-	filename: "readmemd"
+	order_index: 3
+	filename: "initialization"
 	title: "Initialization"
 	icon: "akashictome:tome"
 	default_quest_shape: ""
@@ -16,20 +16,20 @@
 			subtitle: "Fook you too!"
 			description: ["This pack focuses on Applied Energistics 2 and the popular Tech mods. Screw Create though."]
 			size: 2.0d
-			id: "4727D07B32AF00EF"
+			id: "59E66FF7A7DD7CCE"
 			tasks: [{
-				id: "294DBE0E200BEB6A"
+				id: "7C12A5461DDBE59B"
 				type: "checkmark"
 				title: "Good Morning Laborer"
 			}]
 			rewards: [
 				{
-					id: "492777C5A8E1C6F4"
+					id: "45370B9FB6CD211E"
 					type: "item"
 					item: "akashictome:tome"
 				}
 				{
-					id: "44FD78F5B65433DD"
+					id: "4A863D04BC434A2B"
 					type: "choice"
 					title: "Cosmetic Bauble"
 					icon: {
@@ -40,7 +40,7 @@
 					table_id: 7833936591177016032L
 				}
 				{
-					id: "5927E02D0BB68FE2"
+					id: "2E02B5D7EE3CFF6D"
 					type: "random"
 					table_id: 5206883975697006247L
 				}
@@ -52,10 +52,10 @@
 			y: 0.0d
 			subtitle: "The eldest."
 			description: ["Typo intended."]
-			dependencies: ["4727D07B32AF00EF"]
-			id: "48B952AFB8710A50"
+			dependencies: ["59E66FF7A7DD7CCE"]
+			id: "0DD8D718B0A387AA"
 			tasks: [{
-				id: "6D542740811D2BCD"
+				id: "6A6917E7B696F495"
 				type: "item"
 				item: "minecraft:furnace"
 			}]
@@ -63,39 +63,39 @@
 		{
 			disable_toast: true
 			x: 2.5d
-			y: 1.0d
+			y: 0.0d
 			subtitle: "The famous."
 			description: ["Smelts ores faster, but in modded you will find it has a LOT of additional recipes. Mod developers seem to be obsessed with blast furnace recipes."]
-			dependencies: ["48B952AFB8710A50"]
-			id: "028D064237F142C4"
+			dependencies: ["0DD8D718B0A387AA"]
+			id: "5A2773A58D4FAF53"
 			tasks: [{
-				id: "7437BEFE9A087C80"
+				id: "5D00598571EF730B"
 				type: "item"
 				item: "minecraft:blast_furnace"
 			}]
 		}
 		{
-			x: 1.5d
+			x: 2.0d
 			y: 1.0d
 			subtitle: "The middle child."
 			description: ["Smelts glass, stone, clay, as well as other odds and ends faster! Severly underrated."]
-			dependencies: ["48B952AFB8710A50"]
-			id: "7B9A2192D04C378E"
+			dependencies: ["0DD8D718B0A387AA"]
+			id: "4C980C744DDE989D"
 			tasks: [{
-				id: "69D29559BD36544E"
+				id: "585684E68662AED5"
 				type: "item"
 				item: "environmental:kiln"
 			}]
 		}
 		{
-			x: 2.5d
-			y: 0.0d
+			x: 2.0d
+			y: -1.0d
 			subtitle: "The youngest."
 			description: ["Not so useful, as Pam's Harvest Craft and Cooking For Blockheads will render this obsolete."]
-			dependencies: ["48B952AFB8710A50"]
-			id: "6871F210431FE0B1"
+			dependencies: ["0DD8D718B0A387AA"]
+			id: "31A1B0D2C1C201E2"
 			tasks: [{
-				id: "6A490D234998D41F"
+				id: "02657B1289EB4E96"
 				type: "item"
 				item: "minecraft:smoker"
 			}]
@@ -107,10 +107,10 @@
 			y: 0.0d
 			subtitle: "...when I'm sleeepiing. One eeeyyyeee open when I'm sleeeping."
 			description: ["Have you ever thought that sleeping in minecraft was an annoying chore with no purpose beside warding off phantoms and other hostile mobs? If so, you'll be glad to hear the Bed Benefits mod will heal you and even cure negative potion effects when you sleep!"]
-			dependencies: ["4727D07B32AF00EF"]
-			id: "2B7EB59AE774EB45"
+			dependencies: ["59E66FF7A7DD7CCE"]
+			id: "5702A43158ADC177"
 			tasks: [{
-				id: "56C3A8BD0561739D"
+				id: "590F21A0BCDA0303"
 				type: "item"
 				title: "Any #minecraft:beds"
 				tags: ["beds"]
@@ -130,11 +130,11 @@
 			y: 0.5d
 			subtitle: "Mortuary Affairs was here."
 			description: ["Effectively a portable bed, that doesn't set your spawn point."]
-			dependencies: ["2B7EB59AE774EB45"]
+			dependencies: ["5702A43158ADC177"]
 			dependency_requirement: "one_completed"
-			id: "3035EE8090CABFC0"
+			id: "3C58F12884142407"
 			tasks: [{
-				id: "26DDF268F9023096"
+				id: "42FAC4C3CF2F65B6"
 				type: "gamestage"
 				title: "Sleeping Bag"
 				icon: "comforts:sleeping_bag_red"
@@ -148,51 +148,51 @@
 			y: -0.5d
 			subtitle: "The sun... it burns..."
 			description: ["Skip straight to the evening in lieu of the morning."]
-			dependencies: ["2B7EB59AE774EB45"]
-			id: "7B5C6CE74A0A5489"
+			dependencies: ["5702A43158ADC177"]
+			id: "0141412E75E5FEEB"
 			tasks: [
 				{
-					id: "3055DC253F92C4A3"
+					id: "34613C301F5EB7CA"
 					type: "gamestage"
 					title: "Hammock"
 					icon: "comforts:hammock_red"
 					stage: "stryker_hammock"
 				}
 				{
-					id: "542C54E97F42C7C6"
+					id: "0B219DA47064C855"
 					type: "item"
 					item: "comforts:rope_and_nail"
 					count: 2L
 				}
 			]
 			rewards: [{
-				id: "0F6C27E724BF5431"
+				id: "154A0483BA93444F"
 				type: "item"
 				item: "pamhc2foodextended:pinacoladaitem"
 			}]
 		}
 		{
-			x: 0.5d
+			x: 0.0d
 			y: 1.5d
 			subtitle: "Story time."
 			description: ["Prevents mob spawning within 48 blocks. Mobs withing 24 will actively burn."]
-			dependencies: ["4727D07B32AF00EF"]
-			id: "625AD13C0C9C6826"
+			dependencies: ["59E66FF7A7DD7CCE"]
+			id: "612783C997028EA1"
 			tasks: [{
-				id: "562303807E7ABBD0"
+				id: "027AF0409B4013D6"
 				type: "item"
 				item: "minecraft:campfire"
 			}]
 		}
 		{
-			x: 0.0d
+			x: -0.5d
 			y: 2.5d
 			subtitle: "Campfire for cooking."
 			description: ["Instead of safety, this grants you two additional slots for cooking food!"]
-			dependencies: ["625AD13C0C9C6826"]
-			id: "3981BAF1F02B3688"
+			dependencies: ["612783C997028EA1"]
+			id: "2588C53E0A85F94E"
 			tasks: [{
-				id: "4A14FBB9F578EEA8"
+				id: "6AC6756B1EF77A04"
 				type: "item"
 				item: "farmersdelight:stove"
 			}]
@@ -204,47 +204,124 @@
 			y: -1.0d
 			subtitle: "Arbeit macht frei."
 			description: ["Early but tedious method to getting more materials. Place the Wooden Crank on top of the Quartz Grindstone, then use the crank to grind materials. You have a 90% chance to get a duplicate of what you grind. The Wooden Crank will break after repeated use."]
-			dependencies: ["4727D07B32AF00EF"]
-			id: "273925E8890FB28B"
+			dependencies: ["59E66FF7A7DD7CCE"]
+			id: "04FE860A6F7F4A8E"
 			tasks: [
 				{
-					id: "6123D46BE246C0E2"
+					id: "5AF6C596C2815A58"
 					type: "item"
 					item: "appliedenergistics2:crank"
 				}
 				{
-					id: "3262481AEBC363A4"
+					id: "13235878B5B6E355"
 					type: "item"
 					item: "appliedenergistics2:grindstone"
 				}
 			]
-			rewards: [{
-				id: "50D373424219D1ED"
-				type: "item"
-				item: "appliedenergistics2:crank"
-			}]
+			rewards: [
+				{
+					id: "5CDB46C2AE1C2A50"
+					type: "item"
+					item: "appliedenergistics2:crank"
+				}
+				{
+					id: "40237BBEBD10E923"
+					type: "toast"
+					title: "Flagship EP"
+					icon: "chisel:futura/controller"
+					auto: "enabled"
+					description: "Unlock the \"Flagship EP\" chapter"
+				}
+			]
 		}
 		{
 			title: "Crafting Table on a Stick"
-			x: -0.5d
-			y: 1.5d
-			dependencies: ["4727D07B32AF00EF"]
-			id: "5FA895F0EB066471"
+			x: -1.0d
+			y: 1.0d
+			dependencies: ["59E66FF7A7DD7CCE"]
+			id: "403F63F3CC8803D1"
 			tasks: [{
-				id: "24393236FD293B37"
+				id: "5B92617958BCA87B"
 				type: "item"
 				item: "cyclic:crafting_stick"
 			}]
 		}
 		{
-			x: 1.0d
+			icon: "brazier:living_flame"
+			x: 0.5d
 			y: 2.5d
-			dependencies: ["625AD13C0C9C6826"]
-			id: "4EE72C41DB0E09E6"
+			subtitle: "Bonfire"
+			description: ["A large structure that prevents mob spawning. The taller it is, the further it reaches. Each layer is a plus shape of Gilded Blackstone with Netherite Blocks padding the corners. The Brazier goes on the very top at the center. If it spontaneously combusts, then you built it right."]
+			dependencies: ["612783C997028EA1"]
+			id: "2029B694C8F83536"
+			tasks: [
+				{
+					id: "61D77E16379E6F13"
+					type: "item"
+					item: "brazier:brazier"
+				}
+				{
+					id: "09B0E9A8D37DADD3"
+					type: "item"
+					item: "minecraft:gilded_blackstone"
+					count: 9L
+				}
+				{
+					id: "29E7986060347B37"
+					type: "item"
+					item: "minecraft:netherite_block"
+					count: 12L
+				}
+			]
+		}
+		{
+			title: "Find Loot"
+			x: -1.0d
+			y: -1.0d
+			dependencies: ["59E66FF7A7DD7CCE"]
+			id: "09A6F9180BFD7BEE"
 			tasks: [{
-				id: "33C0A38841441FF6"
+				id: "0A9F39EB263650BF"
+				type: "observation"
+				title: "Find a Lootr Chest"
+				icon: "lootr:lootr_chest"
+				timer: 0L
+				observe_type: 1
+				to_observe: "lootr:containers"
+			}]
+		}
+		{
+			title: "Bihome"
+			x: 0.0d
+			y: -1.5d
+			subtitle: "The perfect place to build your base"
+			description: ["Find a specific biome using this compass"]
+			dependencies: ["59E66FF7A7DD7CCE"]
+			id: "0A41F2D2AD42D83C"
+			tasks: [{
+				id: "501AFB98B4AD2410"
 				type: "item"
-				item: "brazier:brazier"
+				item: {
+					id: "naturescompass:naturescompass"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			title: "Easy Loot"
+			x: 0.0d
+			y: -2.5d
+			dependencies: ["0A41F2D2AD42D83C"]
+			id: "70BE4CBB0F642952"
+			tasks: [{
+				id: "70415FD30FD2E3F0"
+				type: "item"
+				item: {
+					id: "explorerscompass:explorerscompass"
+					Count: 1b
+					tag: { }
+				}
 			}]
 		}
 	]

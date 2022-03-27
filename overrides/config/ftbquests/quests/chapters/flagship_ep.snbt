@@ -2,7 +2,7 @@
 	id: "0FC40F8F736C3142"
 	group: "45CDD83BAB0D341A"
 	order_index: 0
-	filename: "applied_energistics_2"
+	filename: "flagship_ep"
 	title: "Flagship EP"
 	icon: "chisel:futura/controller"
 	default_quest_shape: ""
@@ -11,8 +11,9 @@
 		{
 			title: "Fluix"
 			icon: "appliedenergistics2:fluix_crystal"
-			x: 1.5d
-			y: 0.0d
+			x: 0.5d
+			y: -1.0d
+			dependencies: ["4B3DB8C626D13D34"]
 			id: "25505432C621F454"
 			tasks: [{
 				id: "2BE9D904314945AF"
@@ -30,7 +31,7 @@
 		{
 			title: "Quartz Dust"
 			icon: "emendatusenigmatica:quartz_dust"
-			x: -1.5d
+			x: -2.5d
 			y: 0.0d
 			dependencies: ["1968438CF277AF3A"]
 			id: "3F1A7E08318274AB"
@@ -50,9 +51,13 @@
 		{
 			title: "Honey, I downloaded the kids."
 			icon: "appliedenergistics2:2_cubed_spatial_storage_cell"
-			x: 0.5d
-			y: -2.5d
+			x: 1.5d
+			y: -6.0d
 			subtitle: "The ultimate smuggling technique."
+			dependencies: [
+				"4B3DB8C626D13D34"
+				"4C45C47B74D83382"
+			]
 			id: "4B3D853A11FF787E"
 			tasks: [
 				{
@@ -69,7 +74,7 @@
 			]
 		}
 		{
-			x: 0.5d
+			x: -0.5d
 			y: 0.0d
 			dependencies: [
 				"1968438CF277AF3A"
@@ -79,20 +84,311 @@
 			tasks: [{
 				id: "3292B95257B7BABA"
 				type: "item"
-				item: "emendatusenigmatica:fluix_dust"
+				item: "appliedenergistics2:fluix_dust"
 			}]
 		}
 		{
-			x: -0.5d
-			y: 0.0d
-			dependencies: ["273925E8890FB28B"]
+			title: "The Hazing"
+			disable_toast: true
+			x: -1.5d
+			y: 1.0d
+			subtitle: "Arbeit macht frei."
+			description: [
+				"This pack focuses on Applied Energistics 2 and the popular Tech mods. Screw Create though."
+				""
+				"This is a mirror quest. View dependencies to see the source."
+			]
+			dependencies: ["4B3DB8C626D13D34"]
 			id: "1968438CF277AF3A"
 			tasks: [{
 				id: "2DBD11474349EEE9"
 				type: "gamestage"
-				title: "Quartz Grindstone Quest"
+				title: "\"The Hazing\" Quest"
 				icon: "appliedenergistics2:grindstone"
 				stage: "starting_items"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -1.0d
+			dependencies: ["3F1A7E08318274AB"]
+			id: "40B7B416D5D49D43"
+			tasks: [{
+				id: "72FD3194109C0939"
+				type: "item"
+				item: "appliedenergistics2:quartz_fiber"
+			}]
+		}
+		{
+			icon: "appliedenergistics2:fluix_glass_cable"
+			x: -0.5d
+			y: -2.0d
+			subtitle: "Do not eat."
+			dependencies: [
+				"40B7B416D5D49D43"
+				"25505432C621F454"
+			]
+			id: "5220D40CE38CFBA6"
+			tasks: [{
+				id: "6298FA50CC38A5E7"
+				type: "item"
+				title: "Any ME Glass Cable"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "appliedenergistics2:glass_cable"
+					}
+				}
+			}]
+		}
+		{
+			icon: "appliedenergistics2:fluix_covered_cable"
+			x: -1.5d
+			y: -2.0d
+			subtitle: "Waste of wool."
+			dependencies: ["5220D40CE38CFBA6"]
+			id: "0ADC2FCF09175034"
+			tasks: [{
+				id: "07D7877CD6D41915"
+				type: "item"
+				title: "Any ME Covered Cable"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "appliedenergistics2:covered_cable"
+					}
+				}
+			}]
+		}
+		{
+			title: "Your Wife"
+			icon: "appliedenergistics2:fluix_smart_cable"
+			x: -2.5d
+			y: -3.0d
+			dependencies: ["0ADC2FCF09175034"]
+			id: "0BB54ADDA6A57828"
+			tasks: [{
+				id: "6285831F5D403EA8"
+				type: "item"
+				title: "Any ME Smart Cable"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "appliedenergistics2:smart_cable"
+					}
+				}
+			}]
+		}
+		{
+			icon: "appliedenergistics2:fluix_covered_dense_cable"
+			x: -2.5d
+			y: -2.0d
+			subtitle: "Bigger is better."
+			dependencies: ["0ADC2FCF09175034"]
+			id: "7BB6F2CA6177D5FC"
+			tasks: [{
+				id: "000363BC09F68E0E"
+				type: "item"
+				title: "Any ME Dense Covered Cable"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "appliedenergistics2:covered_dense_cable"
+					}
+				}
+			}]
+		}
+		{
+			title: "Your Side Chick"
+			icon: "appliedenergistics2:fluix_smart_dense_cable"
+			x: -3.5d
+			y: -3.0d
+			dependencies: ["7BB6F2CA6177D5FC"]
+			id: "199B64F71D5979E6"
+			tasks: [{
+				id: "1490CE432C8E1947"
+				type: "item"
+				title: "Any ME Dense Smart Cable"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "appliedenergistics2:smart_dense_cable"
+					}
+				}
+			}]
+		}
+		{
+			x: 0.5d
+			y: -3.0d
+			dependencies: ["5220D40CE38CFBA6"]
+			id: "139C94FE999DF65F"
+			tasks: [{
+				id: "4EF599B00DD96850"
+				type: "item"
+				item: "appliedenergistics2:inscriber"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -1.0d
+			dependencies: ["25505432C621F454"]
+			id: "4ED9004CCA0C9F95"
+			tasks: [{
+				id: "14BE9D34DDE79F04"
+				type: "item"
+				item: "appliedenergistics2:charger"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 0.0d
+			dependencies: [
+				"4ED9004CCA0C9F95"
+				"4B3DB8C626D13D34"
+			]
+			dependency_requirement: "one_completed"
+			id: "0BDBFA99672AA342"
+			tasks: [{
+				id: "39C2255C186DBEF3"
+				type: "item"
+				item: "appliedenergistics2:charged_certus_quartz_crystal"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -4.0d
+			dependencies: ["139C94FE999DF65F"]
+			id: "6AC9DCAA16DE8FD4"
+			tasks: [{
+				id: "2B44B8F6B2599C9B"
+				type: "item"
+				item: "appliedenergistics2:logic_processor"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -4.0d
+			dependencies: ["139C94FE999DF65F"]
+			id: "73BB81A72D3630E9"
+			tasks: [{
+				id: "1148692B56EFDDE7"
+				type: "item"
+				item: "appliedenergistics2:calculation_processor"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -3.0d
+			dependencies: ["139C94FE999DF65F"]
+			id: "1454EB0678D4057C"
+			tasks: [{
+				id: "2C65CDBA8AFA79D1"
+				type: "item"
+				item: "appliedenergistics2:engineering_processor"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -4.0d
+			dependencies: ["1454EB0678D4057C"]
+			id: "53C4E2E829E9E9ED"
+			tasks: [{
+				id: "03E7A4BAC9DE8821"
+				type: "item"
+				item: "appliedenergistics2:drive"
+			}]
+		}
+		{
+			title: "Sky Net Online"
+			x: 2.5d
+			y: -2.0d
+			subtitle: "Meet your employer."
+			dependencies: [
+				"69735197DE032B8F"
+				"1454EB0678D4057C"
+				"16ACA466271DFD23"
+			]
+			size: 2.0d
+			id: "65CE3D61BF7158B4"
+			tasks: [{
+				id: "47F39F46D398114E"
+				type: "item"
+				item: "appliedenergistics2:controller"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -1.0d
+			dependencies: ["53B34C8ED787167F"]
+			id: "69735197DE032B8F"
+			tasks: [{
+				id: "14DF691892C22A8A"
+				type: "item"
+				item: "appliedenergistics2:purified_fluix_crystal"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 0.0d
+			dependencies: ["20DCDE77CA3525F3"]
+			id: "53B34C8ED787167F"
+			tasks: [{
+				id: "0A2CD2429816F8E5"
+				type: "item"
+				item: "appliedenergistics2:fluix_crystal_seed"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -2.0d
+			description: ["Speeds up the growth of crystal seeds like the Fluix Seed item."]
+			dependencies: ["5220D40CE38CFBA6"]
+			id: "432E31DDBC282F09"
+			tasks: [{
+				id: "159B3A8B6F4B8A62"
+				type: "item"
+				item: "appliedenergistics2:quartz_growth_accelerator"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -3.0d
+			dependencies: ["458A53DEB3730EB3"]
+			id: "16ACA466271DFD23"
+			tasks: [{
+				id: "05EB78E942C2637D"
+				type: "item"
+				item: "appliedenergistics2:smooth_sky_stone_block"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -4.0d
+			dependencies: ["4B3DB8C626D13D34"]
+			id: "458A53DEB3730EB3"
+			tasks: [{
+				id: "5F477B6A058FFBB3"
+				type: "item"
+				item: "appliedenergistics2:sky_stone_block"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -5.0d
+			dependencies: [
+				"6AC9DCAA16DE8FD4"
+				"53C4E2E829E9E9ED"
+			]
+			id: "4C45C47B74D83382"
+			tasks: [{
+				id: "59F2B63CFD2EA18B"
+				type: "item"
+				item: "appliedenergistics2:io_port"
 			}]
 		}
 	]

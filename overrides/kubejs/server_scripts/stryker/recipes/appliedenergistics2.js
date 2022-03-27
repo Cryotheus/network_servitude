@@ -1,15 +1,3 @@
-onEvent('recipes', (event) => {
-    const ore_chunks = Ingredient.of('#forge:chunks').itemIds;
-    ore_chunks.forEach((value) => {
-        materialTag = value.substring(0,value.length-5)+'dust'
-        if(Ingredient.of(materialTag).isInvalidRecipeIngredient()){
-            return
-        }else{
-            createGrinderRecipe(event, value, materialTag, 4)
-        }
-    })
-})
-
 function createGrinderRecipe(e, material, result, turns){
     e.custom({
         "type": "appliedenergistics2:grinder",
@@ -31,3 +19,16 @@ function createGrinderRecipe(e, material, result, turns){
         "turns": turns
     })
 }
+
+onEvent('recipes', (event) => {
+	//grinder recipes
+	const ore_chunks = Ingredient.of('#forge:chunks').itemIds;
+    ore_chunks.forEach((value) => {
+        materialTag = value.substring(0,value.length-5)+'dust'
+        if(Ingredient.of(materialTag).isInvalidRecipeIngredient()){
+            return
+        }else{
+            createGrinderRecipe(event, value, materialTag, 4)
+        }
+    })
+})

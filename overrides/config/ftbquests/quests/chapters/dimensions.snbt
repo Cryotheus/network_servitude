@@ -187,5 +187,17 @@
 				dimension: "javd:void"
 			}]
 		}
+		{
+			x: -1.5d
+			y: -1.0d
+			id: "0B67108EC2CF4A7A"
+			tasks: [{
+				id: "12A5FC68225F15F8"
+				type: "dimension"
+				title: "Enter the Dungeon"
+				icon: "dimdungeons:block_key_charger"
+				dimension: "dimdungeons:dungeon_dimension"
+			}]
+		}
 	]
 }

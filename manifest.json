@@ -3,7 +3,7 @@
     "version": "1.16.5",
     "modLoaders": [
       {
-        "id": "forge-36.2.31",
+        "id": "forge-36.2.33",
         "primary": true
       }
     ]
@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Network Servitude",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "",
   "files": [
     {
@@ -601,7 +601,7 @@
     },
     {
       "projectID": 441647,
-      "fileID": 3697620,
+      "fileID": 3712101,
       "required": true
     },
     {
@@ -701,7 +701,7 @@
     },
     {
       "projectID": 361276,
-      "fileID": 3710283,
+      "fileID": 3711327,
       "required": true
     },
     {
@@ -806,7 +806,7 @@
     },
     {
       "projectID": 250763,
-      "fileID": 3598212,
+      "fileID": 3712579,
       "required": true
     },
     {
@@ -895,6 +895,11 @@
       "required": true
     },
     {
+      "projectID": 266450,
+      "fileID": 3242399,
+      "required": true
+    },
+    {
       "projectID": 459701,
       "fileID": 3529457,
       "required": true
@@ -911,7 +916,7 @@
     },
     {
       "projectID": 377051,
-      "fileID": 3183601,
+      "fileID": 3348569,
       "required": true
     },
     {
@@ -991,7 +996,7 @@
     },
     {
       "projectID": 342466,
-      "fileID": 3665832,
+      "fileID": 3712576,
       "required": true
     },
     {
@@ -1687,6 +1692,11 @@
     {
       "projectID": 272515,
       "fileID": 3404330,
+      "required": true
+    },
+    {
+      "projectID": 336184,
+      "fileID": 3608374,
       "required": true
     },
     {
