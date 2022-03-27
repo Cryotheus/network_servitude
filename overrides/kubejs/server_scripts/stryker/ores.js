@@ -1,20 +1,21 @@
-ores = [
-	'mekanism:copper_ore',
-	'mekanism:fluorite_ore',
-	'mekanism:lead_ore',
-	'mekanism:osmium_ore',
-	'mekanism:tin_ore',
-	'mekanism:uranium_ore',
-	'minecraft:coal_ore',
-	'minecraft:diamond_ore',
-	'minecraft:emerald_ore',
-	'minecraft:gold_ore',
-	'minecraft:iron_ore',
-	'minecraft:lapis_ore',
-	'minecraft:nether_gold_ore',
-	'minecraft:nether_quartz_ore',
-	'minecraft:redstone_ore',
-]
+// priority: 900
+ores = {
+	'mekanism:copper_ore': 'copper',
+	'mekanism:fluorite_ore': 'fluorite',
+	'mekanism:lead_ore': 'lead',
+	'mekanism:osmium_ore': 'osmium',
+	'mekanism:tin_ore': 'tin',
+	'mekanism:uranium_ore': 'uranium',
+	'minecraft:coal_ore': 'coal',
+	'minecraft:diamond_ore': 'diamond',
+	'minecraft:emerald_ore': 'emerald',
+	'minecraft:gold_ore': 'gold',
+	'minecraft:iron_ore': 'iron',
+	'minecraft:lapis_ore': 'lapis',
+	'minecraft:nether_gold_ore': 'gold',
+	'minecraft:nether_quartz_ore': 'quartz',
+	'minecraft:redstone_ore': 'redstone',
+}
 
 retags = [
 	'aluminum',
@@ -51,6 +52,23 @@ retags = [
 	'zinc'
 ]
 
+chunk_tags = [
+	'aluminum',
+	'cobalt',
+	'copper',
+	'gold',
+	'iridium',
+	'iron',
+	'lead',
+	'nickel',
+	'osmium',
+	'ruby',
+	'silver',
+	'tin',
+	'uranium',
+	'zinc'
+]
+
 stratums = [
 	'andesite',
 	'basalt',
@@ -73,6 +91,42 @@ stratums = [
 	'weathered_limestone'
 ]
 
+exchange_pickups = {
+	'emendatusenigmatica:certus_quartz_gem': 'appliedenergistics2:certus_quartz_crystal',
+	'emendatusenigmatica:charged_certus_quartz_gem': 'appliedenergistics2:charged_certus_quartz_crystal',
+	'emendatusenigmatica:fluix_gem': 'appliedenergistics2:fluix_crystal'
+}
+
+function add_fortune_ore(event, predicate, drop) {
+	event.addBlock(predicate, table => {
+		table.addPool(pool => {
+			pool.addEntry({
+				type: 'minecraft:item',
+				name: drop,
+				weight: 1,
+				functions: [
+					{
+						enchantment: "minecraft:fortune",
+						formula: "minecraft:ore_drops",
+						function: "minecraft:apply_bonus"
+					}
+				]
+			})
+		})
+	})
+}
+
+onEvent('block.loot_tables', event => {
+	//'#forge:ores/iron' 'emendatusenigmatica:iron_chunk'
+	chunk_tags.forEach(element => {
+		//pog
+		add_fortune_ore(event, '#forge:ores/' + element, 'emendatusenigmatica:' + element + '_chunk')
+	})
+	
+	add_fortune_ore(event, '#forge:ores/certus_quartz', 'appliedenergistics2:certus_quartz_crystal')
+	add_fortune_ore(event, '#forge:ores/charged_certus_quartz', 'appliedenergistics2:charged_certus_quartz_crystal')
+})
+
 onEvent('block.tags', event => {
 	// /^compactores:/
 	
@@ -86,22 +140,44 @@ onEvent('block.tags', event => {
 	})
 })
 
-onEvent('recipe', event => {
+onEvent('item.pickup', event => {
+	player = event.player
+	item = event.item
+	
+	if (item) {
+		new_id = exchange_pickups[item.id]
+		
+		if (new_id)
+		{
+			new_count = item.count
+			item.count = 0
+			
+			player.give(new_count + 'x ' + new_id)
+		}
+	}
+})
+
+onEvent('recipes', event => {
 	//remove = event.remove
 	//replaceInput = event.replaceInput
 	
+	//event.remove({id: 'emendatusenigmatica:ore_from_chunk_crafting/lapis'})
+	
+	retags.forEach(element => {
+		//event.remove({output: 'emendatusenigmatica:' + element + '_ore'})
+		event.remove({id: 'emendatusenigmatica:ore_from_chunk_crafting/' + element})
+		event.replaceInput({}, '#forge:ores/' + tag, '#forge:chunks/' + tag)
+		event.replaceOutput({}, {output: '#forge:ores/' + tag})
+		event.server.tell('modified ' + element + ' ore recipes')
+		
+	})
+	
 	for (let id in ores) {
 		tag = ores[id]
-		ore_tag = '#forge:ores/' + tag
 		
 		event.remove({output: ore})
-		event.remove({output: ore_tag})
-		event.replaceInput({}, ore_tag, '#forge:chunks/' + tag)
-		event.replaceInput({}, ore, '#forge:chunks/' + tag)
+		
+		//event.replaceInput({}, ore, '#forge:chunks/' + tag)
+		//event.server.tell('replaced ' + ore + ' with tag ' + tag + ' recipe')
 	}
-	
-	retags.forEach(retag => {
-		event.remove({output: 'emendatusenigmatica:' + retag + '_ore'})
-		event.remove({id: 'emendatusenigmatica:ore_from_chunk_crafting/' + retag})
-	})
 })

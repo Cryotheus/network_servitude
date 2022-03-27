@@ -155,21 +155,25 @@
 			x: 1.5d
 			y: 1.0d
 			subtitle: "Same process as the previous portal, just use Lunar Stone Bricks instead."
-			dependencies: ["2D05CFD85A5C3EC8"]
 			id: "78EB78B0DD68576D"
 			tasks: [
 				{
-					id: "7DC059AAE21E5B30"
-					type: "dimension"
-					title: "Enter the Everdawn"
-					icon: "byg:skyris_vine"
-					dimension: "blue_skies:everdawn"
+					id: "5BBDF3E3CD2F40DC"
+					type: "item"
+					item: {
+						id: "blue_skies:zeal_lighter"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
 				}
 				{
-					id: "2749E1F2E62B29AE"
-					type: "item"
-					item: "blue_skies:lunar_stonebrick"
-					count: 10L
+					id: "46F19897B5F3DF8F"
+					type: "dimension"
+					title: "Enter the Everdawn"
+					icon: "blue_skies:lunar_stonebrick"
+					dimension: "blue_skies:everdawn"
 				}
 			]
 		}

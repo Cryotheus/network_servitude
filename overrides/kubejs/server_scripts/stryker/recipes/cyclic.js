@@ -8,4 +8,9 @@ onEvent("recipes", event => {
 		C: "#forge:workbench",
 		S: "#forge:rods/wooden"
 	})
+	
+	event.shaped("cyclic:crafting_stick", [" C", "S "], {
+		C: "#forge:workbenches",
+		S: "#forge:rods/wooden"
+	})
 })
