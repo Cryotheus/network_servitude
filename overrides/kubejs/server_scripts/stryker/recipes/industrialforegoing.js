@@ -39,5 +39,5 @@ onEvent('recipes', event => {
         event.replaceOutput({type: 'industrialforegoing:laser_drill_ore'}, '#forge:ores/'+mat, '#forge:chunks/'+mat)
     }
 
-    event.replaceOutput({type: 'industrialforegoing:laser_drill_ore'}, 'emendatusengimatica:arcane_ore', 'emendatusengimatica:arcane_chunk')
+    event.replaceOutput({type: 'industrialforegoing:laser_drill_ore'}, 'emendatusenigmatica:arcane_ore', 'emendatusenigmatica:arcane_chunk')
 })
