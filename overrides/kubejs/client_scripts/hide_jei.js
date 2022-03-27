@@ -1,7 +1,6 @@
 // priority: 0
-
-console.info('client_scripts/hidden.js loaded')
-
 onEvent('jei.hide.items', event => {
 	event.hide('extendedcrafting:handheld_table')
+	event.hide(/^appliedenergistics2:facade/)
+	event.hide(/^compactores:/)
 })

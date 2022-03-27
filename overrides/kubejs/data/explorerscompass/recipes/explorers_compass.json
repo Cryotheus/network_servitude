@@ -1,0 +1,14 @@
+{
+	"type": "crafting_shaped",
+	"group": "tools",
+	"pattern": [
+		" S ",
+		"SCS",
+		" S "
+	],
+	"key": {
+		"S":{"tag": "minecraft:stone_bricks"},
+		"C":{"item": "naturescompass:naturescompass"}
+	},
+	"result": {"item": "explorerscompass:explorerscompass"}
+}

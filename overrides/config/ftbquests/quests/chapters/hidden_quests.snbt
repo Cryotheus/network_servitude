@@ -11,10 +11,10 @@
 	quests: [
 		{
 			title: "You're Doing Something Right"
-			x: 0.0d
-			y: 0.0d
+			x: 0.5d
+			y: -0.5d
 			subtitle: "That \"Something\" is hoarding."
-			dependencies: ["5D31E9B8586A3688"]
+			dependencies: ["313AD71D892C9EB7"]
 			hide: true
 			optional: true
 			id: "64E64A8DAA36B969"
@@ -32,15 +32,35 @@
 		}
 		{
 			title: "Ghoustovski Detected"
-			x: -1.5d
-			y: 0.0d
+			icon: {
+				id: "twilightforest:fiery_pickaxe"
+				Count: 1b
+				tag: {
+					"quark:RuneAttached": 1b
+					Damage: 0
+					Enchantments: [{
+						lvl: 1s
+						id: "forbidden_arcanus:indestructible"
+					}]
+					"quark:RuneColor": {
+						id: "quark:red_rune"
+						Count: 1b
+					}
+				}
+			}
+			x: -0.5d
+			y: -0.5d
 			subtitle: "Who else would mine like that?"
+			dependencies: ["280AAE8D69F590B5"]
 			hide: true
 			optional: true
 			id: "2AC277E1CD713564"
 			tasks: [{
-				id: "36D657BCB47C41F3"
-				type: "custom"
+				id: "631095A04DD22607"
+				type: "gamestage"
+				title: "Take a gander at all the ores"
+				icon: "enigmaticlegacy:etherium_ore"
+				stage: "stryker_initial_items"
 			}]
 			rewards: [{
 				id: "0AD8AF01059A4254"
@@ -49,15 +69,20 @@
 			}]
 		}
 		{
-			x: -1.5d
-			y: 1.0d
-			dependencies: ["39A31EAD4E0FC3C6"]
+			title: "WHY ARE YOU RUNNING?"
+			x: -0.5d
+			y: 0.5d
+			subtitle: "HAEaAEaAeE HHAeAAEAEAAAe"
+			dependencies: ["5CA0EE656962C7AF"]
 			hide: true
 			optional: true
 			id: "501053786AECDA76"
 			tasks: [{
-				id: "361F69BFEAC570FE"
-				type: "custom"
+				id: "6D58F8B2DEF899B2"
+				type: "gamestage"
+				title: "Heart of Diamond"
+				icon: "quark:diamond_heart"
+				stage: "stryker_initial_items"
 			}]
 		}
 	]
