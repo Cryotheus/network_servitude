@@ -1,7 +1,7 @@
 onEvent('recipes', event => {
     event.remove({output: 'thermal:niter_ore'})
 
-    for(mat of retags){
+    for(mat of global.retags){
         event.replaceOutput({type: 'industrialforegoing:laser_drill_ore'}, '#forge:ores/'+mat, '#forge:chunks/'+mat)
     }
 

@@ -1,34 +1,59 @@
-function createGrinderRecipe(e, material, result, turns){
-    e.custom({
+onEvent('recipes', (event) => {
+	//grinder recipes
+	for(mat of global.retags){
+        if(Ingredient.of('#forge:dusts/'+mat).isInvalidRecipeIngredient()){
+            return
+        }else{
+            event.remove({type: 'appliedenergistics2:grinder', input: '#forge:ores/'+mat})
+            generateOreChunkGrindingRecipes(event, mat)
+        }
+    }
+
+    createAdvancedGrindingRecipe(event, "forge:chunks/charged_certus_quartz", "forge:dusts/certus_quartz", 2, "forge:dusts/certus_quartz", 0.9, 1, 4)
+    createAdvancedGrindingRecipe(event, "forge:chunks/bitumen", "forge:bitumen", 1, "forge:bitumen", 0.9, 1, 4)
+})
+
+function generateOreChunkGrindingRecipes(event, material){
+    event.custom({
         "type": "appliedenergistics2:grinder",
         "input": {
-            "item": material
+            "tag": "forge:chunks/"+material
         },
         "result": {
             "primary": {
-                "item": result,
+                "tag": "forge:chunks/"+material,
                 "count": 1
             },
             "optional": [
                 {
-                    "item": result,
+                    "tag": "forge:chunks/"+material,
                     "chance": 0.9
+                }
+            ]
+        },
+        "turns": 4
+    })
+}
+
+function createAdvancedGrindingRecipe(event, input, result, resultCount, extraResult, extraResultChance, extraResultCount, turns){
+    event.custom({
+        "type": "appliedenergistics2:grinder",
+        "input": {
+            "tag": input
+        },
+        "result": {
+            "primary": {
+                "tag": result,
+                "count": resultCount
+            },
+            "optional": [
+                {
+                    "tag": extraResult,
+                    "count": extraResultCount,
+                    "chance": extraResultChance
                 }
             ]
         },
         "turns": turns
     })
 }
-
-onEvent('recipes', (event) => {
-	//grinder recipes
-	const ore_chunks = Ingredient.of('#forge:chunks').itemIds;
-    ore_chunks.forEach((value) => {
-        materialTag = value.substring(0,value.length-5)+'dust'
-        if(Ingredient.of(materialTag).isInvalidRecipeIngredient()){
-            return
-        }else{
-            createGrinderRecipe(event, value, materialTag, 4)
-        }
-    })
-})

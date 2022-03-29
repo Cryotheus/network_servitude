@@ -1,4 +1,10 @@
 onEvent('recipes', (event) => {
+    //mekanism:combining
+    for(mat of global.retags){
+        event.remove({type: 'mekanism:combining', output: '#forge:ores/'+mat})
+        genCombiningRecipes(event, mat)
+    }
+
     //mekanism:compressing
     event.custom({
         "type": "mekanism:compressing",
@@ -29,3 +35,23 @@ onEvent('recipes', (event) => {
         }
     })
 })
+
+function genCombiningRecipes(event, material){
+    event.custom({
+        "type":"mekanism:combining",
+        "mainInput":{
+            "amount": 8,
+            "ingredient":{
+                "tag": "forge:dusts/"+material
+            }
+        },
+        "extraInput":{
+            "ingredient":{
+                "item": "kubejs:calcium_carbonate"
+            }
+        },
+        "output":{
+            "tag": "forge:chunks/"+material
+        }
+    })
+}
