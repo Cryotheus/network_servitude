@@ -118,10 +118,7 @@ function add_fortune_ore(event, predicate, drop) {
 
 onEvent('block.loot_tables', event => {
 	//'#forge:ores/iron' 'emendatusenigmatica:iron_chunk'
-	chunk_tags.forEach(element => {
-		//pog
-		add_fortune_ore(event, '#forge:ores/' + element, 'emendatusenigmatica:' + element + '_chunk')
-	})
+	chunk_tags.forEach(element => {add_fortune_ore(event, '#forge:ores/' + element, 'emendatusenigmatica:' + element + '_chunk')})
 	
 	add_fortune_ore(event, '#forge:ores/certus_quartz', 'appliedenergistics2:certus_quartz_crystal')
 	add_fortune_ore(event, '#forge:ores/charged_certus_quartz', 'appliedenergistics2:charged_certus_quartz_crystal')

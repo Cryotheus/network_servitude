@@ -84,7 +84,7 @@
 		overworld_spread = 34
 		#Average Ores per Chunk [Default: 17]
 		#Range: 0 ~ 64
-		overworld_count = 14
+		overworld_count = 10
 		#Configure the ore Vein Size [Default: 11]
 		#Range: 0 ~ 64
 		overworld_size = 12
@@ -504,10 +504,10 @@
 		generate_in_the_overworld = true
 		#Baseline Y-Level [Default: 60]
 		#Range: 0 ~ 256
-		overworld_base = 2
+		overworld_base = 32
 		#Spread Amount (# of Y-Levels above and below the Baseline) [Default: 50]
 		#Range: 0 ~ 256
-		overworld_spread = 1
+		overworld_spread = 2
 		#Average Ores per Chunk [Default: 16]
 		#Range: 0 ~ 64
 		overworld_count = 10
@@ -786,16 +786,16 @@
 	["Lead Config".Overworld]
 		#Activate/Deactivate the Ore Gen in The Overworld [Default: true]
 		generate_in_the_overworld = true
-		#Baseline Y-Level [Default: 47]
+		#Baseline Y-Level [Default: 36]
 		#Range: 0 ~ 256
 		overworld_base = 34
-		#Spread Amount (# of Y-Levels above and below the Baseline) [Default: 7]
+		#Spread Amount (# of Y-Levels above and below the Baseline) [Default: 4]
 		#Range: 0 ~ 256
 		overworld_spread = 7
-		#Average Ores per Chunk [Default: 15]
+		#Average Ores per Chunk [Default: 8]
 		#Range: 0 ~ 64
 		overworld_count = 7
-		#Configure the ore Vein Size [Default: 7]
+		#Configure the ore Vein Size [Default: 5]
 		#Range: 0 ~ 64
 		overworld_size = 7
 		#Use spread mechanic instead of random range [Default: true]
@@ -857,16 +857,16 @@
 	["Nickel Config".Overworld]
 		#Activate/Deactivate the Ore Gen in The Overworld [Default: true]
 		generate_in_the_overworld = true
-		#Baseline Y-Level [Default: 42]
+		#Baseline Y-Level [Default: 32]
 		#Range: 0 ~ 256
 		overworld_base = 28
 		#Spread Amount (# of Y-Levels above and below the Baseline) [Default: 8]
 		#Range: 0 ~ 256
 		overworld_spread = 8
-		#Average Ores per Chunk [Default: 9]
+		#Average Ores per Chunk [Default: 8]
 		#Range: 0 ~ 64
 		overworld_count = 9
-		#Configure the ore Vein Size [Default: 5]
+		#Configure the ore Vein Size [Default: 4]
 		#Range: 0 ~ 64
 		overworld_size = 4
 		#Use spread mechanic instead of random range [Default: true]
@@ -930,7 +930,7 @@
 		generate_in_the_overworld = true
 		#Baseline Y-Level [Default: 12]
 		#Range: 0 ~ 256
-		overworld_base = 2
+		overworld_base = 8
 		#Spread Amount (# of Y-Levels above and below the Baseline) [Default: 8]
 		#Range: 0 ~ 256
 		overworld_spread = 2
@@ -1359,10 +1359,10 @@
 		overworld_base = 32
 		#Spread Amount (# of Y-Levels above and below the Baseline) [Default: 32]
 		#Range: 0 ~ 256
-		overworld_spread = 32
+		overworld_spread = 2
 		#Average Ores per Chunk [Default: 16]
 		#Range: 0 ~ 64
-		overworld_count = 16
+		overworld_count = 12
 		#Configure the ore Vein Size [Default: 8]
 		#Range: 0 ~ 64
 		overworld_size = 8
@@ -1427,13 +1427,13 @@
 		generate_in_the_overworld = true
 		#Baseline Y-Level [Default: 16]
 		#Range: 0 ~ 256
-		overworld_base = 16
+		overworld_base = 32
 		#Spread Amount (# of Y-Levels above and below the Baseline) [Default: 16]
 		#Range: 0 ~ 256
-		overworld_spread = 16
+		overworld_spread = 1
 		#Average Ores per Chunk [Default: 8]
 		#Range: 0 ~ 64
-		overworld_count = 8
+		overworld_count = 2
 		#Configure the ore Vein Size [Default: 4]
 		#Range: 0 ~ 64
 		overworld_size = 4
@@ -1998,13 +1998,13 @@
 		overworld_base = 42
 		#Spread Amount (# of Y-Levels above and below the Baseline) [Default: 10]
 		#Range: 0 ~ 256
-		overworld_spread = 3
+		overworld_spread = 8
 		#Average Ores per Chunk [Default: 2]
 		#Range: 0 ~ 64
-		overworld_count = 2
+		overworld_count = 4
 		#Configure the ore Vein Size [Default: 2]
 		#Range: 0 ~ 64
-		overworld_size = 2
+		overworld_size = 4
 		#Use spread mechanic instead of random range [Default: true]
 		overworld_use_spread = true
 		#List of biome IDs in which the ore is not allowed to generate.
@@ -2080,15 +2080,7 @@
 		overworld_use_spread = true
 		#List of biome IDs in which the ore is not allowed to generate.
 		#To blacklist all biomes from a single mod, use 'modid:*'
-		overworld_biome_blacklist = [
-			"minecraft:desert",
-			"minecraft:desert_hills",
-			"minecraft:desert_lakes",
-			"byg:lush_red_desert",
-			"byg:mojave_desert",
-			"byg:red_desert",
-			"byg:red_desert_dunes"
-		]
+		overworld_biome_blacklist = ["minecraft:desert", "minecraft:desert_hills", "minecraft:desert_lakes", "byg:lush_red_desert", "byg:mojave_desert", "byg:red_desert", "byg:red_desert_dunes"]
 		#Invert Blacklist to Whitelist [Default: false]
 		overworld_biome_list_invert = true
 
@@ -2159,25 +2151,7 @@
 		overworld_use_spread = true
 		#List of biome IDs in which the ore is not allowed to generate.
 		#To blacklist all biomes from a single mod, use 'modid:*'
-		overworld_biome_blacklist = [
-			"byg:dead_sea",
-			"byg:fresh_water_lake",
-			"byg:frozen_lake",
-			"byg:great_lake_isles",
-			"byg:great_lakes",
-			"minecraft:cold_ocean",
-			"minecraft:deep_cold_ocean",
-			"minecraft:deep_frozen_ocean",
-			"minecraft:deep_lukewarm_ocean",
-			"minecraft:deep_ocean",
-			"minecraft:deep_warm_ocean",
-			"minecraft:frozen_ocean",
-			"minecraft:frozen_river",
-			"minecraft:lukewarm_ocean",
-			"minecraft:ocean",
-			"minecraft:river",
-			"minecraft:warm_ocean"
-		]
+		overworld_biome_blacklist = ["byg:dead_sea", "byg:fresh_water_lake", "byg:frozen_lake", "byg:great_lake_isles", "byg:great_lakes", "minecraft:cold_ocean", "minecraft:deep_cold_ocean", "minecraft:deep_frozen_ocean", "minecraft:deep_lukewarm_ocean", "minecraft:deep_ocean", "minecraft:deep_warm_ocean", "minecraft:frozen_ocean", "minecraft:frozen_river", "minecraft:lukewarm_ocean", "minecraft:ocean", "minecraft:river", "minecraft:warm_ocean"]
 		#Invert Blacklist to Whitelist [Default: false]
 		overworld_biome_list_invert = true
 
@@ -2248,34 +2222,7 @@
 		overworld_use_spread = true
 		#List of biome IDs in which the ore is not allowed to generate.
 		#To blacklist all biomes from a single mod, use 'modid:*'
-		overworld_biome_blacklist = [
-			"byg:aspen_clearing",
-			"byg:aspen_forest",
-			"byg:aspen_forest_hills",
-			"byg:ancient_forest",
-			"byg:araucaria_forest",
-			"byg:bamboo_forest",
-			"byg:bayou",
-			"byg:boreal_clearing",
-			"byg:boreal_forest",
-			"byg:boreal_forest_hills",
-			"byg:forest_fault",
-			"byg:tropical_rainforest",
-			"minecraft:bamboo_jungle",
-			"minecraft:bamboo_jungle_hills",
-			"minecraft:birch_forest",
-			"minecraft:birch_forest_hills",
-			"minecraft:dark_forest",
-			"minecraft:dark_forest_hills",
-			"minecraft:flower_forest",
-			"minecraft:forest",
-			"minecraft:jungle",
-			"minecraft:jungle_edge",
-			"minecraft:jungle_hills",
-			"minecraft:plains",
-			"minecraft:sunflower_plains",
-			"minecraft:tall_birch_forest"
-		]
+		overworld_biome_blacklist = ["byg:aspen_clearing", "byg:aspen_forest", "byg:aspen_forest_hills", "byg:ancient_forest", "byg:araucaria_forest", "byg:bamboo_forest", "byg:bayou", "byg:boreal_clearing", "byg:boreal_forest", "byg:boreal_forest_hills", "byg:forest_fault", "byg:tropical_rainforest", "minecraft:bamboo_jungle", "minecraft:bamboo_jungle_hills", "minecraft:birch_forest", "minecraft:birch_forest_hills", "minecraft:dark_forest", "minecraft:dark_forest_hills", "minecraft:flower_forest", "minecraft:forest", "minecraft:jungle", "minecraft:jungle_edge", "minecraft:jungle_hills", "minecraft:plains", "minecraft:sunflower_plains", "minecraft:tall_birch_forest"]
 		#Invert Blacklist to Whitelist [Default: false]
 		overworld_biome_list_invert = true
 

@@ -23,12 +23,12 @@ function grant_items(player) {
 	inventory.set(2, Item.of("minecraft:iron_axe", '{Enchantments:[{id:"unbreaking",lvl:1},{id:"enigmaticlegacy:nemesis_curse",lvl:1}],"quark:RuneAttached":1,"quark:RuneColor":{Count:1,id:"quark:blank_rune"},display:{Lore:["{\\"text\\":\\"§7Damn thing is useless in combat§r\\"}","{\\"text\\":\\"§7Standard issue for Network Serfs§r\\"}"]}}'))
 	inventory.set(3, Item.of("minecraft:iron_sword", standard_issue_nbt))
 	
-	inventory.set(7, Item.of("3x extendedmushrooms:mushroom_bread", '{display:{Name:"{\\"text\\":\\"§fBRED 46a-2§r\\"}",Lore:["{\\"text\\":\\"§7Expired... but still edible§r\\"}","{\\"text\\":\\"§7Standard issue for Network Serfs§r\\"}"]}}'))
+	inventory.set(7, Item.of("6x extendedmushrooms:mushroom_bread", '{display:{Name:"{\\"text\\":\\"§fBRED 46a-2§r\\"}",Lore:["{\\"text\\":\\"§7Expired... but still edible§r\\"}","{\\"text\\":\\"§7Standard issue for Network Serfs§r\\"}"]}}'))
 	inventory.set(8, Item.of("sophisticatedbackpacks:backpack", "{borderColor:" + color_random() + ",clothColor:" + color_random() + "}"))
 	
 	//inventory
 	inventory.set(9, "2x lootbagmod:lootbag")
-	inventory.set(10, Item.of("2x pamhc2foodextended:driedsoupitem", '{display:{Name:"{\\"text\\":\\"§fMeat Supplement v2.4.19d (Revision A)§r\\"}",Lore:["{\\"text\\":\\"§7Best described as a \\\\\\"Jerky Brick\\\\\\"§r\\"}","{\\"text\\":\\"§7Standard issue for Network Serfs§r\\"}"]}}'))
+	inventory.set(10, Item.of("4x pamhc2foodextended:driedsoupitem", '{display:{Name:"{\\"text\\":\\"§fMeat Supplement v2.4.19d (Revision A)§r\\"}",Lore:["{\\"text\\":\\"§7Best described as a \\\\\\"Jerky Brick\\\\\\"§r\\"}","{\\"text\\":\\"§7Standard issue for Network Serfs§r\\"}"]}}'))
 }
 
 function remove_items(player) {
@@ -105,39 +105,3 @@ onEvent("player.logged_in", event => {
 		stages.add("starting_items")
 	}
 })
-
-/*onEvent("item.pickup", event => {
-	item = event.item
-	player = event.player
-	id = item.id
-	
-	if (event.item) {
-		if (id) {
-			player.tell("test succeeded")
-			player.tell(id)
-			
-			if (disable_initial[id]) {
-				item.count = 0
-				player.tell("disabled")
-			} else {player.tell("not disabled")}
-		}
-		else {"test failed"}
-	}
-	else {player.tell("aw ffs")}
-})*/
-
-/*
-onEvent('ftbquests.custom_reward', event => {
-  log.info('Custom reward! general')
-  event.player.tell('Hello! general')
-})
-
-onEvent('ftbquests.custom_reward.7AE9D8367D8B0811', event => {
-  log.info('Custom reward! upper')
-  event.player.tell('Hello! upper')
-})
-
-onEvent('ftbquests.custom_reward.7ae9d8367d8b0811', event => {
-  log.info('Custom reward! lower')
-  event.player.tell('Hello! lower')
-}) //*/

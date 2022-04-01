@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"group": "scanner",
+	"pattern": [
+		"i i",
+		"ded",
+		"rcr"
+	],
+	"key": {
+		"c": {"item": "explorerscompass:explorerscompass"},
+		"d": {"tag": "forge:gems/diamond"},
+		"e": {"tag": "forge:storage_blocks/ender_pearls"},
+		"i": {"tag": "forge:rods/iron"},
+		"r": {"tag": "forge:dusts/redstone"}
+	},
+	"result": {"item": "scannable:scanner"}
+}
