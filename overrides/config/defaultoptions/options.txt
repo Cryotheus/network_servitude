@@ -1,0 +1,1 @@
+resourcePacks:["vanilla","mod_resources","mm_resource","CompactOres dynamic resources","quark:emote_resources","file/Updated_Engineering_v1.4.zip"]

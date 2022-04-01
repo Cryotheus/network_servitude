@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Network Servitude",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": "",
   "files": [
     {
@@ -157,11 +157,6 @@
     {
       "projectID": 347488,
       "fileID": 3476252,
-      "required": true
-    },
-    {
-      "projectID": 456956,
-      "fileID": 3591185,
       "required": true
     },
     {
@@ -351,7 +346,7 @@
     },
     {
       "projectID": 239286,
-      "fileID": 3640728,
+      "fileID": 3717822,
       "required": true
     },
     {
@@ -1031,7 +1026,7 @@
     },
     {
       "projectID": 254241,
-      "fileID": 3594336,
+      "fileID": 3722871,
       "required": true
     },
     {
@@ -1186,7 +1181,7 @@
     },
     {
       "projectID": 233105,
-      "fileID": 3641836,
+      "fileID": 3725412,
       "required": true
     },
     {
@@ -1202,11 +1197,6 @@
     {
       "projectID": 285612,
       "fileID": 3211323,
-      "required": true
-    },
-    {
-      "projectID": 284497,
-      "fileID": 3538298,
       "required": true
     },
     {
@@ -1291,7 +1281,7 @@
     },
     {
       "projectID": 419699,
-      "fileID": 3705903,
+      "fileID": 3717921,
       "required": true
     },
     {
@@ -1536,7 +1526,7 @@
     },
     {
       "projectID": 326041,
-      "fileID": 3598201,
+      "fileID": 3721979,
       "required": true
     },
     {
@@ -1690,13 +1680,13 @@
       "required": true
     },
     {
-      "projectID": 272515,
-      "fileID": 3404330,
+      "projectID": 336184,
+      "fileID": 3608374,
       "required": true
     },
     {
-      "projectID": 336184,
-      "fileID": 3608374,
+      "projectID": 272515,
+      "fileID": 3404330,
       "required": true
     },
     {
