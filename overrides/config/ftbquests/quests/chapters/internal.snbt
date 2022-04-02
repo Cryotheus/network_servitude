@@ -13,6 +13,7 @@
 			x: 3.0d
 			y: -2.5d
 			shape: "circle"
+			dependencies: ["59E66FF7A7DD7CCE"]
 			id: "189A2B5125E2503E"
 			tasks: [{
 				id: "34B3DC9FBDAAC4BD"
@@ -29,6 +30,7 @@
 		{
 			x: 4.0d
 			y: -2.5d
+			dependencies: ["59E66FF7A7DD7CCE"]
 			id: "1A67D96FE01EBB16"
 			tasks: [{
 				id: "175CD120106DB52C"
@@ -45,6 +47,7 @@
 		{
 			x: 4.0d
 			y: -1.5d
+			dependencies: ["59E66FF7A7DD7CCE"]
 			id: "0483152602DCC32A"
 			tasks: [{
 				id: "74E140C72835D47C"
@@ -61,6 +64,7 @@
 		{
 			x: 3.0d
 			y: -1.5d
+			dependencies: ["59E66FF7A7DD7CCE"]
 			id: "0E9179AE66921A6A"
 			tasks: [{
 				id: "62D506B66506F84F"
@@ -77,6 +81,7 @@
 		{
 			x: 4.0d
 			y: -0.5d
+			dependencies: ["59E66FF7A7DD7CCE"]
 			id: "030791DDA979208E"
 			tasks: [{
 				id: "25C6163C7AF0E7CF"
@@ -93,6 +98,7 @@
 		{
 			x: 3.0d
 			y: -0.5d
+			dependencies: ["59E66FF7A7DD7CCE"]
 			id: "09B2DACB33B3B2D8"
 			tasks: [{
 				id: "16F0706D8DAD4502"
@@ -109,6 +115,7 @@
 		{
 			x: 2.0d
 			y: -0.5d
+			dependencies: ["59E66FF7A7DD7CCE"]
 			id: "60C94A08E7D1456C"
 			tasks: [{
 				id: "51658258E3D31D6F"
@@ -125,6 +132,7 @@
 		{
 			x: 2.0d
 			y: 0.5d
+			dependencies: ["59E66FF7A7DD7CCE"]
 			id: "17B8E0C99F6504CD"
 			tasks: [{
 				id: "523B8370894883FA"
@@ -141,6 +149,7 @@
 		{
 			x: 3.0d
 			y: 0.5d
+			dependencies: ["59E66FF7A7DD7CCE"]
 			id: "13D31302B962D963"
 			tasks: [{
 				id: "52F64B7307AE37F7"
@@ -157,6 +166,7 @@
 		{
 			x: 4.0d
 			y: 0.5d
+			dependencies: ["59E66FF7A7DD7CCE"]
 			id: "505EAF58B507E8CE"
 			tasks: [{
 				id: "4E99F61197DBA8DC"
@@ -173,6 +183,7 @@
 		{
 			x: 4.0d
 			y: 1.5d
+			dependencies: ["59E66FF7A7DD7CCE"]
 			id: "7C2B2532815D85A4"
 			tasks: [{
 				id: "306AA130F1ABDEB7"
@@ -189,6 +200,7 @@
 		{
 			x: 3.0d
 			y: 1.5d
+			dependencies: ["59E66FF7A7DD7CCE"]
 			id: "5598DC8A83B5FDA8"
 			tasks: [{
 				id: "5FD16A8D5275D063"
@@ -205,6 +217,7 @@
 		{
 			x: 2.0d
 			y: 1.5d
+			dependencies: ["59E66FF7A7DD7CCE"]
 			id: "029F4D7E3AE6FBC8"
 			tasks: [{
 				id: "41A3082F299FCD77"
@@ -221,6 +234,7 @@
 		{
 			x: 2.0d
 			y: 2.5d
+			dependencies: ["59E66FF7A7DD7CCE"]
 			id: "281AD144DDA8B8E2"
 			tasks: [{
 				id: "2A523432C70C1BFC"
@@ -237,6 +251,7 @@
 		{
 			x: 3.0d
 			y: 2.5d
+			dependencies: ["59E66FF7A7DD7CCE"]
 			id: "1B6BD067C6F15DF0"
 			tasks: [{
 				id: "3085B6A6BF19748C"
@@ -253,6 +268,7 @@
 		{
 			x: 4.0d
 			y: 2.5d
+			dependencies: ["59E66FF7A7DD7CCE"]
 			id: "64DCE1F011EBC19C"
 			tasks: [{
 				id: "137C11FD17943AD0"
@@ -269,6 +285,7 @@
 		{
 			x: 5.5d
 			y: -2.5d
+			dependencies: ["59E66FF7A7DD7CCE"]
 			id: "1DE59EBA53B590EE"
 			tasks: [{
 				id: "5D7A7E4FDA75A173"
@@ -285,6 +302,7 @@
 		{
 			x: 6.5d
 			y: -2.5d
+			dependencies: ["59E66FF7A7DD7CCE"]
 			id: "19FFF9F4EE022CB5"
 			tasks: [{
 				id: "15DD0FDE5ADD2B5A"
@@ -301,6 +319,7 @@
 		{
 			x: 5.5d
 			y: -1.5d
+			dependencies: ["59E66FF7A7DD7CCE"]
 			id: "606119BCFE9E8AEF"
 			tasks: [{
 				id: "2598E83703D90913"
@@ -317,6 +336,7 @@
 		{
 			x: 6.5d
 			y: -1.5d
+			dependencies: ["59E66FF7A7DD7CCE"]
 			id: "7577480C9CAC39D0"
 			tasks: [{
 				id: "6A2C45BD21CF70C8"
@@ -333,6 +353,7 @@
 		{
 			x: 5.5d
 			y: -0.5d
+			dependencies: ["59E66FF7A7DD7CCE"]
 			id: "04D0BEBBF4ACE8EE"
 			tasks: [{
 				id: "6C0D2AD824869889"
@@ -349,6 +370,7 @@
 		{
 			x: 6.5d
 			y: -0.5d
+			dependencies: ["59E66FF7A7DD7CCE"]
 			id: "043F700A4B45D148"
 			tasks: [{
 				id: "418FB8CCBDE97533"
@@ -365,6 +387,7 @@
 		{
 			x: 5.5d
 			y: 0.5d
+			dependencies: ["59E66FF7A7DD7CCE"]
 			id: "14A4B8C4679C97FA"
 			tasks: [{
 				id: "001D16A3288AE391"
@@ -381,6 +404,7 @@
 		{
 			x: 6.5d
 			y: 0.5d
+			dependencies: ["59E66FF7A7DD7CCE"]
 			id: "557412E82165C25D"
 			tasks: [{
 				id: "68082C52711AC58D"
@@ -397,6 +421,7 @@
 		{
 			x: 5.5d
 			y: 1.5d
+			dependencies: ["59E66FF7A7DD7CCE"]
 			id: "5A5FB0950AB3C138"
 			tasks: [{
 				id: "06243701EC238912"
@@ -413,6 +438,7 @@
 		{
 			x: 6.5d
 			y: 1.5d
+			dependencies: ["59E66FF7A7DD7CCE"]
 			id: "1BE0C16DE15BCDF6"
 			tasks: [{
 				id: "79A06C120D07BC8A"
@@ -429,6 +455,7 @@
 		{
 			x: 5.5d
 			y: 2.5d
+			dependencies: ["59E66FF7A7DD7CCE"]
 			id: "4A5FD5BD9DF971E3"
 			tasks: [{
 				id: "352B5DA4B73895EA"
@@ -445,6 +472,7 @@
 		{
 			x: 6.5d
 			y: 2.5d
+			dependencies: ["59E66FF7A7DD7CCE"]
 			id: "77C5F5515FF03F90"
 			tasks: [{
 				id: "0690FE3681651F41"
@@ -461,6 +489,7 @@
 		{
 			x: 7.5d
 			y: -2.5d
+			dependencies: ["59E66FF7A7DD7CCE"]
 			id: "1F17F28BAD076843"
 			tasks: [{
 				id: "55A865730E1D3B56"
@@ -477,6 +506,7 @@
 		{
 			x: 7.5d
 			y: -1.5d
+			dependencies: ["59E66FF7A7DD7CCE"]
 			id: "0B59D4ADC24654CE"
 			tasks: [{
 				id: "3603E78F485A16A5"
@@ -493,6 +523,7 @@
 		{
 			x: 7.5d
 			y: -0.5d
+			dependencies: ["59E66FF7A7DD7CCE"]
 			id: "46CD90EE7D96FB7F"
 			tasks: [{
 				id: "0A47AE67C82A5D6F"
@@ -509,6 +540,7 @@
 		{
 			x: 7.5d
 			y: 0.5d
+			dependencies: ["59E66FF7A7DD7CCE"]
 			id: "73BC0479995C0C52"
 			tasks: [{
 				id: "2468AE8D5343DCCF"
@@ -526,6 +558,7 @@
 			title: "[Internal] Storage Cell Entry"
 			x: 0.0d
 			y: 2.0d
+			dependencies: ["59E66FF7A7DD7CCE"]
 			id: "2CA9D67CF8D70E3E"
 			tasks: [{
 				id: "49C94E83C160EC60"
@@ -556,6 +589,7 @@
 			icon: "psi:cad_colorizer_rainbow"
 			x: 2.0d
 			y: -4.5d
+			dependencies: ["59E66FF7A7DD7CCE"]
 			hide_text_until_complete: true
 			optional: true
 			id: "4FCD087E3224657E"
@@ -581,7 +615,7 @@
 					type: "location"
 					title: "The origin"
 					dimension: "minecraft:overworld"
-					ignore_dimension: false
+					ignore_dimension: true
 					position: [I;
 						0
 						128
@@ -599,12 +633,18 @@
 					advancement: "enigmaticlegacy:main/burn_the_tome"
 					criterion: ""
 				}
+				{
+					id: "27B9271B985EE667"
+					type: "item"
+					item: "environmental:truffle"
+				}
 			]
 		}
 		{
 			title: "[Internal] Ghoustovski Detected"
 			x: 3.0d
 			y: -4.5d
+			dependencies: ["59E66FF7A7DD7CCE"]
 			id: "280AAE8D69F590B5"
 			tasks: [
 				{
@@ -905,6 +945,7 @@
 			title: "[Internal] Castle"
 			x: 3.0d
 			y: -6.5d
+			dependencies: ["59E66FF7A7DD7CCE"]
 			id: "290D42E51FE85604"
 			tasks: [
 				{
@@ -996,10 +1037,6 @@
 					Count: 1b
 					tag: {
 						"quark:RuneAttached": 1b
-						Enchantments: [{
-							lvl: 1
-							id: "minecraft:unbreaking"
-						}]
 						"quark:RuneColor": {
 							id: "quark:blank_rune"
 							Count: 1b
@@ -1020,6 +1057,59 @@
 				type: "gamestage"
 				stage: "stryker_initial_items"
 			}]
+		}
+		{
+			title: "[Internal] Leather Man"
+			x: 4.0d
+			y: -4.5d
+			dependencies: ["59E66FF7A7DD7CCE"]
+			id: "6BB4C1657470BB90"
+			tasks: [
+				{
+					id: "7F32679DAA35B236"
+					type: "item"
+					item: {
+						id: "environmental:thief_hood"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4EB35561C7D1D3E0"
+					type: "item"
+					item: {
+						id: "environmental:healer_pouch"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "313D92936460D90F"
+					type: "item"
+					item: {
+						id: "environmental:architect_belt"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1778F5B4CE412F44"
+					type: "item"
+					item: {
+						id: "environmental:wanderer_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
 		}
 	]
 }

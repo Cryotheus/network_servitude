@@ -1,0 +1,305 @@
+{
+	id: "533BD093221F070A"
+	group: "5680569B6A4A0CF3"
+	order_index: 1
+	filename: "pharmaceuticals"
+	title: "Pharmaceuticals"
+	icon: {
+		id: "xreliquary:splash_potion"
+		Count: 1b
+		tag: {
+			effects: [{
+				duration: 1
+				name: "minecraft:saturation"
+				potency: 1
+			}]
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			dependencies: ["11E7633F213C65EA"]
+			hide: true
+			size: 2.0d
+			id: "24D47FB65657676F"
+			tasks: [{
+				id: "375083915B18254B"
+				type: "item"
+				item: "minecraft:brewing_stand"
+			}]
+			rewards: [{
+				id: "7B8DC162531BBFAE"
+				type: "item"
+				item: "minecraft:blaze_powder"
+				count: 8
+			}]
+		}
+		{
+			x: 1.0d
+			y: 1.5d
+			dependencies: ["24D47FB65657676F"]
+			id: "63A577A59A5F8669"
+			tasks: [
+				{
+					id: "7C2F1531BE379FB8"
+					type: "item"
+					item: "quark:golden_frog_leg"
+				}
+				{
+					id: "5BAF70A249B800CD"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:leaping"
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Alchemistry"
+			x: 1.0d
+			y: -1.0d
+			dependencies: ["24D47FB65657676F"]
+			id: "6AC0A1398729ADD0"
+			tasks: [{
+				id: "79B43D5BB6C14F56"
+				type: "item"
+				item: "botania:brewery"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -1.0d
+			dependencies: ["24D47FB65657676F"]
+			id: "4AF3DCA0DB4F7F7A"
+			tasks: [{
+				id: "1E72767379026B06"
+				type: "item"
+				item: "thermal:machine_brewer"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -1.5d
+			dependencies: ["24D47FB65657676F"]
+			id: "058055CE27E8F482"
+			tasks: [{
+				id: "4E627B43019FA381"
+				type: "item"
+				item: "xreliquary:apothecary_mortar"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -2.5d
+			dependencies: ["058055CE27E8F482"]
+			id: "28CE465C6DE563EA"
+			tasks: [{
+				id: "26F99C7DF9166DED"
+				type: "item"
+				item: "xreliquary:apothecary_cauldron"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -0.5d
+			dependencies: ["24D47FB65657676F"]
+			id: "7005B56D1295A33C"
+			tasks: [
+				{
+					id: "6BEA2A55D6F5709B"
+					type: "item"
+					item: "quark:crab_shell"
+				}
+				{
+					id: "5E55588B815EBEB8"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "quark:resilience"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: 2.5d
+			dependencies: ["24D47FB65657676F"]
+			id: "3628062A10477379"
+			tasks: [
+				{
+					id: "3F47658670BDF7B8"
+					type: "item"
+					item: "minecraft:emerald"
+				}
+				{
+					id: "30AF972C19091AB1"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "cyclic:haste"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 1.5d
+			dependencies: ["24D47FB65657676F"]
+			id: "174A33A0811DB30C"
+			tasks: [
+				{
+					id: "2BE1EF759BD3E141"
+					type: "item"
+					item: "quark:root_item"
+				}
+				{
+					id: "014B750F14609B24"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "quark:resistance"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 0.5d
+			dependencies: ["24D47FB65657676F"]
+			id: "6DB73FF27EB7F004"
+			tasks: [
+				{
+					id: "610167658EEFAB97"
+					type: "item"
+					item: "minecraft:dried_kelp_block"
+				}
+				{
+					id: "7BE1FB64D8AD71B4"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "cyclic:swimspeed"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: 2.5d
+			dependencies: ["24D47FB65657676F"]
+			id: "762F9AE8929EC18A"
+			tasks: [
+				{
+					id: "10571174F6A182C1"
+					type: "item"
+					item: "minecraft:experience_bottle"
+				}
+				{
+					id: "3B3AA3CF3FCBDB40"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "apotheosis:knowledge"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 0.5d
+			description: ["Prevents health regeneration and makes food useless. Good in PVP."]
+			dependencies: ["24D47FB65657676F"]
+			id: "1892D737B5323053"
+			tasks: [
+				{
+					id: "4CB961304157F788"
+					type: "item"
+					item: "eidolon:wraith_heart"
+				}
+				{
+					id: "00EB6506EA7CE390"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "eidolon:chilled"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 3.5d
+			dependencies: ["24D47FB65657676F"]
+			hide: true
+			optional: true
+			id: "09AFA6C3D79A9DD5"
+			tasks: [
+				{
+					id: "0DB58267EDAE42E6"
+					type: "item"
+					item: "environmental:truffle"
+				}
+				{
+					id: "7D30D92E56B91EC8"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "environmental:vitality"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -0.5d
+			dependencies: ["24D47FB65657676F"]
+			id: "09F42895B33B2049"
+			tasks: [
+				{
+					id: "1CF1A5B89E49CF52"
+					type: "item"
+					item: "eidolon:warped_sprouts"
+				}
+				{
+					id: "4406CCB88A4DFA62"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "eidolon:anchored"
+						}
+					}
+				}
+			]
+		}
+	]
+}

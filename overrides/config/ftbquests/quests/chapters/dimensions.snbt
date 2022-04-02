@@ -9,10 +9,6 @@
 		Count: 1b
 		tag: {
 			"quark:RuneAttached": 1b
-			Enchantments: [{
-				lvl: 1
-				id: "minecraft:unbreaking"
-			}]
 			"quark:RuneColor": {
 				id: "quark:blank_rune"
 				Count: 1b

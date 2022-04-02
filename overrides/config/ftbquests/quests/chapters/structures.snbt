@@ -17,14 +17,14 @@
 		{
 			x: 0.0d
 			y: 0.0d
-			subtitle: "Thank you aliens"
+			subtitle: "Thank you aliens <3"
 			description: ["You may want to craft a Meteorite Compass or Explorer's Compass."]
 			dependencies: ["11E7633F213C65EA"]
 			id: "1B4B76F3C09D504B"
 			tasks: [{
 				id: "22BD882A6FC65D68"
 				type: "structure"
-				title: "Enter a Meteorite"
+				title: "Find a Meteorite"
 				icon: "appliedenergistics2:sky_stone_chest"
 				structure: "appliedenergistics2:meteorite"
 			}]
@@ -216,6 +216,16 @@
 				id: "1E7567001B7DD2FC"
 				type: "structure"
 				structure: "quark:big_dungeon"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 5.0d
+			id: "636F010C7ABE3F92"
+			tasks: [{
+				id: "2D19D92440FFCC41"
+				type: "structure"
+				structure: "blue_skies:gatekeeper_house"
 			}]
 		}
 	]

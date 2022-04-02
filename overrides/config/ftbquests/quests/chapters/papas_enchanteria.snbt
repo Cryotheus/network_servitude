@@ -59,9 +59,10 @@
 		{
 			title: "Nerd!"
 			x: 0.0d
-			y: -1.5d
+			y: -3.0d
 			description: ["Normal bookshelves will stop improving the enchanting table once you have 15 of them."]
 			dependencies: ["637EFAFB9788F21E"]
+			size: 2.0d
 			id: "75915CDCB3915DC9"
 			tasks: [{
 				id: "48DDC6DBC9BE8DB4"
@@ -106,6 +107,7 @@
 			title: "Selling"
 			x: 1.0d
 			y: 1.0d
+			description: ["Break down maximum level enchanted books into power. Synergizes great with the Enchantment Library and Disenchanter."]
 			dependencies: ["637EFAFB9788F21E"]
 			id: "5B652F019ED5D81E"
 			tasks: [{
@@ -115,9 +117,9 @@
 			}]
 		}
 		{
-			title: "Lottery"
-			x: 1.0d
-			y: -1.5d
+			title: "Lottery Library"
+			x: -1.0d
+			y: -4.0d
 			subtitle: "Leave it to luck"
 			dependencies: ["75915CDCB3915DC9"]
 			id: "6599ECBC761F9A95"
@@ -128,14 +130,129 @@
 			}]
 		}
 		{
-			x: -1.0d
-			y: -1.5d
+			x: 1.0d
+			y: -4.0d
 			dependencies: ["75915CDCB3915DC9"]
 			id: "33299F9DDBE5AC02"
 			tasks: [{
 				id: "28D0432346659769"
 				type: "item"
 				item: "apotheosis:melonshelf"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -2.0d
+			dependencies: ["75915CDCB3915DC9"]
+			id: "65167A4E73D43967"
+			tasks: [{
+				id: "7598663B9EE689A6"
+				type: "item"
+				item: "apotheosis:hellshelf"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -2.0d
+			dependencies: ["75915CDCB3915DC9"]
+			id: "0615785B02559537"
+			tasks: [{
+				id: "75123E58121500D9"
+				type: "item"
+				item: "apotheosis:seashelf"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -4.5d
+			dependencies: ["75915CDCB3915DC9"]
+			id: "2101B97B2889E5DC"
+			tasks: [{
+				id: "09E68F5A9EE9D852"
+				type: "item"
+				item: "apotheosis:endshelf"
+			}]
+		}
+		{
+			title: "Fire Hazard"
+			x: 1.0d
+			y: -1.0d
+			subtitle: "So worth it"
+			description: ["Not only are these an alternative to bookshelves, but the candle's color can also influence the types of enchantments you get with the Matrix Enchanting Table."]
+			dependencies: ["637EFAFB9788F21E"]
+			id: "694B2AC6A5855F5A"
+			tasks: [{
+				id: "26D8EF057157D9C2"
+				type: "item"
+				title: "Any Candle with Eterna"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "quark:candles"
+					}
+				}
+			}]
+		}
+		{
+			title: "Liquid Assets"
+			x: -1.0d
+			y: -1.0d
+			subtitle: "A bit too powerful"
+			description: ["More than just storing, it lets you split and upgrade books into different levels."]
+			dependencies: [
+				"65167A4E73D43967"
+				"637EFAFB9788F21E"
+			]
+			id: "4F033AACE0F30393"
+			tasks: [{
+				id: "123D96924F52A166"
+				type: "item"
+				item: "apotheosis:enchantment_library"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -3.0d
+			dependencies: ["65167A4E73D43967"]
+			id: "3995266A634179FC"
+			tasks: [{
+				id: "2AD0190697926358"
+				type: "item"
+				item: "apotheosis:glowing_hellshelf"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -2.0d
+			dependencies: ["65167A4E73D43967"]
+			id: "4F17959CACC4E59E"
+			tasks: [{
+				id: "31599C4D5C9A1652"
+				type: "item"
+				item: "apotheosis:blazing_hellshelf"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -2.0d
+			dependencies: ["0615785B02559537"]
+			id: "3CDED81DF3CC105F"
+			tasks: [{
+				id: "07D8FAA633E5C1E0"
+				type: "item"
+				item: "apotheosis:crystal_seashelf"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -3.0d
+			dependencies: ["0615785B02559537"]
+			id: "2A79654D9F8DE9C2"
+			tasks: [{
+				id: "036E48D38D85849E"
+				type: "item"
+				item: "apotheosis:heart_seashelf"
 			}]
 		}
 	]
