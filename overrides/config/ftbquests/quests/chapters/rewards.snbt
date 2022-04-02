@@ -1,29 +1,149 @@
 {
 	id: "75A76EE7892A068D"
 	group: ""
-	order_index: 2
+	order_index: 3
 	filename: "rewards"
 	title: "Rewards"
 	icon: "aquaculture:treasure_chest"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [{
-		x: 0.0d
-		y: 0.0d
-		dependencies: ["0E650E7149AD19D1"]
-		hide: true
-		id: "36DCD981F4891762"
-		tasks: [{
-			id: "21B542B031272838"
-			type: "gamestage"
-			title: "Complete Initilization"
-			icon: "akashictome:tome"
-			stage: "starting_items"
-		}]
-		rewards: [{
-			id: "4D7DDD0CC071FD19"
-			type: "loot"
-			table_id: 9007378594819785422L
-		}]
-	}]
+	quests: [
+		{
+			title: "Initialized"
+			x: 0.0d
+			y: 1.0d
+			dependencies: ["0E650E7149AD19D1"]
+			hide: true
+			id: "36DCD981F4891762"
+			tasks: [{
+				id: "21B542B031272838"
+				type: "gamestage"
+				title: "Complete Initilization"
+				icon: "akashictome:tome"
+				stage: "stryker_initial_items"
+			}]
+			rewards: [{
+				id: "2D424D7C0238BB92"
+				type: "random"
+				title: "Random Trinket"
+				table_id: 9007378594819785422L
+			}]
+		}
+		{
+			title: "Profitable Labor"
+			x: 1.0d
+			y: 1.0d
+			dependencies: ["2678E7FFFDF6122C"]
+			hide: true
+			id: "6EA9E86D45C2DE62"
+			tasks: [{
+				id: "4479CA12FBA1618D"
+				type: "gamestage"
+				title: "Complete Sweatshop Boys EP"
+				icon: {
+					id: "tconstruct:tinkers_anvil"
+					Count: 1b
+					tag: {
+						texture: "minecraft:netherite_block"
+					}
+				}
+				stage: "stryker_initial_items"
+			}]
+			rewards: [{
+				id: "3CE3A7D92E029DFE"
+				type: "random"
+				title: "Random Trinket"
+				table_id: 9007378594819785422L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.0d
+			dependencies: [
+				"0FC40F8F736C3142"
+				"36DCD981F4891762"
+			]
+			hide: true
+			id: "67AE3F5E43C42938"
+			tasks: [{
+				id: "007B3C0A171580DD"
+				type: "gamestage"
+				title: "Complete Flagship EP"
+				icon: "chisel:futura/controller"
+				stage: "stryker_initial_items"
+			}]
+		}
+		{
+			title: "It’s a dangerous business, Frodo, going out your door."
+			x: -1.0d
+			y: 0.0d
+			subtitle: "You step onto the road, and if you don’t keep your feet, there’s no knowing where you might be swept off to."
+			dependencies: ["2ED1E767C6CA0880"]
+			hide: true
+			id: "0D9CA8F702359637"
+			tasks: [{
+				id: "285CFE65F546892E"
+				type: "gamestage"
+				title: "Explore a total of 13 dimensions and structures"
+				icon: "chiselsandbits:magnifying_glass"
+				stage: "stryker_initial_items"
+			}]
+			rewards: [{
+				id: "089F348AC22A51AD"
+				type: "item"
+				item: "enigmaticlegacy:unwitnessed_amulet"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 1.0d
+			dependencies: [
+				"0D9CA8F702359637"
+				"492C53ADDA2DCFCD"
+			]
+			hide: true
+			id: "33073C129A81C124"
+			tasks: [{
+				id: "4E5527A44FDFCF2D"
+				type: "gamestage"
+				title: "Complete Structures"
+				icon: {
+					id: "inventorypets:pet_house"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				stage: ""
+			}]
+		}
+		{
+			x: -2.0d
+			y: 1.0d
+			dependencies: ["5188ACD302C9FFE1"]
+			hide: true
+			id: "036572DDD9A9DF48"
+			tasks: [{
+				id: "172360F6DBB06DAE"
+				type: "gamestage"
+				title: "Complete Dimensions"
+				icon: {
+					id: "extendedcrafting:ultimate_singularity"
+					Count: 1b
+					tag: {
+						"quark:RuneAttached": 1b
+						Enchantments: [{
+							lvl: 1
+							id: "minecraft:unbreaking"
+						}]
+						"quark:RuneColor": {
+							id: "quark:blank_rune"
+							Count: 1b
+						}
+					}
+				}
+				stage: ""
+			}]
+		}
+	]
 }

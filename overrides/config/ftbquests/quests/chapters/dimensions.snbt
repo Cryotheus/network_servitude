@@ -4,7 +4,21 @@
 	order_index: 0
 	filename: "dimensions"
 	title: "Dimensions"
-	icon: "extendedcrafting:ultimate_singularity"
+	icon: {
+		id: "extendedcrafting:ultimate_singularity"
+		Count: 1b
+		tag: {
+			"quark:RuneAttached": 1b
+			Enchantments: [{
+				lvl: 1
+				id: "minecraft:unbreaking"
+			}]
+			"quark:RuneColor": {
+				id: "quark:blank_rune"
+				Count: 1b
+			}
+		}
+	}
 	default_quest_shape: "hexagon"
 	default_hide_dependency_lines: false
 	quests: [

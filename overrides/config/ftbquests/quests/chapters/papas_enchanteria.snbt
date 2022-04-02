@@ -1,0 +1,142 @@
+{
+	id: "0E61A0034613DF5D"
+	group: "5680569B6A4A0CF3"
+	order_index: 0
+	filename: "papas_enchanteria"
+	title: "Papa's Enchanteria"
+	icon: {
+		id: "inventorypets:pet_enchanting_table"
+		Count: 1b
+		tag: {
+			Damage: 0
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			dependencies: ["4CEEA1F7ACC30450"]
+			hide: true
+			size: 2.0d
+			id: "637EFAFB9788F21E"
+			tasks: [{
+				id: "468E35E9532A5B3C"
+				type: "item"
+				item: "minecraft:enchanting_table"
+			}]
+		}
+		{
+			title: "Tetris Enchanting"
+			x: 0.0d
+			y: 1.5d
+			subtitle: "*Korobeniki*"
+			description: ["Quark adds a modified Enchanting Table called the Matrix Enchanting Table. Instead of a three-choice system, you can enchant by playing a tetris-like minigame. Unfortunately, it is not as awarding as Apotheosis' methods of enchanting."]
+			dependencies: ["637EFAFB9788F21E"]
+			optional: true
+			id: "5A019E974B10BB3B"
+			tasks: [{
+				id: "35C638DC745FE440"
+				type: "item"
+				item: "quark:matrix_enchanter"
+			}]
+		}
+		{
+			title: "REEEEEEROOOOOOLLLL!!!!!"
+			x: -1.0d
+			y: 1.0d
+			subtitle: "Jenkins?"
+			description: ["Place four enchanted books on this altar and it will take your experience to make a new book using the four. It's like recycling! The same combination of enchantment types will produce the same enchanted book as an output."]
+			dependencies: ["637EFAFB9788F21E"]
+			id: "7BEF27752979D4DD"
+			tasks: [{
+				id: "305511BB65B2CBB1"
+				type: "item"
+				item: "apotheosis:prismatic_altar"
+			}]
+		}
+		{
+			title: "Nerd!"
+			x: 0.0d
+			y: -1.5d
+			description: ["Normal bookshelves will stop improving the enchanting table once you have 15 of them."]
+			dependencies: ["637EFAFB9788F21E"]
+			id: "75915CDCB3915DC9"
+			tasks: [{
+				id: "48DDC6DBC9BE8DB4"
+				type: "item"
+				title: "Any Bookshelf"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:bookshelves"
+					}
+				}
+			}]
+		}
+		{
+			title: "Less Enchanting, More Levels"
+			x: -1.5d
+			y: 0.0d
+			subtitle: "That's the power of the Soul Enchanter"
+			dependencies: ["637EFAFB9788F21E"]
+			id: "29A8611E9BADE0DA"
+			tasks: [{
+				id: "54AC562BC2F9CD4A"
+				type: "item"
+				item: "eidolon:soul_enchanter"
+			}]
+		}
+		{
+			title: "No Receipt Refund!"
+			x: 1.5d
+			y: 0.0d
+			subtitle: "You're welcome, Karen."
+			dependencies: ["637EFAFB9788F21E"]
+			id: "4CD48C904795D1FA"
+			tasks: [{
+				id: "46F63DAE09C1500D"
+				type: "item"
+				item: "cyclic:disenchanter"
+			}]
+		}
+		{
+			title: "Selling"
+			x: 1.0d
+			y: 1.0d
+			dependencies: ["637EFAFB9788F21E"]
+			id: "5B652F019ED5D81E"
+			tasks: [{
+				id: "2B711DBE23DC94D4"
+				type: "item"
+				item: "thermal:dynamo_disenchantment"
+			}]
+		}
+		{
+			title: "Lottery"
+			x: 1.0d
+			y: -1.5d
+			subtitle: "Leave it to luck"
+			dependencies: ["75915CDCB3915DC9"]
+			id: "6599ECBC761F9A95"
+			tasks: [{
+				id: "0DB005249318C88A"
+				type: "item"
+				item: "apotheosis:beeshelf"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -1.5d
+			dependencies: ["75915CDCB3915DC9"]
+			id: "33299F9DDBE5AC02"
+			tasks: [{
+				id: "28D0432346659769"
+				type: "item"
+				item: "apotheosis:melonshelf"
+			}]
+		}
+	]
+}

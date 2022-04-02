@@ -542,7 +542,7 @@
 		{
 			tags: ["initial_items"]
 			x: 0.0d
-			y: 0.0d
+			y: -1.0d
 			description: ["Gives initial items."]
 			id: "712BF50BCC524024"
 			tasks: [{
@@ -575,6 +575,29 @@
 					id: "5CA0EE656962C7AF"
 					type: "item"
 					item: "quark:diamond_heart"
+				}
+				{
+					id: "4A886404BB657F56"
+					type: "location"
+					title: "The origin"
+					dimension: "minecraft:overworld"
+					ignore_dimension: false
+					position: [I;
+						0
+						128
+						0
+					]
+					size: [I;
+						2
+						256
+						2
+					]
+				}
+				{
+					id: "440E363C16438E93"
+					type: "advancement"
+					advancement: "enigmaticlegacy:main/burn_the_tome"
+					criterion: ""
 				}
 			]
 		}
@@ -813,7 +836,7 @@
 		{
 			tags: ["initial_items_removal"]
 			x: -1.0d
-			y: 0.0d
+			y: -1.0d
 			id: "782E9094701D805F"
 			tasks: [{
 				id: "67DC621FF8E05A99"
@@ -832,6 +855,157 @@
 				id: "3EDB190BFDC1553B"
 				type: "gamestage"
 				stage: "stryker_initial_items"
+			}]
+		}
+		{
+			title: "[Internal] Find Loot"
+			x: -2.0d
+			y: 2.0d
+			dependencies: ["59E66FF7A7DD7CCE"]
+			id: "09A6F9180BFD7BEE"
+			tasks: [
+				{
+					id: "0A9F39EB263650BF"
+					type: "observation"
+					title: "Find a Lootr Chest"
+					timer: 0L
+					observe_type: 1
+					to_observe: "lootr:containers"
+				}
+				{
+					id: "2E81BDBD852225F4"
+					type: "observation"
+					title: "Find a lootr minecart chest"
+					timer: 0L
+					observe_type: 5
+					to_observe: "lootr:lootr_minecart"
+				}
+			]
+		}
+		{
+			title: "[Internal] Find Loot Completed"
+			x: -2.0d
+			y: 1.0d
+			dependencies: ["09A6F9180BFD7BEE"]
+			dependency_requirement: "one_started"
+			id: "0C8C239A5B711579"
+			tasks: [{
+				id: "4C608F95631DCA80"
+				type: "gamestage"
+				stage: "stryker_initial_items"
+			}]
+			rewards: [{
+				id: "1E0FD297E35C5CD0"
+				type: "gamestage"
+				auto: "invisible"
+				stage: "stryker_lootr_quest"
+			}]
+		}
+		{
+			title: "[Internal] Castle"
+			x: 3.0d
+			y: -6.5d
+			id: "290D42E51FE85604"
+			tasks: [
+				{
+					id: "49469AA65F797FCA"
+					type: "structure"
+					structure: "valhelsia_structures:castle"
+				}
+				{
+					id: "26CD5A9E94FF1D8A"
+					type: "structure"
+					structure: "valhelsia_structures:castle_ruin"
+				}
+			]
+		}
+		{
+			title: "[Internal] Castle Completed"
+			x: 3.0d
+			y: -7.5d
+			dependencies: ["290D42E51FE85604"]
+			dependency_requirement: "one_started"
+			id: "53255672E94F03D1"
+			tasks: [{
+				id: "4C419F1037ECE8EA"
+				type: "gamestage"
+				stage: "stryker_initial_items"
+			}]
+			rewards: [{
+				id: "68643F51640F1908"
+				type: "gamestage"
+				auto: "invisible"
+				stage: "stryker_castle_quest"
+			}]
+		}
+		{
+			title: "[Internal] Structures + Dimensions >= 13"
+			x: 4.0d
+			y: -6.5d
+			min_required_dependencies: 13
+			dependencies: [
+				"34E5939F3E0D76FC"
+				"541A92AB79D9A916"
+				"7224653924C3CAFE"
+				"5E28B42206B19D68"
+				"55C1DBD0A68DDC9C"
+				"26DA6859F5BA55B2"
+				"31CDFD673CD1B61B"
+				"7A802FD8F425460F"
+				"60D0D924D54076CB"
+				"1B4B76F3C09D504B"
+				"3AA4D7565EC2A8F4"
+				"24ACC427C63AB06B"
+				"52C5683C4E5FD29E"
+				"1603D63241586E9E"
+				"7D2DB35A18F01ED8"
+				"52B2F43B1370BBCF"
+				"5C3355626D7ED629"
+				"5D1918408DBC20E4"
+				"5B42E036C3671CD9"
+				"49CB2F06E61A99F4"
+				"0B67108EC2CF4A7A"
+				"0F9EAEB81DF168E5"
+				"08335EA5C60202EF"
+				"0FC19AC46B51DAD9"
+				"78EB78B0DD68576D"
+				"2D05CFD85A5C3EC8"
+				"1AA9A385310DF48B"
+			]
+			id: "2ED1E767C6CA0880"
+			tasks: [{
+				id: "155467B8A0D57E4F"
+				type: "gamestage"
+				stage: "stryker_initial_items"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -1.0d
+			id: "48FDAAFEB25CF495"
+			tasks: [{
+				id: "495F45EE0613CD25"
+				type: "checkmark"
+				title: "Give dull ultimate singularity"
+			}]
+			rewards: [{
+				id: "4F33127EC58338D6"
+				type: "item"
+				item: {
+					id: "extendedcrafting:ultimate_singularity"
+					Count: 1b
+					tag: {
+						"quark:RuneAttached": 1b
+						Enchantments: [{
+							lvl: 1
+							id: "minecraft:unbreaking"
+						}]
+						"quark:RuneColor": {
+							id: "quark:blank_rune"
+							Count: 1b
+						}
+					}
+				}
 			}]
 		}
 	]

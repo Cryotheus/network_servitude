@@ -1,7 +1,7 @@
 {
 	id: "0E650E7149AD19D1"
 	group: ""
-	order_index: 3
+	order_index: 1
 	filename: "initialization"
 	title: "Initialization"
 	icon: "akashictome:tome"
@@ -275,22 +275,6 @@
 			]
 		}
 		{
-			title: "Find Loot"
-			x: -1.0d
-			y: -1.0d
-			dependencies: ["59E66FF7A7DD7CCE"]
-			id: "09A6F9180BFD7BEE"
-			tasks: [{
-				id: "0A9F39EB263650BF"
-				type: "observation"
-				title: "Find a Lootr Chest"
-				icon: "lootr:lootr_chest"
-				timer: 0L
-				observe_type: 1
-				to_observe: "lootr:containers"
-			}]
-		}
-		{
 			title: "Bihome"
 			x: 0.0d
 			y: -1.5d
@@ -321,6 +305,72 @@
 					id: "explorerscompass:explorerscompass"
 					Count: 1b
 					tag: { }
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: -1.0d
+			subtitle: "Definitely not theft"
+			dependencies: ["59E66FF7A7DD7CCE"]
+			id: "24E7CD9A1E7A970F"
+			tasks: [{
+				id: "2B5E5B25908E0993"
+				type: "gamestage"
+				title: "Find a Lootr chest"
+				icon: "lootr:lootr_chest"
+				stage: "stryker_lootr_quest"
+			}]
+		}
+		{
+			title: "Swaggers"
+			x: -1.0d
+			y: -2.0d
+			subtitle: "Indubitably not theft"
+			dependencies: ["24E7CD9A1E7A970F"]
+			id: "0B9829FDB5D8368F"
+			tasks: [{
+				id: "0F7C6FBA752FA2CF"
+				type: "kill"
+				icon: "lootr:lootr_chest"
+				entity: "artifacts:mimic"
+				value: 1L
+			}]
+		}
+		{
+			title: "Modder's Favorite Commodity"
+			x: 1.0d
+			y: 1.0d
+			subtitle: "Why does everything need pearls?"
+			description: ["It's simple really: recipe \"balancing\""]
+			dependencies: ["59E66FF7A7DD7CCE"]
+			id: "4CEEA1F7ACC30450"
+			tasks: [{
+				id: "6F40BFB2B5BA28E6"
+				type: "item"
+				item: "minecraft:ender_pearl"
+			}]
+			rewards: [{
+				id: "5FEB32D0A53737E0"
+				type: "item"
+				item: {
+					id: "gateways:small_gate_opener"
+					Count: 1b
+					tag: {
+						gateway_data: {
+							name: "gateways.small_enderman_gate"
+							max_wave_time: 1200
+							completion_xp: 500
+							color: "purple"
+							entity: {
+								Entity: {
+									id: "minecraft:enderman"
+								}
+								Weight: 1
+							}
+						}
+						opener_name: "{\"translate\":\"gateways.gate_opener\",\"with\":[{\"translate\":\"gateways.small_enderman_gate\"}]}"
+					}
 				}
 			}]
 		}

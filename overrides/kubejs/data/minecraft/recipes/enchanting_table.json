@@ -1,0 +1,15 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"EBE",
+		"GOG",
+		"OOO"
+	],
+	"key": {
+		"B": {"tag": "forge:books"},
+		"E": {"tag": "forge:ender_pearls"},
+		"O": {"tag": "forge:obsidian"},
+		"G": {"tag": "forge:gems"}
+	},
+	"result": {"item": "minecraft:enchanting_table"}
+}

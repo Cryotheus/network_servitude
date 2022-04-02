@@ -1,7 +1,7 @@
 {
 	id: "6FF6AD946F34289B"
 	group: ""
-	order_index: 1
+	order_index: 2
 	filename: "hidden_quests"
 	title: "Hidden Quests"
 	icon: "psi:cad_colorizer_rainbow"
@@ -27,7 +27,12 @@
 					Count: 1b
 					tag: { }
 				}
-				stage: "initial_items"
+				stage: "stryker_initial_items"
+			}]
+			rewards: [{
+				id: "4AA444A447A51AF2"
+				type: "random"
+				table_id: 9007378594819785422L
 			}]
 		}
 		{
@@ -50,7 +55,7 @@
 			}
 			x: -0.5d
 			y: -0.5d
-			subtitle: "Who else would mine like that?"
+			subtitle: "Who else could it be?"
 			dependencies: ["280AAE8D69F590B5"]
 			hide: true
 			optional: true
@@ -63,8 +68,8 @@
 				stage: "stryker_initial_items"
 			}]
 			rewards: [{
-				id: "0AD8AF01059A4254"
-				type: "loot"
+				id: "470F66441BC79D2D"
+				type: "random"
 				table_id: 9007378594819785422L
 			}]
 		}
@@ -73,6 +78,7 @@
 			x: -0.5d
 			y: 0.5d
 			subtitle: "HAEaAEaAeE HHAeAAEAEAAAe"
+			description: ["Use it on stone to make an absolutely useless tame."]
 			dependencies: ["5CA0EE656962C7AF"]
 			hide: true
 			optional: true
@@ -82,6 +88,40 @@
 				type: "gamestage"
 				title: "Heart of Diamond"
 				icon: "quark:diamond_heart"
+				stage: "stryker_initial_items"
+			}]
+			rewards: [{
+				id: "134DFB2799B3A581"
+				type: "random"
+				table_id: 9007378594819785422L
+			}]
+		}
+		{
+			title: "Center of the World"
+			x: 0.5d
+			y: 0.5d
+			dependencies: ["4A886404BB657F56"]
+			id: "597C32073575D4BD"
+			tasks: [{
+				id: "01F690CABF6D67E4"
+				type: "gamestage"
+				title: "Find the origin"
+				stage: "stryker_initial_items"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -0.5d
+			dependencies: ["440E363C16438E93"]
+			id: "564815E8BB23B563"
+			tasks: [{
+				id: "2DD8BBAB34831239"
+				type: "gamestage"
+				icon: {
+					id: "enigmaticlegacy:tattered_tome"
+					Count: 1b
+					tag: { }
+				}
 				stage: "stryker_initial_items"
 			}]
 		}

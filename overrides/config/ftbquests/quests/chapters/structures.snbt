@@ -1,0 +1,204 @@
+{
+	id: "492C53ADDA2DCFCD"
+	group: "67DDE435B9A9A680"
+	order_index: 1
+	filename: "structures"
+	title: "Structures"
+	icon: {
+		id: "inventorypets:pet_house"
+		Count: 1b
+		tag: {
+			Damage: 0
+		}
+	}
+	default_quest_shape: "hexagon"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			subtitle: "Thank you aliens"
+			description: ["You may want to craft a Meteorite Compass or Explorer's Compass."]
+			id: "1B4B76F3C09D504B"
+			tasks: [{
+				id: "22BD882A6FC65D68"
+				type: "structure"
+				title: "Locate a Meteorite"
+				icon: "appliedenergistics2:sky_stone_chest"
+				structure: "appliedenergistics2:meteorite"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.0d
+			id: "55C1DBD0A68DDC9C"
+			tasks: [{
+				id: "67F3D7F948484776"
+				type: "structure"
+				structure: "valhelsia_structures:forge"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 2.0d
+			id: "541A92AB79D9A916"
+			tasks: [{
+				id: "63045ED347266FD0"
+				type: "structure"
+				structure: "valhelsia_structures:big_tree"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 2.0d
+			id: "60D0D924D54076CB"
+			tasks: [{
+				id: "23E1F80031B86DFC"
+				type: "gamestage"
+				stage: "stryker_castle_quest"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 3.0d
+			id: "5E28B42206B19D68"
+			tasks: [{
+				id: "65E1844D350E6121"
+				type: "structure"
+				structure: "valhelsia_structures:desert_house"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 3.0d
+			id: "26DA6859F5BA55B2"
+			tasks: [{
+				id: "322097FE36FEA31C"
+				type: "structure"
+				structure: "valhelsia_structures:player_house"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -2.0d
+			id: "7D2DB35A18F01ED8"
+			tasks: [{
+				id: "6A612DD0AEEFAC0C"
+				type: "structure"
+				structure: "valhelsia_structures:spawner_dungeon"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 2.0d
+			id: "7A802FD8F425460F"
+			tasks: [{
+				id: "0C041E172833CF89"
+				type: "structure"
+				structure: "valhelsia_structures:tower_ruin"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 4.0d
+			id: "31CDFD673CD1B61B"
+			tasks: [{
+				id: "564094A31792561A"
+				type: "structure"
+				structure: "valhelsia_structures:witch_hut"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -3.0d
+			id: "1603D63241586E9E"
+			tasks: [{
+				id: "51F2A27C5A314D3C"
+				type: "structure"
+				structure: "eidolon:catacomb"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -3.0d
+			id: "52B2F43B1370BBCF"
+			tasks: [{
+				id: "1DDD1FE1FC188ADA"
+				type: "structure"
+				structure: "eidolon:lab"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -2.0d
+			id: "24ACC427C63AB06B"
+			tasks: [{
+				id: "4110BFC3AFB40B8C"
+				type: "structure"
+				structure: "betterdungeons:skeleton_dungeon"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -2.0d
+			id: "5C3355626D7ED629"
+			tasks: [{
+				id: "22E318DA1AE924B2"
+				type: "structure"
+				structure: "betterdungeons:small_dungeon"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -3.0d
+			id: "5D1918408DBC20E4"
+			tasks: [{
+				id: "48BCA8F899720486"
+				type: "structure"
+				structure: "betterdungeons:zombie_dungeon"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -3.0d
+			id: "52C5683C4E5FD29E"
+			tasks: [{
+				id: "452853CE2BBD8A50"
+				type: "structure"
+				structure: "betterdungeons:spider_dungeon"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 2.0d
+			id: "34E5939F3E0D76FC"
+			tasks: [{
+				id: "2A1B6F51BFAFCEB3"
+				type: "structure"
+				structure: "forbidden_arcanus:nipa"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 3.0d
+			id: "7224653924C3CAFE"
+			tasks: [{
+				id: "7FB2E7D12246E968"
+				type: "observation"
+				timer: 0L
+				observe_type: 1
+				to_observe: "paraglider:statues/goddess"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -2.0d
+			id: "3AA4D7565EC2A8F4"
+			tasks: [{
+				id: "1E7567001B7DD2FC"
+				type: "structure"
+				structure: "quark:big_dungeon"
+			}]
+		}
+	]
+}
