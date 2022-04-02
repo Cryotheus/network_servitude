@@ -555,24 +555,6 @@
 			}]
 		}
 		{
-			title: "[Internal] Storage Cell Entry"
-			x: 0.0d
-			y: 2.0d
-			dependencies: ["59E66FF7A7DD7CCE"]
-			id: "2CA9D67CF8D70E3E"
-			tasks: [{
-				id: "49C94E83C160EC60"
-				type: "dimension"
-				dimension: "appliedenergistics2:spatial_storage"
-			}]
-			rewards: [{
-				id: "073D98D4198B5679"
-				type: "gamestage"
-				auto: "invisible"
-				stage: "stryker_spatial_cell_visited"
-			}]
-		}
-		{
 			tags: ["initial_items"]
 			x: 0.0d
 			y: -1.0d
@@ -637,6 +619,11 @@
 					id: "27B9271B985EE667"
 					type: "item"
 					item: "environmental:truffle"
+				}
+				{
+					id: "0BCC1A2174F9EA1A"
+					type: "dimension"
+					dimension: "appliedenergistics2:spatial_storage"
 				}
 			]
 		}

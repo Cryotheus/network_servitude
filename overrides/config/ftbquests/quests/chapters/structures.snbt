@@ -218,15 +218,5 @@
 				structure: "quark:big_dungeon"
 			}]
 		}
-		{
-			x: -0.5d
-			y: 5.0d
-			id: "636F010C7ABE3F92"
-			tasks: [{
-				id: "2D19D92440FFCC41"
-				type: "structure"
-				structure: "blue_skies:gatekeeper_house"
-			}]
-		}
 	]
 }

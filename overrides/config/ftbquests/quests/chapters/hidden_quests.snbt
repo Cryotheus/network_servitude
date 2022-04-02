@@ -98,7 +98,7 @@
 		}
 		{
 			title: "Center of the World"
-			x: 0.5d
+			x: -1.5d
 			y: 0.5d
 			dependencies: ["4A886404BB657F56"]
 			hide: true
@@ -225,6 +225,27 @@
 			]
 			rewards: [{
 				id: "13E83B94F190B9A2"
+				type: "random"
+				table_id: 9007378594819785422L
+			}]
+		}
+		{
+			title: "Honey, I shrunk the kids"
+			x: 0.5d
+			y: 0.5d
+			subtitle: "Did somebody say... Trojan Horse?!?"
+			dependencies: ["0BCC1A2174F9EA1A"]
+			hide: true
+			id: "128E27933FF077A0"
+			tasks: [{
+				id: "006A4B5CE3DCEB61"
+				type: "gamestage"
+				title: "Enter a Spatial Storage Cell"
+				icon: "appliedenergistics2:16_cubed_spatial_storage_cell"
+				stage: "stryker_initial_items"
+			}]
+			rewards: [{
+				id: "1BCCC0D5CDA277AF"
 				type: "random"
 				table_id: 9007378594819785422L
 			}]

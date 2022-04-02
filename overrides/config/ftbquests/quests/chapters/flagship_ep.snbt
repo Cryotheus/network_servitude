@@ -49,11 +49,11 @@
 			}]
 		}
 		{
-			title: "Honey, I downloaded the kids."
+			title: "Honey, I downloaded the house"
 			icon: "appliedenergistics2:2_cubed_spatial_storage_cell"
 			x: 1.5d
 			y: -6.0d
-			subtitle: "The ultimate smuggling technique."
+			subtitle: "The ultimate smuggling technique"
 			dependencies: [
 				"4B3DB8C626D13D34"
 				"4C45C47B74D83382"
@@ -70,6 +70,18 @@
 					id: "22B1D6E55D341E86"
 					type: "item"
 					item: "appliedenergistics2:spatial_io_port"
+				}
+				{
+					id: "492363457F772C03"
+					type: "item"
+					title: "Any Spatial Storage Cell"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "kubejs:stryker_quests/spatial_cell"
+						}
+					}
 				}
 			]
 		}
@@ -476,6 +488,69 @@
 				id: "5ED94CD0BDF4C7A9"
 				type: "item"
 				item: "appliedenergistics2:storage_bus"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 2.0d
+			dependencies: [
+				"129E9794062488E3"
+				"5D6A07B76C86E44E"
+			]
+			id: "2628D497C69DB206"
+			tasks: [{
+				id: "3CBF8BE6D596BF37"
+				type: "item"
+				item: "appliedenergistics2:terminal"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 4.0d
+			dependencies: [
+				"0A0BB497BCB4B4ED"
+				"620A650163986E37"
+			]
+			id: "037B2F74C8276977"
+			tasks: [{
+				id: "58F8A53873081025"
+				type: "item"
+				item: "appliedenergistics2:interface_terminal"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 2.0d
+			dependencies: ["1968438CF277AF3A"]
+			id: "27B54AAB84BE0F1F"
+			tasks: [{
+				id: "1D6C1AF5B1F6A88B"
+				type: "item"
+				item: "appliedenergistics2:quartz_glass"
+			}]
+		}
+		{
+			x: -4.5d
+			y: 4.0d
+			dependencies: ["27B54AAB84BE0F1F"]
+			id: "620A650163986E37"
+			tasks: [{
+				id: "7A14ED981A7B7551"
+				type: "item"
+				item: "appliedenergistics2:semi_dark_monitor"
+			}]
+		}
+		{
+			x: -3.5d
+			y: 2.0d
+			description: ["Emits light!"]
+			dependencies: ["27B54AAB84BE0F1F"]
+			optional: true
+			id: "4B44D8F483713F57"
+			tasks: [{
+				id: "5B86991759244652"
+				type: "item"
+				item: "appliedenergistics2:quartz_vibrant_glass"
 			}]
 		}
 	]
