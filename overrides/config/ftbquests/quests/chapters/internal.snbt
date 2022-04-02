@@ -1008,5 +1008,18 @@
 				}
 			}]
 		}
+		{
+			title: "[Internal] Chapter Hider"
+			x: -3.0d
+			y: 2.0d
+			dependencies: ["59E66FF7A7DD7CCE"]
+			hide: true
+			id: "11E7633F213C65EA"
+			tasks: [{
+				id: "1035342C9BD5CB16"
+				type: "gamestage"
+				stage: "stryker_initial_items"
+			}]
+		}
 	]
 }

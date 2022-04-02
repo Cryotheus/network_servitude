@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Network Servitude",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "author": "",
   "files": [
     {
@@ -517,11 +517,6 @@
     {
       "projectID": 406959,
       "fileID": 3555670,
-      "required": true
-    },
-    {
-      "projectID": 511965,
-      "fileID": 3448338,
       "required": true
     },
     {
