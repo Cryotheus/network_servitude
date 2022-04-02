@@ -1,0 +1,14 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"LLL",
+		"LBL",
+		"LIL"
+	],
+	"key": {
+		"L": {"tag": "forge:leather"},
+		"B": {"item": "sophisticatedbackpacks:backpack"},
+		"I": {"tag": "forge:ingots/iron"}
+	},
+	"result": {"item": "quark:backpack"}
+}

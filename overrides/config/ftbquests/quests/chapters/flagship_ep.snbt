@@ -120,10 +120,11 @@
 			}]
 		}
 		{
+			title: "Series of tubes!"
 			icon: "appliedenergistics2:fluix_glass_cable"
 			x: -0.5d
 			y: -2.0d
-			subtitle: "Do not eat."
+			subtitle: "...the ME System is not something that you just dump something on. It's not a big truck. It's a series of tubes!"
 			dependencies: [
 				"40B7B416D5D49D43"
 				"25505432C621F454"
@@ -389,6 +390,92 @@
 				id: "59F2B63CFD2EA18B"
 				type: "item"
 				item: "appliedenergistics2:io_port"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 1.0d
+			dependencies: ["20DCDE77CA3525F3"]
+			id: "129E9794062488E3"
+			tasks: [{
+				id: "684AE0BA7430CBF9"
+				type: "item"
+				item: "appliedenergistics2:annihilation_core"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 1.0d
+			dependencies: ["20DCDE77CA3525F3"]
+			id: "5D6A07B76C86E44E"
+			tasks: [{
+				id: "1C44FDAC0BFA741B"
+				type: "item"
+				item: "appliedenergistics2:formation_core"
+			}]
+		}
+		{
+			title: "Turing Test"
+			x: -0.5d
+			y: 2.0d
+			subtitle: "More than a passing grade"
+			dependencies: [
+				"129E9794062488E3"
+				"5D6A07B76C86E44E"
+			]
+			id: "0A0BB497BCB4B4ED"
+			tasks: [{
+				id: "3F4D0751571AD99D"
+				type: "item"
+				item: "appliedenergistics2:interface"
+			}]
+		}
+		{
+			title: "Hello world!"
+			x: 1.5d
+			y: 0.0d
+			dependencies: ["5D6A07B76C86E44E"]
+			id: "5F63DD5EBE568B66"
+			tasks: [{
+				id: "15DE3A841C6446B0"
+				type: "item"
+				item: "appliedenergistics2:formation_plane"
+			}]
+		}
+		{
+			title: "Goodbye world."
+			x: -1.5d
+			y: 2.0d
+			dependencies: ["129E9794062488E3"]
+			id: "0B9B24B7C45EEC24"
+			tasks: [{
+				id: "06D2612496DB5464"
+				type: "item"
+				item: "appliedenergistics2:annihilation_plane"
+			}]
+		}
+		{
+			title: "Bullying"
+			x: -2.5d
+			y: 3.0d
+			dependencies: ["0B9B24B7C45EEC24"]
+			id: "0DD7A0703D01A17A"
+			tasks: [{
+				id: "3D5B2CDB137C55C9"
+				type: "item"
+				item: "appliedenergistics2:identity_annihilation_plane"
+			}]
+		}
+		{
+			title: "Who needs cells?"
+			x: -1.5d
+			y: 3.0d
+			dependencies: ["0A0BB497BCB4B4ED"]
+			id: "1A663D81485C87A5"
+			tasks: [{
+				id: "5ED94CD0BDF4C7A9"
+				type: "item"
+				item: "appliedenergistics2:storage_bus"
 			}]
 		}
 	]

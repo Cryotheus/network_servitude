@@ -2,5 +2,6 @@
 	chapter_groups: [
 		{ id: "45CDD83BAB0D341A", title: "Technologic" }
 		{ id: "67DDE435B9A9A680", title: "The Crusade" }
+		{ id: "5680569B6A4A0CF3", title: "Professions" }
 	]
 }

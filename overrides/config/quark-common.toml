@@ -1938,10 +1938,10 @@
 		"Enable Shiny Rabbit" = true
 		"Enable Shiny Llama" = true
 		"Enable Shiny Dolphin" = true
-		"Enable L G B T Bees" = true
+		"Enable L G B T Bees" = false
 		"Every Bee Is L G B T" = false
 		#The chance for an animal to have a special "Shiny" skin, like a shiny pokemon. This is 1 in X. Set to 0 to disable.
-		"Shiny Animal Chance" = 2048
+		"Shiny Animal Chance" = 1000
 
 [oddities]
 	Backpack = true
@@ -1953,8 +1953,8 @@
 
 	[oddities.backpack]
 		#Set this to true to allow the backpacks to be unequipped even with items in them
-		"Super Op Mode" = false
-		"Enable Ravager Hide" = true
+		"Super Op Mode" = true
+		"Enable Ravager Hide" = false
 		"Items In Backpack Tick" = true
 		"Base Ravager Hide Drop" = 1
 		"Extra Chance Per Looting" = 0.5
@@ -1970,11 +1970,11 @@
 
 	[oddities.matrix_enchanting]
 		#The maximum enchanting power the matrix enchanter can accept
-		"Max Bookshelves" = 15
+		"Max Bookshelves" = 30
 		#Should this be X, the price of a piece increase by 1 every X pieces you generate
 		"Piece Price Scale" = 9
 		#The higher this is, the better enchantments you'll get on books
-		"Book Enchantability" = 12
+		"Book Enchantability" = 20
 		#How many pieces you can generate without any bookshelves
 		"Base Max Piece Count" = 3
 		#How many pieces you can generate without any bookshelves (for Books)
@@ -1982,7 +1982,7 @@
 		#At which piece count the calculation for the min level should default to increasing one per piece rather than using the scale factor
 		"Min Level Cutoff" = 8
 		#How many pieces a single Lapis can generate
-		"Charge Per Lapis" = 4
+		"Charge Per Lapis" = 8
 		#How much the min level requirement for adding a new piece should increase for each piece added (up until the value of Min Level Cutoff)
 		"Min Level Scale Factor" = 1.2
 		#How much the min level requirement for adding a new piece to a book should increase per each bookshelf being used
@@ -2008,11 +2008,11 @@
 		#Set to false to disable the ability to influence enchantment outcomes with candles (requires the Tallow and Candles module enabled)
 		"Allow Influencing" = true
 		#The max amount of candles that can influence a single enchantment
-		"Influence Max" = 4
+		"Influence Max" = 8
 		#How much each candle influences an enchantment. This works as a multiplier to its weight
 		"Influence Power" = 0.125
 		#If you set this to false, the vanilla Enchanting Table will no longer automatically convert to the Matrix Enchanting table. You'll have to add a recipe for the Matrix Enchanting Table to make use of this.
-		"Automatically Convert" = true
+		"Automatically Convert" = false
 
 	[oddities.pipes]
 		#How long it takes for an item to cross a pipe. Bigger = slower.

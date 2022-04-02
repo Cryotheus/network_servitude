@@ -146,6 +146,7 @@ onEvent('recipes', event => {
 	mekanism_ore_processing(event, 'aluminum', true)
 	mekanism_ore_processing(event, 'cobalt', true)
 	mekanism_ore_processing(event, 'nickel', true)
+	mekanism_ore_processing(event, 'iridium', true)
 	mekanism_ore_processing(event, 'silver', true)
 	mekanism_ore_processing(event, 'zinc', true)
 })

@@ -4,7 +4,17 @@
 	order_index: 0
 	filename: "dimensions"
 	title: "Dimensions"
-	icon: "extendedcrafting:ultimate_singularity"
+	icon: {
+		id: "extendedcrafting:ultimate_singularity"
+		Count: 1b
+		tag: {
+			"quark:RuneAttached": 1b
+			"quark:RuneColor": {
+				id: "quark:blank_rune"
+				Count: 1b
+			}
+		}
+	}
 	default_quest_shape: "hexagon"
 	default_hide_dependency_lines: false
 	quests: [
@@ -15,6 +25,7 @@
 			y: 0.0d
 			subtitle: "I'll never hear the same again."
 			description: ["You can get your first Zeal Lighter from a Gatekeeper. You can find a Gatekeeper by searching the plains for his house. His history with the Everbright... is tough. The portal to the Everbright will most likely be hidden in his attic or shed."]
+			dependencies: ["11E7633F213C65EA"]
 			id: "2D05CFD85A5C3EC8"
 			tasks: [
 				{
@@ -47,6 +58,7 @@
 			}
 			x: 0.0d
 			y: 0.0d
+			dependencies: ["11E7633F213C65EA"]
 			id: "08335EA5C60202EF"
 			tasks: [
 				{
@@ -73,6 +85,7 @@
 			x: 0.5d
 			y: 1.0d
 			subtitle: "Same old depths again."
+			dependencies: ["11E7633F213C65EA"]
 			id: "0FC19AC46B51DAD9"
 			tasks: [{
 				id: "4EAF73758AD3E225"
@@ -98,6 +111,7 @@
 			x: -0.5d
 			y: 1.0d
 			subtitle: "Never fear Gordon! She's dangerous, and completely harmless."
+			dependencies: ["11E7633F213C65EA"]
 			id: "5B42E036C3671CD9"
 			tasks: [{
 				id: "712F9F6DB02A8EBD"
@@ -113,6 +127,7 @@
 			y: 0.0d
 			subtitle: "Always morning... or evening?"
 			description: ["Make a 2x2 pool of water in the grass, surround all adjacent blocks (12 total) with flowers and throw a diamond into the water."]
+			dependencies: ["11E7633F213C65EA"]
 			id: "49CB2F06E61A99F4"
 			tasks: [{
 				id: "23095089FCDB90BF"
@@ -128,6 +143,7 @@
 			x: -0.5d
 			y: -1.0d
 			subtitle: "This place sucks!"
+			dependencies: ["11E7633F213C65EA"]
 			id: "0F9EAEB81DF168E5"
 			tasks: [
 				{
@@ -155,6 +171,7 @@
 			x: 1.5d
 			y: 1.0d
 			subtitle: "Same process as the previous portal, just use Lunar Stone Bricks instead."
+			dependencies: ["11E7633F213C65EA"]
 			id: "78EB78B0DD68576D"
 			tasks: [
 				{
@@ -182,6 +199,7 @@
 			x: 0.5d
 			y: -1.0d
 			subtitle: "But a whole lot more empty... and lonely."
+			dependencies: ["11E7633F213C65EA"]
 			id: "1AA9A385310DF48B"
 			tasks: [{
 				id: "6357035A70F573B7"
@@ -194,6 +212,7 @@
 		{
 			x: -1.5d
 			y: -1.0d
+			dependencies: ["11E7633F213C65EA"]
 			id: "0B67108EC2CF4A7A"
 			tasks: [{
 				id: "12A5FC68225F15F8"

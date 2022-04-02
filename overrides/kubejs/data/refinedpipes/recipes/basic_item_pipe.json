@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"PPP",
+		"III",
+		"PPP"
+	],
+	"key": {
+		"P": {"item": "quark:pipe"},
+		"I": {"tag": "forge:ingots/iron"}
+	},
+	"result": {
+		"item": "refinedpipes:basic_item_pipe",
+		"count": 6
+	}
+}
