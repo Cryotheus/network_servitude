@@ -1,8 +1,8 @@
 onEvent('recipes', (event) => {
-	//grinder recipes
-	for(mat of global.retags){
-        if(Ingredient.of('#forge:dusts/'+mat).isInvalidRecipeIngredient()){
-            return
+    //grinder recipes
+    for(mat of global.retags){
+        if(Ingredient.of('emendatusenigmatica:'+mat+'_dust').isInvalidRecipeIngredient()){
+            continue
         }else{
             event.remove({type: 'appliedenergistics2:grinder', input: '#forge:ores/'+mat})
             generateOreChunkGrindingRecipes(event, mat)
@@ -21,12 +21,12 @@ function generateOreChunkGrindingRecipes(event, material){
         },
         "result": {
             "primary": {
-                "tag": "forge:chunks/"+material,
+                "tag": "forge:dusts/"+material,
                 "count": 1
             },
             "optional": [
                 {
-                    "tag": "forge:chunks/"+material,
+                    "tag": "forge:dusts/"+material,
                     "chance": 0.9
                 }
             ]
@@ -57,3 +57,4 @@ function createAdvancedGrindingRecipe(event, input, result, resultCount, extraRe
         "turns": turns
     })
 }
+
