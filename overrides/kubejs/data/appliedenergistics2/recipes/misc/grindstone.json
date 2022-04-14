@@ -1,0 +1,43 @@
+{
+	"type": "minecraft:crafting_shaped",
+	
+	"pattern":
+	[
+		"SGS",
+		"QNQ",
+        "LCL"
+	],
+	
+	"key":
+	{
+		"S":
+		{
+			"tag": "forge:stone"
+		},
+        "G":
+        {
+            "tag": "forge:gears/iron"
+        },
+        "Q":
+        {
+            "tag": "forge:gems/certus_quartz"
+        },
+        "N":
+        {
+            "item": "minecraft:grindstone"
+        },
+        "L":
+        {
+            "tag": "forge:storage_blocks/lead"
+        },
+        "C":
+        {
+            "item": "minecraft:cauldron"
+        }
+	},
+	
+	"result":
+	{
+		"item": "appliedenergistics2:grindstone"
+	}
+}

@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "result": {
+        "item": "mekanism:basic_universal_cable",
+        "count": 8
+    },
+    "pattern": [
+        "BEB"
+    ],
+    "key": {
+        "B": {
+            "tag": "forge:storage_blocks/steel"
+        },
+        "E": {
+            "tag": "forge:storage_blocks/redstone"
+        }
+    }
+}
