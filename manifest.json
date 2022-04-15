@@ -3,7 +3,7 @@
     "version": "1.16.5",
     "modLoaders": [
       {
-        "id": "forge-36.2.33",
+        "id": "forge-36.2.34",
         "primary": true
       }
     ]
@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Network Servitude",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "author": "",
   "files": [
     {
@@ -151,7 +151,7 @@
     },
     {
       "projectID": 313970,
-      "fileID": 3567270,
+      "fileID": 3752141,
       "required": true
     },
     {
@@ -201,7 +201,7 @@
     },
     {
       "projectID": 423476,
-      "fileID": 3583334,
+      "fileID": 3748338,
       "required": true
     },
     {
@@ -331,7 +331,7 @@
     },
     {
       "projectID": 394535,
-      "fileID": 3706352,
+      "fileID": 3751485,
       "required": true
     },
     {
@@ -341,7 +341,7 @@
     },
     {
       "projectID": 361026,
-      "fileID": 3657417,
+      "fileID": 3751068,
       "required": true
     },
     {
@@ -356,7 +356,7 @@
     },
     {
       "projectID": 71738,
-      "fileID": 3738127,
+      "fileID": 3749182,
       "required": true
     },
     {
@@ -471,7 +471,7 @@
     },
     {
       "projectID": 347706,
-      "fileID": 3665834,
+      "fileID": 3752151,
       "required": true
     },
     {
@@ -796,7 +796,7 @@
     },
     {
       "projectID": 250763,
-      "fileID": 3712579,
+      "fileID": 3753620,
       "required": true
     },
     {
@@ -831,7 +831,7 @@
     },
     {
       "projectID": 388172,
-      "fileID": 3734770,
+      "fileID": 3752394,
       "required": true
     },
     {
@@ -856,7 +856,7 @@
     },
     {
       "projectID": 245211,
-      "fileID": 3665853,
+      "fileID": 3752096,
       "required": true
     },
     {
@@ -986,7 +986,7 @@
     },
     {
       "projectID": 342466,
-      "fileID": 3712576,
+      "fileID": 3753616,
       "required": true
     },
     {
@@ -1276,7 +1276,7 @@
     },
     {
       "projectID": 419699,
-      "fileID": 3717921,
+      "fileID": 3752168,
       "required": true
     },
     {
@@ -1611,7 +1611,7 @@
     },
     {
       "projectID": 283644,
-      "fileID": 3536806,
+      "fileID": 3750838,
       "required": true
     },
     {
@@ -1691,7 +1691,7 @@
     },
     {
       "projectID": 291509,
-      "fileID": 3727936,
+      "fileID": 3750371,
       "required": true
     },
     {
