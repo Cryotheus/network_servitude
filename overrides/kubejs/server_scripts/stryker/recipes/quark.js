@@ -1,5 +1,4 @@
 onEvent('recipes', event => {
-	event.remove({id: 'quark:oddities/crafting/pipe'})
 	event.remove({id: 'quark:oddities/crafting/backpack_no_hide'})
 	
 	event.shaped(Item.of('quark:matrix_enchanter', 1), [' M ', 'IOI', 'OTO'], {

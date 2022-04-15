@@ -1,20 +1,18 @@
 {
-    "type": "minecraft:crafting_shaped",
-    "pattern": [
-      "b b",
-      "bcb",
-      " b "
-    ],
-    "key": {
-      "b": {
-        "tag": "forge:storage_blocks/gold"
-      },
-      "c": {
-        "item": "cyclic:hopper"
-      }
-    },
-    "result": {
-      "item": "cyclic:hopper_gold",
-      "count": 1
-    }
-  }
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"g g",
+		"gcg",
+		" g "
+	],
+	
+	"key": {
+		"g": {"tag": "forge:plates/gold"},
+		"c": {"item": "cyclic:hopper"}
+	},
+	
+	"result": {
+		"item": "cyclic:hopper_gold",
+		"count": 1
+	}
+}

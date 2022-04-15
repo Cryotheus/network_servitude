@@ -1,0 +1,91 @@
+{
+	id: "2FFC986781C297C1"
+	group: "67DDE435B9A9A680"
+	order_index: 1
+	filename: "environmental"
+	title: "Environmental"
+	icon: "environmental:willow_sapling"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: -9.0d
+			y: 5.0d
+			width: 4.0d
+			height: 4.0d
+			rotation: 0.0d
+			image: "kubejs:textures/quest/truffle.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+			dependency: "6F9B232EFB1E2A5D"
+		}
+		{
+			x: -5.5d
+			y: 5.0d
+			width: 4.0d
+			height: 4.0d
+			rotation: 0.0d
+			image: "kubejs:textures/quest/truffle_complete.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+			dependency: "6F9B232EFB1E2A5D"
+		}
+		{
+			x: -7.0d
+			y: 5.5d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "ftblibrary:textures/icons/right.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+			dependency: "6F9B232EFB1E2A5D"
+		}
+		{
+			x: -11.5d
+			y: 5.5d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "minecraft:textures/item/golden_carrot.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+			dependency: "6F9B232EFB1E2A5D"
+		}
+		{
+			x: -10.5d
+			y: 5.5d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "ftblibrary:textures/icons/right.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+			dependency: "6F9B232EFB1E2A5D"
+		}
+	]
+	quests: [{
+		x: 0.0d
+		y: 0.0d
+		subtitle: "The middle child."
+		description: ["Smelts glass, stone, clay, as well as other odds and ends faster! Severly underrated."]
+		dependencies: ["65B2C6F44D66375C"]
+		hide: true
+		id: "4C980C744DDE989D"
+		tasks: [{
+			id: "585684E68662AED5"
+			type: "item"
+			item: "environmental:kiln"
+		}]
+	}]
+}

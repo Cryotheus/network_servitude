@@ -1098,5 +1098,44 @@
 				}
 			]
 		}
+		{
+			title: "[Internal] Frunace"
+			x: -5.5d
+			y: 2.0d
+			dependencies: ["0DD8D718B0A387AA"]
+			hide: true
+			id: "65B2C6F44D66375C"
+			tasks: [{
+				id: "1D3D9A45C728F244"
+				type: "gamestage"
+				stage: "stryker_initial_items"
+			}]
+		}
+		{
+			title: "[Internal] Environmental"
+			x: -6.5d
+			y: 2.0d
+			dependencies: ["2FFC986781C297C1"]
+			hide: true
+			id: "6F9B232EFB1E2A5D"
+			tasks: [{
+				id: "2B56CBD362A64A42"
+				type: "gamestage"
+				stage: "stryker_initial_items"
+			}]
+		}
+		{
+			title: "[Internal] Initialization"
+			x: -4.0d
+			y: 2.0d
+			dependencies: ["0E650E7149AD19D1"]
+			hide: true
+			id: "399A08D3E32E8FE0"
+			tasks: [{
+				id: "300409AFDD6711D1"
+				type: "gamestage"
+				stage: "stryker_initial_items"
+			}]
+		}
 	]
 }

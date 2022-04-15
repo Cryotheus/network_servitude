@@ -7,17 +7,6 @@
 		"RR"
 	],
 	
-	"key":
-	{
-		"R":
-		{
-			"item": "minecraft:rotten_flesh"
-		}
-		
-	},
-	
-	"result":
-	{
-		"item": "forbidden_arcanus:rotten_leather"
-	}
+	"key": {"R": {"item": "minecraft:rotten_flesh"}},
+	"result": {"item": "forbidden_arcanus:rotten_leather"}
 }

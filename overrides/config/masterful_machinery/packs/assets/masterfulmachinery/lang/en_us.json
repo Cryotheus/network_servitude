@@ -1,0 +1,12 @@
+{
+  "block.masterfulmachinery.projector": "Structure Projector",
+  "block.masterfulmachinery.smithing_controller": "Smithing Machine Controller",
+  "block.masterfulmachinery.smithing_smithingitem_port_items_input": "Smithing Machine - Item Input Port",
+  "block.masterfulmachinery.smithing_smithingitem_port_items_output": "Smithing Machine - Item Output Port",
+  "block.masterfulmachinery.structure_generator": "Structure Generator",
+  "container.masterfulmachinery.create_rotation": "Rotation Port",
+  "container.masterfulmachinery.smithing_controller.name": "Smithing Machine Controller",
+  "item.masterfulmachinery.blueprint": "Blueprint",
+  "item.masterfulmachinery.structure_gen_device": "Structure Selector",
+  "itemGroup.masterfulmachinery": "Masterful Machinery"
+}

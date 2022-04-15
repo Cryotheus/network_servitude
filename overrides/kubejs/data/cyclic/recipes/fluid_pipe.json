@@ -1,18 +1,14 @@
 {
-    "type": "minecraft:crafting_shaped",
-    "pattern": [
-      "ILI"
-    ],
-    "key": {
-      "I": {
-        "tag": "forge:storage_blocks/iron"
-      },
-      "L": {
-        "tag": "forge:storage_blocks/lapis"
-      }
-    },
-    "result": {
-      "item": "cyclic:fluid_pipe",
-      "count": 4
-    }
-  }
+	"type": "minecraft:crafting_shaped",
+	"pattern": ["ILI"],
+	
+	"key": {
+		"I": {"tag": "forge:ingots/iron"},
+		"L": {"tag": "forge:storage_blocks/lapis"}
+	},
+	
+	"result": {
+		"item": "cyclic:fluid_pipe",
+		"count": 12
+	}
+}

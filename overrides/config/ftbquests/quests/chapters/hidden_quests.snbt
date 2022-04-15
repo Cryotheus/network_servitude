@@ -11,8 +11,8 @@
 	quests: [
 		{
 			title: "You're Doing Something Right"
-			x: 0.5d
-			y: -0.5d
+			x: -6.0d
+			y: -4.5d
 			subtitle: "That \"Something\" is hoarding."
 			dependencies: ["313AD71D892C9EB7"]
 			hide: true
@@ -53,8 +53,8 @@
 					}
 				}
 			}
-			x: -0.5d
-			y: -0.5d
+			x: -7.0d
+			y: -4.5d
 			subtitle: "Who else could it be?"
 			dependencies: ["280AAE8D69F590B5"]
 			hide: true
@@ -75,8 +75,8 @@
 		}
 		{
 			title: "WHY ARE YOU RUNNING?"
-			x: -0.5d
-			y: 0.5d
+			x: -7.0d
+			y: -3.5d
 			subtitle: "HAEaAEaAeE HHAeAAEAEAAAe"
 			description: ["Use it on stone to make an absolutely useless tame."]
 			dependencies: ["5CA0EE656962C7AF"]
@@ -98,8 +98,8 @@
 		}
 		{
 			title: "Center of the World"
-			x: -1.5d
-			y: 0.5d
+			x: -8.0d
+			y: -3.5d
 			dependencies: ["4A886404BB657F56"]
 			hide: true
 			optional: true
@@ -118,8 +118,8 @@
 			}]
 		}
 		{
-			x: -1.5d
-			y: -0.5d
+			x: -8.0d
+			y: -4.5d
 			dependencies: ["440E363C16438E93"]
 			hide: true
 			optional: true
@@ -142,8 +142,8 @@
 		}
 		{
 			title: "Elusive Luxury"
-			x: 1.5d
-			y: 0.5d
+			x: -5.0d
+			y: -3.5d
 			dependencies: ["27B9271B985EE667"]
 			hide: true
 			optional: true
@@ -163,10 +163,11 @@
 		}
 		{
 			title: "Leather Man"
-			x: 1.5d
-			y: -0.5d
+			x: -5.0d
+			y: -4.5d
 			subtitle: "Obtain all four of the hard to acquire Environmental armor pieces."
 			dependencies: ["6BB4C1657470BB90"]
+			hide: true
 			optional: true
 			id: "386DF090CA05F69F"
 			tasks: [
@@ -231,11 +232,12 @@
 		}
 		{
 			title: "Honey, I shrunk the kids"
-			x: 0.5d
-			y: 0.5d
+			x: -6.0d
+			y: -3.5d
 			subtitle: "Did somebody say... Trojan Horse?!?"
 			dependencies: ["0BCC1A2174F9EA1A"]
 			hide: true
+			optional: true
 			id: "128E27933FF077A0"
 			tasks: [{
 				id: "006A4B5CE3DCEB61"

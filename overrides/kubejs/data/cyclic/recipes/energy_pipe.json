@@ -1,18 +1,14 @@
 {
-    "type": "minecraft:crafting_shaped",
-    "pattern": [
-      "IRI"
-    ],
-    "key": {
-      "I": {
-        "tag": "forge:storage_blocks/iron"
-      },
-      "R": {
-        "tag": "forge:storage_blocks/redstone"
-      }
-    },
-    "result": {
-      "item": "cyclic:energy_pipe",
-      "count": 4
-    }
-  }
+	"type": "minecraft:crafting_shaped",
+	"pattern": ["IRI"],
+	
+	"key": {
+		"I": {"tag": "forge:ingots/iron"},
+		"R": {"tag": "forge:storage_blocks/redstone"}
+	},
+	
+	"result": {
+		"item": "cyclic:energy_pipe",
+		"count": 8
+	}
+}

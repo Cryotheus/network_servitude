@@ -88,6 +88,7 @@
 		{
 			x: -0.5d
 			y: 0.0d
+			description: ["Crafting ingredient."]
 			dependencies: [
 				"1968438CF277AF3A"
 				"25505432C621F454"
@@ -137,6 +138,7 @@
 			x: -0.5d
 			y: -2.0d
 			subtitle: "...the ME System is not something that you just dump something on. It's not a big truck. It's a series of tubes!"
+			description: ["Has 8 channels. A channel is used to connect devices to your ME Controller, and thus the rest of the ME System."]
 			dependencies: [
 				"40B7B416D5D49D43"
 				"25505432C621F454"
@@ -321,6 +323,7 @@
 			x: 2.5d
 			y: -2.0d
 			subtitle: "Meet your employer."
+			description: ["Provides channels to your ME System."]
 			dependencies: [
 				"69735197DE032B8F"
 				"1454EB0678D4057C"
@@ -348,6 +351,13 @@
 		{
 			x: 0.5d
 			y: 0.0d
+			description: [
+				"Double your fluix!"
+				""
+				"As you may have noticed, you get 2 seeds per fluix dust. The seeds then grow into Pure Fluix which can be used like normal Fluix Crystals with the exception of Fluix Dust."
+				""
+				"This can also be done with both types of quartz."
+			]
 			dependencies: ["20DCDE77CA3525F3"]
 			id: "53B34C8ED787167F"
 			tasks: [{
@@ -382,6 +392,7 @@
 		{
 			x: 3.5d
 			y: -4.0d
+			description: ["Found at meteorite crash sites."]
 			dependencies: ["4B3DB8C626D13D34"]
 			id: "458A53DEB3730EB3"
 			tasks: [{
@@ -407,6 +418,7 @@
 		{
 			x: -0.5d
 			y: 1.0d
+			description: ["Crafting ingredient."]
 			dependencies: ["20DCDE77CA3525F3"]
 			id: "129E9794062488E3"
 			tasks: [{
@@ -418,6 +430,7 @@
 		{
 			x: 0.5d
 			y: 1.0d
+			description: ["Crafting ingredient."]
 			dependencies: ["20DCDE77CA3525F3"]
 			id: "5D6A07B76C86E44E"
 			tasks: [{
@@ -431,6 +444,7 @@
 			x: -0.5d
 			y: 2.0d
 			subtitle: "More than a passing grade"
+			description: ["Used as a target for a recipe's ingredients. You can push items from the crafting device into the ME Interface to return them to the system."]
 			dependencies: [
 				"129E9794062488E3"
 				"5D6A07B76C86E44E"
@@ -446,6 +460,7 @@
 			title: "Hello world!"
 			x: 1.5d
 			y: 0.0d
+			description: ["Exports blocks from the system and place them!"]
 			dependencies: ["5D6A07B76C86E44E"]
 			id: "5F63DD5EBE568B66"
 			tasks: [{
@@ -458,6 +473,7 @@
 			title: "Goodbye world."
 			x: -1.5d
 			y: 2.0d
+			description: ["Break a block and import it directly into the system."]
 			dependencies: ["129E9794062488E3"]
 			id: "0B9B24B7C45EEC24"
 			tasks: [{
@@ -468,8 +484,9 @@
 		}
 		{
 			title: "Bullying"
-			x: -2.5d
+			x: -0.5d
 			y: 3.0d
+			description: ["Break a certain block and import it directly into the system."]
 			dependencies: ["0B9B24B7C45EEC24"]
 			id: "0DD7A0703D01A17A"
 			tasks: [{
@@ -480,8 +497,13 @@
 		}
 		{
 			title: "Who needs cells?"
-			x: -1.5d
+			x: 0.5d
 			y: 3.0d
+			description: [
+				"Treat the target inventory like a storage cell, with customizations!"
+				""
+				"Great for supplying the ME System with a resource without using up all the storage. You can toggle item exporting and importing to control whether the inventory is a supply or storage. Using both is like an off-brand Storage Cell. Don't use them as replacements for storage cells as their performance impact is higher."
+			]
 			dependencies: ["0A0BB497BCB4B4ED"]
 			id: "1A663D81485C87A5"
 			tasks: [{
@@ -493,6 +515,11 @@
 		{
 			x: 0.5d
 			y: 2.0d
+			description: [
+				"Access your ME System's storage!"
+				""
+				"Place this on a Covered, Glass, or Smart Cable"
+			]
 			dependencies: [
 				"129E9794062488E3"
 				"5D6A07B76C86E44E"
@@ -505,8 +532,9 @@
 			}]
 		}
 		{
-			x: -0.5d
-			y: 4.0d
+			x: -1.5d
+			y: 3.0d
+			description: ["Manage your interfaces from afar with this handy terminal."]
 			dependencies: [
 				"0A0BB497BCB4B4ED"
 				"620A650163986E37"
@@ -521,6 +549,7 @@
 		{
 			x: -2.5d
 			y: 2.0d
+			description: ["Glass with connecting textures. Mostly a crafting ingredient though."]
 			dependencies: ["1968438CF277AF3A"]
 			id: "27B54AAB84BE0F1F"
 			tasks: [{
@@ -530,8 +559,10 @@
 			}]
 		}
 		{
-			x: -4.5d
-			y: 4.0d
+			x: -2.5d
+			y: 3.0d
+			subtitle: "Rich Kid Illumination LTD."
+			description: ["Just a fancy light to add to your ME system."]
 			dependencies: ["27B54AAB84BE0F1F"]
 			id: "620A650163986E37"
 			tasks: [{
@@ -542,8 +573,8 @@
 		}
 		{
 			x: -3.5d
-			y: 2.0d
-			description: ["Emits light!"]
+			y: 3.0d
+			description: ["Emits light! Also has a few glowy particles inside it."]
 			dependencies: ["27B54AAB84BE0F1F"]
 			optional: true
 			id: "4B44D8F483713F57"

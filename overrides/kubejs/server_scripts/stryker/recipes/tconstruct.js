@@ -11,16 +11,14 @@ onEvent("recipes", event => {
 
 function addCastingBasinRecipeFromItem(event, cast, fluid, fluidAmount, result, cooling_time){
 	event.custom({		
-		"type": "tconstruct:casting_basin",
-		"cast": {
-			"item": cast
+		type: "tconstruct:casting_basin",
+		cast: {item: cast},
+		cast_consumed: true,
+		fluid: {
+			tag: "tconstruct:molten_clay",
+			amount: 500
 		},
-		"cast_consumed": true,
-		"fluid": {
-			"tag": "tconstruct:molten_clay",
-			"amount": 500
-		},
-		"result": "tconstruct:seared_fancy_bricks",
-		"cooling_time": 90		  
+		result: "tconstruct:seared_fancy_bricks",
+		cooling_time: 90		  
 	})
 }

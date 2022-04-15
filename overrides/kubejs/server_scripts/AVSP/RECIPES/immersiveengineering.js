@@ -30,8 +30,4 @@ onEvent('recipes', event => {
 	event.remove({id: 'immersiveengineering:crafting/hammercrushing_nickel'})
 	event.remove({id: 'immersiveengineering:crafting/hammercrushing_lead'})
 	event.remove({id: 'immersiveengineering:crafting/hammercrushing_tin'})
-
-//
-//fin
-//
 })
