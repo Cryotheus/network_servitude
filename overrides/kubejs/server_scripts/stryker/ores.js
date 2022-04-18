@@ -158,10 +158,10 @@ onEvent('recipes', event => {
 	//remove = event.remove
 	//replaceInput = event.replaceInput
 	
-	//event.remove({id: 'emendatusenigmatica:ore_from_chunk_crafting/lapis'})
+	// event.remove({id: 'emendatusenigmatica:ore_from_chunk_crafting/lapis'})
 	
 	retags.forEach(element => {
-		//event.remove({output: 'emendatusenigmatica:' + element + '_ore'})
+		// event.remove({output: 'emendatusenigmatica:' + element + '_ore'})
 		event.remove({id: 'emendatusenigmatica:ore_from_chunk_crafting/' + element})
 		event.replaceInput({}, '#forge:ores/' + tag, '#forge:chunks/' + tag)
 		event.replaceOutput({}, {output: '#forge:ores/' + tag})

@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"G G",
+		"GHG",
+		"G G"
+	],
+	"key": {
+		"G": {"tag": "forge:plates/gold"},
+		"H": {"item": "speedyhoppers:speedyhopper_mk1"}
+	},
+	"result": {"item": "speedyhoppers:speedyhopper_mk2"}
+}

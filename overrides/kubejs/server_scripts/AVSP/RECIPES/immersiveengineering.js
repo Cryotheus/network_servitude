@@ -15,7 +15,7 @@ onEvent('recipes', event => {
 	//this is emendatus enigmatica.
 	event.replaceInput({}, 'immersiveengineering:coal_coke', '#forge:gems/coal_coke')
 	event.replaceInput({}, '#forge:coal_coke', '#forge:gems/coal_coke')
-
+	
 	//REMOVAL OF DUST FROM SHAPED CRAFTING.
 	//If you want to keep this feature. Just comment out this entire section.
 	event.remove({id: 'immersiveengineering:crafting/hammercrushing_osmium'})

@@ -15,8 +15,10 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
+			title: "RE: Enchanting Table"
 			x: 0.0d
 			y: 0.0d
+			description: ["Popular forge mod Apotheosis revamps the enchanting system. You can achieve much higher level enchantments with improved bookshelves, store enchanted books, recycle enchantments, and more."]
 			dependencies: ["4CEEA1F7ACC30450"]
 			hide: true
 			size: 2.0d
@@ -34,7 +36,6 @@
 			subtitle: "*Korobeniki*"
 			description: ["Quark adds a modified Enchanting Table called the Matrix Enchanting Table. Instead of a three-choice system, you can enchant by playing a tetris-like minigame. Unfortunately, it is not as awarding as Apotheosis' methods of enchanting."]
 			dependencies: ["637EFAFB9788F21E"]
-			optional: true
 			id: "5A019E974B10BB3B"
 			tasks: [{
 				id: "35C638DC745FE440"
@@ -44,11 +45,11 @@
 		}
 		{
 			title: "REEEEEEROOOOOOLLLL!!!!!"
-			x: -1.0d
-			y: 1.0d
+			x: 0.0d
+			y: 2.5d
 			subtitle: "Jenkins?"
 			description: ["Place four enchanted books on this altar and it will take your experience to make a new book using the four. It's like recycling! The same combination of enchantment types will produce the same enchanted book as an output."]
-			dependencies: ["637EFAFB9788F21E"]
+			dependencies: ["5A019E974B10BB3B"]
 			id: "7BEF27752979D4DD"
 			tasks: [{
 				id: "305511BB65B2CBB1"
@@ -60,7 +61,11 @@
 			title: "Nerd!"
 			x: 0.0d
 			y: -3.0d
-			description: ["Normal bookshelves will stop improving the enchanting table once you have 15 of them."]
+			description: [
+				"A bookshelf cannot support a table beyond it's maximum specified value. For typical shelves, this will be 15."
+				""
+				"There are other sources of Eterna, Quanta, and Arcana as well as modifiers that may improve or worsen your enchantments. Any of the powers are not capped unless a maximum is speicifed in the tool tips. The power sources with the lowest maximum are prioritized in calculation, ones with higher or no maximum are added after to ensure your get the most out of your configuration."
+			]
 			dependencies: ["637EFAFB9788F21E"]
 			size: 2.0d
 			id: "75915CDCB3915DC9"
@@ -130,8 +135,11 @@
 			}]
 		}
 		{
+			title: "Slow Life"
 			x: 1.0d
 			y: -4.0d
+			subtitle: "Stability over success"
+			description: ["Quanta can either make a treasure or garbage. To conteract the negative effect of Quanta, you can also use sources of Rectification like Glowstone."]
 			dependencies: ["75915CDCB3915DC9"]
 			id: "33299F9DDBE5AC02"
 			tasks: [{
@@ -141,8 +149,13 @@
 			}]
 		}
 		{
-			x: -1.0d
-			y: -2.0d
+			x: -1.5d
+			y: -3.0d
+			description: [
+				"Enchant these bookshelves with Hell Infusion for additional power."
+				""
+				"You need at least 50 enchantment power to achieve any type of infusion enchantment."
+			]
 			dependencies: ["75915CDCB3915DC9"]
 			id: "65167A4E73D43967"
 			tasks: [{
@@ -152,8 +165,13 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: -2.0d
+			x: 1.5d
+			y: -3.0d
+			description: [
+				"Enchant these bookshelves with Sea Infusion for additional power."
+				""
+				"You need at least 50 enchantment power to achieve any type of infusion enchantment."
+			]
 			dependencies: ["75915CDCB3915DC9"]
 			id: "0615785B02559537"
 			tasks: [{
@@ -197,7 +215,7 @@
 		{
 			title: "Liquid Assets"
 			x: -1.0d
-			y: -1.0d
+			y: -2.0d
 			subtitle: "A bit too powerful"
 			description: ["More than just storing, it lets you split and upgrade books into different levels."]
 			dependencies: [
@@ -212,8 +230,8 @@
 			}]
 		}
 		{
-			x: -1.5d
-			y: -3.0d
+			x: -2.0d
+			y: -4.0d
 			dependencies: ["65167A4E73D43967"]
 			id: "3995266A634179FC"
 			tasks: [{
@@ -223,8 +241,9 @@
 			}]
 		}
 		{
-			x: -2.0d
-			y: -2.0d
+			title: "Hate Yourself"
+			x: -2.5d
+			y: -3.0d
 			dependencies: ["65167A4E73D43967"]
 			id: "4F17959CACC4E59E"
 			tasks: [{
@@ -234,8 +253,8 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: -2.0d
+			x: 2.5d
+			y: -3.0d
 			dependencies: ["0615785B02559537"]
 			id: "3CDED81DF3CC105F"
 			tasks: [{
@@ -245,14 +264,207 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: -3.0d
+			title: "Obsolete Aristocracy"
+			x: 2.0d
+			y: -4.0d
+			subtitle: "Flipping chances on its head"
 			dependencies: ["0615785B02559537"]
 			id: "2A79654D9F8DE9C2"
 			tasks: [{
 				id: "036E48D38D85849E"
 				type: "item"
 				item: "apotheosis:heart_seashelf"
+			}]
+		}
+		{
+			title: "Plentiful Assets"
+			x: -1.5d
+			y: -1.0d
+			subtitle: "Too powerful"
+			dependencies: ["4F033AACE0F30393"]
+			hide: true
+			id: "72D74CE616077E8C"
+			tasks: [{
+				id: "7B11781DD8B284F4"
+				type: "item"
+				item: "apotheosis:ender_library"
+			}]
+		}
+		{
+			title: "Nothing But Goodness"
+			x: -0.5d
+			y: -5.5d
+			dependencies: ["2101B97B2889E5DC"]
+			id: "6482D091B042D18B"
+			tasks: [{
+				id: "778AA589A4D84D64"
+				type: "item"
+				item: "apotheosis:draconic_endshelf"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -5.5d
+			dependencies: ["2101B97B2889E5DC"]
+			id: "6148DDA593A43C66"
+			tasks: [{
+				id: "6E76EE993CC23375"
+				type: "item"
+				item: "apotheosis:pearl_endshelf"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -2.0d
+			dependencies: ["3CDED81DF3CC105F"]
+			id: "107AB55652A59B27"
+			tasks: [{
+				id: "0AC3BC6EBBCCFF5B"
+				type: "item"
+				item: "apotheosis:rectifier"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -2.0d
+			dependencies: ["107AB55652A59B27"]
+			id: "5AD70144C84FA792"
+			tasks: [{
+				id: "764CE32853438C16"
+				type: "item"
+				item: "apotheosis:rectifier_t2"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -1.0d
+			dependencies: ["5AD70144C84FA792"]
+			id: "40A337A1620F7BC9"
+			tasks: [{
+				id: "2EE09AFFC49AD918"
+				type: "item"
+				item: "apotheosis:rectifier_t3"
+			}]
+		}
+		{
+			title: "Love Yourself"
+			x: -2.0d
+			y: -2.0d
+			description: ["Your Enchanting Clues power is directly proportional to the amount of enchantments you can reveal. If you hover over an enchantment and you see \"The Runes Reveal All\" in the header, the enchantments listed are the only enchantments you will get."]
+			dependencies: ["65167A4E73D43967"]
+			id: "5BB0B62D86424666"
+			tasks: [{
+				id: "20E3C72491A067ED"
+				type: "item"
+				item: "apotheosis:sightshelf"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -2.0d
+			dependencies: ["5BB0B62D86424666"]
+			id: "6B2F6B0F2815D34A"
+			tasks: [{
+				id: "75AE5EDCEBC21F48"
+				type: "item"
+				item: "apotheosis:sightshelf_t2"
+			}]
+		}
+		{
+			title: "Curse-B-Gon!"
+			x: -1.0d
+			y: 1.0d
+			description: ["Use in an anvil to remove curses from enchanted items."]
+			dependencies: ["637EFAFB9788F21E"]
+			id: "5DF2C7A9D5B87076"
+			tasks: [{
+				id: "0CC01A8C7E742EEB"
+				type: "item"
+				item: "apotheosis:prismatic_web"
+			}]
+		}
+		{
+			title: "Cooking With Souls"
+			icon: "minecraft:soul_campfire"
+			x: 3.5d
+			y: -5.0d
+			description: ["If you get an item with a rarity in its lore, you can cook it on a Soul Campfire to break it down into a shard of the corresponding rarity."]
+			dependencies: ["4CEEA1F7ACC30450"]
+			hide: true
+			id: "0F14C9FA57CB6B60"
+			tasks: [{
+				id: "1C1F84F674BCB982"
+				type: "item"
+				item: "minecraft:soul_campfire"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -4.0d
+			description: ["Combine with a Tome of Scrapping"]
+			dependencies: ["0F14C9FA57CB6B60"]
+			id: "3F506CD3F6D52168"
+			tasks: [{
+				id: "730E4DD8433298D2"
+				type: "item"
+				item: "apotheosis:common_shard"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -3.0d
+			dependencies: ["0F14C9FA57CB6B60"]
+			id: "569E3E1B0377329A"
+			tasks: [{
+				id: "36F22B87896D469E"
+				type: "item"
+				item: "apotheosis:uncommon_shard"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -2.0d
+			dependencies: ["0F14C9FA57CB6B60"]
+			id: "056E0DF4D7D9225D"
+			tasks: [{
+				id: "67781B1E937568DA"
+				type: "item"
+				item: "apotheosis:rare_shard"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -1.0d
+			dependencies: ["0F14C9FA57CB6B60"]
+			id: "538EE130C99969EC"
+			tasks: [{
+				id: "31B30B712FD245AD"
+				type: "item"
+				item: "apotheosis:epic_shard"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 0.0d
+			dependencies: ["0F14C9FA57CB6B60"]
+			optional: true
+			id: "5AFFC9264A5A6DD3"
+			tasks: [{
+				id: "1B02B0107430F8D5"
+				type: "item"
+				item: "apotheosis:mythic_shard"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 1.0d
+			dependencies: ["0F14C9FA57CB6B60"]
+			optional: true
+			id: "6AE4394BB32B2CE3"
+			tasks: [{
+				id: "0A05419536E2F722"
+				type: "item"
+				item: "apotheosis:ancient_shard"
 			}]
 		}
 	]

@@ -1,0 +1,11 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [{"item": "thermal:ender_pearl_dust"}],
+	"result": {"item": "appliedenergistics2:ender_dust"},
+	"conditions": [
+		{
+			"type": "forge:mod_loaded",
+			"modid": "appliedenergistics2"
+		}
+	]
+}

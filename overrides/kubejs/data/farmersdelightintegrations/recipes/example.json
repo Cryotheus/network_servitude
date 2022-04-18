@@ -1,0 +1,9 @@
+{
+	"type": "forge:conditional",
+	"recipes": [
+		{
+			"conditions": [{"type": "forge:mod_loaded", "modid": "ThisRecipeCausedErrorsSoIFixedTheErrors"}],
+			"recipe": {"type": "thereIsNoRecipe"}
+		}
+	]
+}

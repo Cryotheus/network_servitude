@@ -1,14 +1,14 @@
 {
 	"type": "minecraft:crafting_shaped",
 	"pattern": [
-		"b b",
-		"bcb",
-		" b "
+		"bbb",
+		"bhb",
+		"bbb"
 	],
 	
 	"key": {
-		"b": {"tag": "minecraft:logs"},
-		"c": {"tag": "forge:chests/wooden"}
+		"b": {"item": "forbidden_arcanus:mysterywood_planks"},
+		"h": {"item": "speedyhoppers:speedyhopper_mk3"}
 	},
 	
 	"result": {

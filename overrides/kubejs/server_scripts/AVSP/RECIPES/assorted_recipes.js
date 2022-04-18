@@ -158,8 +158,4 @@ onEvent('recipes', event => {
 	//REMOVAL OF THE ENIGMATIC HAMMER.
 	//If you want to keep this feature. Just comment out this entire section.
 	event.remove({id: 'emendatusenigmatica:enigmatic_hammer'})
-
-//
-//fin
-//
 })

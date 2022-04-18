@@ -19,7 +19,8 @@
 			y: 0.0d
 			subtitle: "Thank you aliens <3"
 			description: ["You may want to craft a Meteorite Compass or Explorer's Compass."]
-			dependencies: ["11E7633F213C65EA"]
+			dependencies: ["59E66FF7A7DD7CCE"]
+			hide: true
 			id: "1B4B76F3C09D504B"
 			tasks: [{
 				id: "22BD882A6FC65D68"
@@ -32,7 +33,8 @@
 		{
 			x: 0.0d
 			y: 2.0d
-			dependencies: ["11E7633F213C65EA"]
+			dependencies: ["59E66FF7A7DD7CCE"]
+			hide: true
 			id: "55C1DBD0A68DDC9C"
 			tasks: [{
 				id: "67F3D7F948484776"
@@ -43,7 +45,8 @@
 		{
 			x: -2.0d
 			y: 2.0d
-			dependencies: ["11E7633F213C65EA"]
+			dependencies: ["59E66FF7A7DD7CCE"]
+			hide: true
 			id: "541A92AB79D9A916"
 			tasks: [{
 				id: "63045ED347266FD0"
@@ -54,7 +57,8 @@
 		{
 			x: 3.0d
 			y: 2.0d
-			dependencies: ["11E7633F213C65EA"]
+			dependencies: ["59E66FF7A7DD7CCE"]
+			hide: true
 			id: "60D0D924D54076CB"
 			tasks: [{
 				id: "23E1F80031B86DFC"
@@ -65,7 +69,8 @@
 		{
 			x: -0.5d
 			y: 3.0d
-			dependencies: ["11E7633F213C65EA"]
+			dependencies: ["59E66FF7A7DD7CCE"]
+			hide: true
 			id: "5E28B42206B19D68"
 			tasks: [{
 				id: "65E1844D350E6121"
@@ -76,7 +81,8 @@
 		{
 			x: 0.5d
 			y: 3.0d
-			dependencies: ["11E7633F213C65EA"]
+			dependencies: ["59E66FF7A7DD7CCE"]
+			hide: true
 			id: "26DA6859F5BA55B2"
 			tasks: [{
 				id: "322097FE36FEA31C"
@@ -87,7 +93,8 @@
 		{
 			x: 0.0d
 			y: -2.0d
-			dependencies: ["11E7633F213C65EA"]
+			dependencies: ["59E66FF7A7DD7CCE"]
+			hide: true
 			id: "7D2DB35A18F01ED8"
 			tasks: [{
 				id: "6A612DD0AEEFAC0C"
@@ -98,7 +105,8 @@
 		{
 			x: 2.0d
 			y: 2.0d
-			dependencies: ["11E7633F213C65EA"]
+			dependencies: ["59E66FF7A7DD7CCE"]
+			hide: true
 			id: "7A802FD8F425460F"
 			tasks: [{
 				id: "0C041E172833CF89"
@@ -109,7 +117,8 @@
 		{
 			x: 0.0d
 			y: 4.0d
-			dependencies: ["11E7633F213C65EA"]
+			dependencies: ["59E66FF7A7DD7CCE"]
+			hide: true
 			id: "31CDFD673CD1B61B"
 			tasks: [{
 				id: "564094A31792561A"
@@ -120,7 +129,8 @@
 		{
 			x: -0.5d
 			y: -3.0d
-			dependencies: ["11E7633F213C65EA"]
+			dependencies: ["59E66FF7A7DD7CCE"]
+			hide: true
 			id: "1603D63241586E9E"
 			tasks: [{
 				id: "51F2A27C5A314D3C"
@@ -131,7 +141,8 @@
 		{
 			x: 0.5d
 			y: -3.0d
-			dependencies: ["11E7633F213C65EA"]
+			dependencies: ["59E66FF7A7DD7CCE"]
+			hide: true
 			id: "52B2F43B1370BBCF"
 			tasks: [{
 				id: "1DDD1FE1FC188ADA"
@@ -142,7 +153,8 @@
 		{
 			x: -1.0d
 			y: -2.0d
-			dependencies: ["11E7633F213C65EA"]
+			dependencies: ["59E66FF7A7DD7CCE"]
+			hide: true
 			id: "24ACC427C63AB06B"
 			tasks: [{
 				id: "4110BFC3AFB40B8C"
@@ -153,7 +165,8 @@
 		{
 			x: 1.0d
 			y: -2.0d
-			dependencies: ["11E7633F213C65EA"]
+			dependencies: ["59E66FF7A7DD7CCE"]
+			hide: true
 			id: "5C3355626D7ED629"
 			tasks: [{
 				id: "22E318DA1AE924B2"
@@ -164,7 +177,8 @@
 		{
 			x: 1.5d
 			y: -3.0d
-			dependencies: ["11E7633F213C65EA"]
+			dependencies: ["59E66FF7A7DD7CCE"]
+			hide: true
 			id: "5D1918408DBC20E4"
 			tasks: [{
 				id: "48BCA8F899720486"
@@ -175,7 +189,8 @@
 		{
 			x: -1.5d
 			y: -3.0d
-			dependencies: ["11E7633F213C65EA"]
+			dependencies: ["59E66FF7A7DD7CCE"]
+			hide: true
 			id: "52C5683C4E5FD29E"
 			tasks: [{
 				id: "452853CE2BBD8A50"
@@ -186,7 +201,8 @@
 		{
 			x: -3.0d
 			y: 2.0d
-			dependencies: ["11E7633F213C65EA"]
+			dependencies: ["59E66FF7A7DD7CCE"]
+			hide: true
 			id: "34E5939F3E0D76FC"
 			tasks: [{
 				id: "2A1B6F51BFAFCEB3"
@@ -197,7 +213,8 @@
 		{
 			x: -2.5d
 			y: 3.0d
-			dependencies: ["11E7633F213C65EA"]
+			dependencies: ["59E66FF7A7DD7CCE"]
+			hide: true
 			id: "7224653924C3CAFE"
 			tasks: [{
 				id: "7FB2E7D12246E968"
@@ -210,7 +227,8 @@
 		{
 			x: -2.0d
 			y: -2.0d
-			dependencies: ["11E7633F213C65EA"]
+			dependencies: ["59E66FF7A7DD7CCE"]
+			hide: true
 			id: "3AA4D7565EC2A8F4"
 			tasks: [{
 				id: "1E7567001B7DD2FC"

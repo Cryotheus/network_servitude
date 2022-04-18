@@ -18,7 +18,7 @@
 		click: ""
 		dev: false
 		corner: false
-		dependency: "399A08D3E32E8FE0"
+		dependency: "36DCD981F4891762"
 	}]
 	quests: [
 		{
@@ -33,7 +33,7 @@
 			tasks: [{
 				id: "7C12A5461DDBE59B"
 				type: "checkmark"
-				title: "Good Morning Laborer"
+				title: "Good Morning"
 			}]
 			rewards: [
 				{
@@ -107,11 +107,16 @@
 			dependency_requirement: "one_completed"
 			id: "3C58F12884142407"
 			tasks: [{
-				id: "42FAC4C3CF2F65B6"
-				type: "gamestage"
-				title: "Sleeping Bag"
-				icon: "comforts:sleeping_bag_red"
-				stage: "stryker_sleeping_bag"
+				id: "0F31828E42548D55"
+				type: "item"
+				title: "Any Sleeping Bag from Comforts"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "kubejs:stryker_quests/sleeping_bag"
+					}
+				}
 			}]
 		}
 		{
@@ -123,21 +128,18 @@
 			description: ["Skip straight to the evening in lieu of the morning."]
 			dependencies: ["5702A43158ADC177"]
 			id: "0141412E75E5FEEB"
-			tasks: [
-				{
-					id: "34613C301F5EB7CA"
-					type: "gamestage"
-					title: "Hammock"
-					icon: "comforts:hammock_red"
-					stage: "stryker_hammock"
+			tasks: [{
+				id: "5A84A43070A689D2"
+				type: "item"
+				title: "Any Hammock"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "kubejs:stryker_quests/hammock"
+					}
 				}
-				{
-					id: "0B219DA47064C855"
-					type: "item"
-					item: "comforts:rope_and_nail"
-					count: 2L
-				}
-			]
+			}]
 			rewards: [{
 				id: "154A0483BA93444F"
 				type: "item"
@@ -269,6 +271,7 @@
 			title: "Easy Loot"
 			x: 0.0d
 			y: -2.5d
+			description: ["Sometimes I feel like I spend more time searching for the structure in the compass' list than in the world itself."]
 			dependencies: ["0A41F2D2AD42D83C"]
 			id: "70BE4CBB0F642952"
 			tasks: [{

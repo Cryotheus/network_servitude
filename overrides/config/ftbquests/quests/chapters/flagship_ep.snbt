@@ -18,7 +18,7 @@
 			tasks: [{
 				id: "2BE9D904314945AF"
 				type: "item"
-				title: "Any #forge:gems/fluix"
+				title: "Any Fluix Crystal"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b

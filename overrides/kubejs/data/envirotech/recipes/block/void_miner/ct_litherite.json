@@ -1,0 +1,25 @@
+{
+	"type": "extendedcrafting:shaped_table",
+	"pattern": [
+		"LLLLL",
+		"LDCDL",
+		"LSMSL",
+		"LTZTL",
+		"PPRPP"
+	],
+	"key": {
+		"L": {"item": "envirocore:litherite_crystal"},
+		"C": {"item": "appliedenergistics2:controller"},
+		"D": {"tag": "forge:storage_blocks/diamond"},
+		"M": {"item": "mekanism:digital_miner"},
+		"P": {"tag": "envirocore:structure/panels"},
+		"R": {"item": "envirocore:laser_core"},
+		"Z": {"item": "envirocore:laser_diode"},
+		"S": {"item": "appliedenergistics2:calculation_processor"},
+		"T": {"item": "mekanism:teleportation_core"}
+	},
+	"result": {
+		"item": "envirotech:litherite_void_miner_ccu",
+		"count": 1
+	}
+}

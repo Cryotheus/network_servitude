@@ -11,7 +11,7 @@
 		{
 			title: "Initialized"
 			x: 0.0d
-			y: 1.0d
+			y: -4.0d
 			dependencies: ["0E650E7149AD19D1"]
 			hide: true
 			id: "36DCD981F4891762"
@@ -31,8 +31,8 @@
 		}
 		{
 			title: "Profitable Labor"
-			x: 1.0d
-			y: 1.0d
+			x: 0.0d
+			y: -1.5d
 			dependencies: ["2678E7FFFDF6122C"]
 			hide: true
 			id: "6EA9E86D45C2DE62"
@@ -58,11 +58,8 @@
 		}
 		{
 			x: 0.0d
-			y: 2.0d
-			dependencies: [
-				"0FC40F8F736C3142"
-				"36DCD981F4891762"
-			]
+			y: -2.5d
+			dependencies: ["0FC40F8F736C3142"]
 			hide: true
 			id: "67AE3F5E43C42938"
 			tasks: [{
@@ -75,8 +72,8 @@
 		}
 		{
 			title: "It’s a dangerous business, Frodo, going out your door."
-			x: -1.0d
-			y: 0.0d
+			x: 1.0d
+			y: 2.0d
 			subtitle: "You step onto the road, and if you don’t keep your feet, there’s no knowing where you might be swept off to."
 			dependencies: ["2ED1E767C6CA0880"]
 			hide: true
@@ -95,8 +92,10 @@
 			}]
 		}
 		{
-			x: -1.0d
-			y: 1.0d
+			title: "No Stone Unturned"
+			x: 0.0d
+			y: 2.0d
+			subtitle: "Expert compass control"
 			dependencies: [
 				"0D9CA8F702359637"
 				"492C53ADDA2DCFCD"
@@ -116,10 +115,17 @@
 				}
 				stage: ""
 			}]
+			rewards: [{
+				id: "4889A999CA6440BA"
+				type: "random"
+				table_id: 9007378594819785422L
+			}]
 		}
 		{
-			x: -2.0d
-			y: 1.0d
+			title: "Meanwhile"
+			x: 0.0d
+			y: 0.0d
+			subtitle: "Wanna practice kissing?"
 			dependencies: ["5188ACD302C9FFE1"]
 			hide: true
 			id: "036572DDD9A9DF48"
@@ -139,6 +145,81 @@
 					}
 				}
 				stage: ""
+			}]
+			rewards: [{
+				id: "1BF2BAE0F798D913"
+				type: "random"
+				table_id: 9007378594819785422L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.0d
+			dependencies: ["2FFC986781C297C1"]
+			id: "103D4D7C53C5FF4D"
+			tasks: [{
+				id: "1749DE532F1E0F98"
+				type: "gamestage"
+				title: "Complete Environmental"
+				icon: "environmental:willow_sapling"
+				stage: ""
+			}]
+			rewards: [{
+				id: "647829A2A5C8B64F"
+				type: "random"
+				table_id: 9007378594819785422L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.5d
+			dependencies: ["0E61A0034613DF5D"]
+			id: "6237A2C1E380D072"
+			tasks: [{
+				id: "65F743DAA29A4AD3"
+				type: "gamestage"
+				title: "Complete Papa's Enchanteria"
+				icon: {
+					id: "inventorypets:pet_enchanting_table"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				stage: "stryker_initial_items"
+			}]
+			rewards: [{
+				id: "4861FA6E75D3CB79"
+				type: "random"
+				table_id: 9007378594819785422L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 4.5d
+			dependencies: ["533BD093221F070A"]
+			id: "3F3D6AB044E14588"
+			tasks: [{
+				id: "7D59052A3DC6555A"
+				type: "gamestage"
+				title: "Complete Pharmaceuticals"
+				icon: {
+					id: "xreliquary:splash_potion"
+					Count: 1b
+					tag: {
+						effects: [{
+							duration: 1
+							name: "minecraft:saturation"
+							potency: 1
+						}]
+					}
+				}
+				stage: "stryker_initial_items"
+			}]
+			rewards: [{
+				id: "081FD436E9721110"
+				type: "random"
+				table_id: 9007378594819785422L
 			}]
 		}
 	]

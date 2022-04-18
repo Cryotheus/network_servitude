@@ -252,5 +252,22 @@
 				table_id: 9007378594819785422L
 			}]
 		}
+		{
+			title: "Dr. Pepper!"
+			x: -7.0d
+			y: -2.5d
+			subtitle: "We were riding a tornado!"
+			dependencies: ["16A5C071C81858B5"]
+			hide: true
+			optional: true
+			id: "4939EB79235D93B0"
+			tasks: [{
+				id: "326C186B9031EE4E"
+				type: "gamestage"
+				title: "Find a Box Turtle"
+				icon: "aquaculture:box_turtle"
+				stage: ""
+			}]
+		}
 	]
 }

@@ -32,10 +32,7 @@ onEvent('recipes', event => {
 		W: '#forge:buckets/water',
 		G: '#forge:gravel'
 	})
-
-    event.replaceInput({}, 'immersivepetroleum:bitumen', '#forge:gems/bitumen')
-    event.replaceInput({}, '#forge:bitumen', '#forge:gems/bitumen')
-//
-//fin
-//
+	
+	event.replaceInput({}, 'immersivepetroleum:bitumen', '#forge:gems/bitumen')
+	event.replaceInput({}, '#forge:bitumen', '#forge:gems/bitumen')
 })

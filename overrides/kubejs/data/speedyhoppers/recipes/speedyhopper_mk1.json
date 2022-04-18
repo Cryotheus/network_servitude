@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"I I",
+		"IHI",
+		"I I"
+	],
+	"key": {
+		"I": {"tag": "forge:plates/iron"},
+		"H": {"item": "minecraft:hopper"}
+	},
+	"result": {"item": "speedyhoppers:speedyhopper_mk1"}
+}

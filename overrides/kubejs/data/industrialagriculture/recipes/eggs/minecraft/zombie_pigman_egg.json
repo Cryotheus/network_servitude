@@ -1,0 +1,15 @@
+{
+	"type": "mysticalagriculture:infusion",
+	"input": {"item": "minecraft:egg"},
+	"ingredients": [
+		{"item": "mysticalagriculture:zombified_piglin_essence"},
+		{"item": "mysticalagriculture:tertium_block"},
+		{"item": "mysticalagriculture:zombified_piglin_essence"},
+		{"item": "mysticalagriculture:tertium_block"},
+		{"item": "mysticalagriculture:zombified_piglin_essence"},
+		{"item": "mysticalagriculture:tertium_block"},
+		{"item": "mysticalagriculture:zombified_piglin_essence"},
+		{"item": "mysticalagriculture:tertium_block"}
+	],
+	"result": {"item": "minecraft:zombified_piglin_spawn_egg"}
+}

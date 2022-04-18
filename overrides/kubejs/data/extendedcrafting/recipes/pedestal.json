@@ -1,0 +1,22 @@
+{
+	"type": "crafting_shaped",
+	"conditions": [
+		{
+			"type": "cucumber:enabled",
+			"item": "extendedcrafting:pedestal"
+		}
+	],
+	"pattern": [
+		" I ",
+		" I ",
+		"IBI"
+	],
+	"key": {
+		"I": {"tag": "forge:ingots/steel"},
+		"B": {"tag": "forge:storage_blocks/steel"}
+	},
+	"result": {
+		"item": "extendedcrafting:pedestal",
+		"count": 2
+	}
+}

@@ -20,7 +20,4 @@ onEvent('recipes', event => {
 	event.remove({id: 'immersiveposts:has_uranium_rod'})
 	event.remove({id: 'immersiveposts:has_constantan_rod'})
 	event.remove({id: 'immersiveposts:has_electrum_rod'})
-//
-//fin
-//
 })

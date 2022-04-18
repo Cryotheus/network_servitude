@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"DHD",
+		" D "
+	],
+	"key": {
+		"D": {"tag": "forge:gems/diamond"},
+		"H": {"item": "speedyhoppers:speedyhopper_mk2"}
+	},
+	"result": {"item": "speedyhoppers:speedyhopper_mk3"}
+}

@@ -74,18 +74,56 @@
 			dependency: "6F9B232EFB1E2A5D"
 		}
 	]
-	quests: [{
-		x: 0.0d
-		y: 0.0d
-		subtitle: "The middle child."
-		description: ["Smelts glass, stone, clay, as well as other odds and ends faster! Severly underrated."]
-		dependencies: ["65B2C6F44D66375C"]
-		hide: true
-		id: "4C980C744DDE989D"
-		tasks: [{
-			id: "585684E68662AED5"
-			type: "item"
-			item: "environmental:kiln"
-		}]
-	}]
+	quests: [
+		{
+			x: 0.0d
+			y: -0.5d
+			subtitle: "The middle child."
+			description: ["Smelts glass, stone, clay, as well as other odds and ends faster! Severly underrated."]
+			dependencies: ["65B2C6F44D66375C"]
+			hide: true
+			id: "4C980C744DDE989D"
+			tasks: [{
+				id: "585684E68662AED5"
+				type: "item"
+				item: "environmental:kiln"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 0.5d
+			subtitle: "Feels like Pocket Edition"
+			dependencies: ["65B2C6F44D66375C"]
+			hide: true
+			id: "09D40BABE2022AE0"
+			tasks: [{
+				id: "574AC19BBD56AB4B"
+				type: "item"
+				item: "environmental:sawmill"
+			}]
+		}
+		{
+			title: "Paving a Path"
+			icon: {
+				id: "forbidden_arcanus:arcane_golden_shovel"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 1.5d
+			y: 0.0d
+			subtitle: "Should be in vanilla"
+			description: ["Your new favorite Vanilla-like forge mod, Environmental, lets you make Mycelium and Podzol Paths just like you would normal paths. Try it out by right clicking the associated block with a shovel."]
+			dependencies: ["65B2C6F44D66375C"]
+			hide: true
+			optional: true
+			id: "7E255C0D4383B89F"
+			tasks: [{
+				id: "4A6E031267F16E5F"
+				type: "checkmark"
+				title: "Acknowledge"
+			}]
+		}
+	]
 }

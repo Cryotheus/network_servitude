@@ -1,0 +1,22 @@
+{
+	id: "47D3204A50F1A96C"
+	group: "45CDD83BAB0D341A"
+	order_index: 2
+	filename: "neurosis_ep"
+	title: "Neurosis EP"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		x: 0.0d
+		y: 0.0d
+		dependencies: ["65CE3D61BF7158B4"]
+		hide: true
+		size: 2.0d
+		id: "5C0FE667E0549EB3"
+		tasks: [{
+			id: "2C0942B80F248328"
+			type: "item"
+			item: "envirotech:litherite_void_miner_ccu"
+		}]
+	}]
+}

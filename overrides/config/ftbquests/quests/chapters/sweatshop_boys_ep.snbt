@@ -132,7 +132,7 @@
 			y: 0.0d
 			subtitle: "The Ikea of Minecraft."
 			description: ["These tables let you build your ideal tool by crafting the parts with the Part Builder and assembling them in the Tinker Station. Click on the tools in the Tinker Station to see what parts you need to make with Part Builder. If you place these tables adjacent to each other, you can quickly swap between them using the tabs at the top of the menu."]
-			dependencies: ["11E7633F213C65EA"]
+			dependencies: ["59E66FF7A7DD7CCE"]
 			hide: true
 			id: "7664B6C51E52EBF5"
 			tasks: [

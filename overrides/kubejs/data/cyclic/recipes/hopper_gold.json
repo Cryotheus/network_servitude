@@ -1,14 +1,14 @@
 {
 	"type": "minecraft:crafting_shaped",
 	"pattern": [
-		"g g",
-		"gcg",
-		" g "
+		"ggg",
+		"ghg",
+		"ggg"
 	],
 	
 	"key": {
 		"g": {"tag": "forge:plates/gold"},
-		"c": {"item": "cyclic:hopper"}
+		"h": {"item": "cyclic:hopper"}
 	},
 	
 	"result": {
