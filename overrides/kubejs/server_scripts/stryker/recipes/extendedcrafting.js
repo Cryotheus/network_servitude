@@ -13,7 +13,7 @@ tiers = [
 
 onEvent('recipes', event => {
 	//removals
-	event.remove('extendedcrafting:ultimate_table')
+	event.remove({id: 'extendedcrafting:ultimate_table'})
 	
 	tiers.forEach(tier => {
 		event.remove({id: 'extendedcrafting:' + tier + '_catalyst'})

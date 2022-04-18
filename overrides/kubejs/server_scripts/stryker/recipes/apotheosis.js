@@ -1,6 +1,6 @@
 onEvent('recipe', event => {
 	//removals
-	event.remove('apotheosis:prismatic_altar')
+	event.remove({id: 'apotheosis:prismatic_altar'})
 	
 	//shaped
 	event.shaped(Item.of("patchouli:guide_book", '{"patchouli:book":"apotheosis:apoth_chronicle"}'), [
