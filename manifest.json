@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Network Servitude",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "author": "",
   "files": [
     {
@@ -76,7 +76,7 @@
     },
     {
       "projectID": 242436,
-      "fileID": 3738133,
+      "fileID": 3758390,
       "required": true
     },
     {
@@ -341,7 +341,7 @@
     },
     {
       "projectID": 361026,
-      "fileID": 3751068,
+      "fileID": 3758290,
       "required": true
     },
     {
@@ -1151,7 +1151,7 @@
     },
     {
       "projectID": 411816,
-      "fileID": 3654850,
+      "fileID": 3758261,
       "required": true
     },
     {
@@ -1176,7 +1176,7 @@
     },
     {
       "projectID": 233105,
-      "fileID": 3725412,
+      "fileID": 3757791,
       "required": true
     },
     {
@@ -1675,13 +1675,13 @@
       "required": true
     },
     {
-      "projectID": 272515,
-      "fileID": 3404330,
+      "projectID": 336184,
+      "fileID": 3608374,
       "required": true
     },
     {
-      "projectID": 336184,
-      "fileID": 3608374,
+      "projectID": 272515,
+      "fileID": 3404330,
       "required": true
     },
     {
