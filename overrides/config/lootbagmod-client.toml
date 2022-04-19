@@ -22,33 +22,115 @@
 	enablewhitelist = false
 	#BlackList (Syntax "minecraft or modid : item or block name"; example "minecraft:air" or "lootbagmod:lootbag")
 	blacklist = [
-		"lootbagmod:lootbag",
-		"minecraft:air",
-		"minecraft:command_block",
-		"minecraft:structure_block",
-		"minecraft:knowledge_book",
-		"minecraft:chain_command_block",
-		"minecraft:repeating_command_block",
-		"minecraft:barrier",
-		"minecraft:enchanted_book",
-		"minecraft:written_book",
-		"minecraft:potion",
-		"minecraft:splash_potion",
-		"minecraft:lingering_potion",
-		"minecraft:spawn_egg",
-		"minecraft:structure_void",
-		"minecraft:mob_spawner",
-		"minecraft:bedrock",
+		"appliedenergistics2:cable_bus",
+		"appliedenergistics2:creative_energy_cell",
+		"appliedenergistics2:creative_storage_cell",
+		"appliedenergistics2:debug_card",
+		"appliedenergistics2:debug_chunk_loader",
+		"appliedenergistics2:debug_cube_gen",
+		"appliedenergistics2:debug_energy_gen",
+		"appliedenergistics2:debug_eraser",
+		"appliedenergistics2:debug_item_gen",
+		"appliedenergistics2:debug_meteorite_placer",
+		"appliedenergistics2:debug_part_placer",
+		"appliedenergistics2:debug_phantom_node",
+		"appliedenergistics2:debug_replicator_card",
+		"appliedenergistics2:debug_",
+		"appliedenergistics2:debug_",
+		"appliedenergistics2:debug_",
+		"appliedenergistics2:debug_",
+		"appliedenergistics2:encoded_pattern",
+		"appliedenergistics2:facade",
+		
+		"betterendforge:flamaea",
+		
+		"bloodmagic:activationcrystalcreative",
+		"bloodmagic:dungeon_teste",
+		"bloodmagic:inversion_pillar",
+		
+		"blue_skies:everbright_portal",
+		"blue_skies:everdawn_portal",
+		"blue_skies:multi_portal_item",
+		
+		"botania:creative_pool",
+		"botania:floating_orechid",
+		"botania:floating_orechid_ignem",
+		"botania:lens_storm",
+		"botania:infrangible_platform",
+		"botania:orechid",
+		"botania:orechid_ignem",
+		
+		"botanicalmachinery:mana_battery_creative",
+		
+		"buildinggadgets:construction_paste_container_creative",
+		
+		"compactmachines:solid_wall",
+		
+		"create:creative_blaze_cake",
+		"create:creative_crate",
+		"create:creative_fluid_tank",
+		"create:creative_motor",
+		"create:handheld_worldshaper",
+		
+		"createaddition:creative_energy",
 		
 		"culinaryconstruct:food_bowl",
 		"culinaryconstruct:sandwich",
 		
+		"cyclic:battery_infinite",
+		"cyclic:item_infinite",
+		
+		"dimdungeons:block_key_charger",
+		"dimdungeons:block_key_charger_damaged",
+		"dimdungeons:block_key_charger_used",
+		"dimdungeons:block_local_teleporter",
+		"dimdungeons:block_portal_crown",
+		"dimdungeons:item_trophy_1",
+		"dimdungeons:item_trophy_2",
+		"dimdungeons:item_trophy_3",
+		"dimdungeons:item_trophy_4",
+		"dimdungeons:item_trophy_5",
+		"dimdungeons:item_trophy_6",
+		"dimdungeons:item_trophy_7",
+		"dimdungeons:item_trophy_8",
+		
+		"druidcraft:debug",
+		"druidcraft:elder_leaf_layer",
+		
+		"enigmaticlegacy:cursed_ring",
+		"enigmaticlegacy:enigmatic_amulet",
+		"enigmaticlegacy:enigmatic_unwitnessed_amulet",
 		"enigmaticlegacy:enigmatic_item",
 		"enigmaticlegacy:loot_generator",
+		
+		"envirocore:creative_energy_source",
+		
+		"extendedcrafting:advanced_auto_table",
+		"extendedcrafting:advanced_catalyst",
+		"extendedcrafting:advanced_component",
+		"extendedcrafting:advanced_table",
+		"extendedcrafting:basic_auto_table",
+		"extendedcrafting:basic_catalyst",
+		"extendedcrafting:basic_component",
+		"extendedcrafting:basic_table",
+		"extendedcrafting:black_iron_ingot",
+		"extendedcrafting:black_iron_slate",
+		"extendedcrafting:elite_auto_table",
+		"extendedcrafting:elite_catalyst",
+		"extendedcrafting:elite_component",
+		"extendedcrafting:elite_table",
+		"extendedcrafting:ultimate_catalyst",
+		"extendedcrafting:ultimate_component",
+		
+		"forbidden_arcanus:arcane_crystal_dust_speck",
+		
+		"immersiveengineering:assembler",
+		"immersiveengineering:capacitor_creative",
 		
 		"inventorypets:cloud_spawn",
 		"inventorypets:nether_spawn",
 		"inventorypets:pet_meta",
+		"inventorypets:pet_meta_peaceful",
 		"inventorypets:pet_meta_25",
 		"inventorypets:pet_meta_50",
 		"inventorypets:pet_meta_75",
@@ -57,36 +139,230 @@
 		"inventorypets:space_spawn",
 		"inventorypets:stone_spawn",
 		
-		"twilightforest:lich_tower_miniature_structure",
-		"twilightforest:naga_courtyard_miniature_structure",
+		"lootbagmod:lootbag",
+		
+		"mcjtylib:multipart",
+		
+		"mekanism:creative_bin",
+		"mekanism:creative_chemical_tank",
+		"mekanism:creative_energy_cube",
+		"mekanism:creative_fluid_tank",
+		
+		"minecraft:air",
+		"minecraft:barrier",
+		"minecraft:bedrock",
+		"minecraft:chain_command_block",
+		"minecraft:command_block",
+		"minecraft:enchanted_book",
+		"minecraft:knowledge_book",
+		"minecraft:lingering_potion",
+		"minecraft:mob_spawner",
+		"minecraft:potion",
+		"minecraft:repeating_command_block",
+		"minecraft:spawn_egg",
+		"minecraft:splash_potion",
+		"minecraft:structure_block",
+		"minecraft:structure_void",
+		"minecraft:written_book",
+		
+		"mysticalagriculture:creative_soulium_dagger",
+		
+		"occultism:debug_wand",
+		"occultism:debug_foliot_lumberjack",
+		"occultism:debug_foliot_transport_items",
+		"occultism:debug_foliot_cleaner",
+		"occultism:debug_foliot_trader",
+		"occultism:debug_djinni_manage_machine",
+		"occultism:debug_djinni_test",
+		"occultism:lighted_air",
+		"occultism:miner_debug_unspecialized",
+		
+		"psi:cad",
+		"psi:cad_assembly_creative",
+		
+		"rftools:creative_screen",
+		
+		"rftoolspower:dimensionalcell_creative",
+		
+		"rftoolsutility:teleport_probe",
+		
+		"simplyjetpacks:jetpack_creative",
+		"simplyjetpacks:jetpack_creative_armored",
+		
+		"storagedrawers:creative_vending_upgrade",
+		
+		"theoneprobe:creative_probe",
+		
+		"thermal:fluid_tank_creative_augment",
+		"thermal:machine_catalyst_creative_augment",
+		"thermal:machine_efficiency_creative_augment",
+		"thermal:rf_coil_creative_augment",
+		
 		"twilightforest:force_field_blue",
 		"twilightforest:force_field_green",
 		"twilightforest:force_field_orange",
 		"twilightforest:force_field_pink",
 		"twilightforest:force_field_purple",
+		"twilightforest:lich_tower_miniature_structure",
+		"twilightforest:naga_courtyard_miniature_structure",
 		"twilightforest:twilight_portal_miniature_structure",
 		
+		"woot:creative_conatus",
+		"woot:creative_power",
+		"woot:debug",
+		"woot:debug_tank",
+		
+		"wormhole:creative_energy_cell"
 	]
+	
 	#WhiteList Syntax "minecraft or modid : item or block name"; example minecraft:air or lootbagmod:lootbag)
 	whitelist = ["minecraft:stone", "minecraft:nether_star"]
 
 ["Tag List"]
 	#TagList (Syntax "minecraft, forge or modid : tag name"; example "minecraft:planks" or "forge:planks")
-	taglist = ["minecraft:planks"]
+	taglist = [
+		"bloodmagic:crystals/demon",
+		
+		"botania:petals",
+		"botania:mystical_flowers",
+		"botania:double_mystical_flowers",
+		
+		"create:crushed_ores",
+		
+		"druidcraft:beams",
+		"druidcraft:panels",
+		"druidcraft:soulfire",
+		
+		"envirocore:aethium_blocks",
+		"envirocore:aethium_slabs",
+		"envirocore:aethium_stairs",
+		"envirocore:aethium_walls",
+		"envirocore:erodium_blocks",
+		"envirocore:erodium_slabs",
+		"envirocore:erodium_stairs",
+		"envirocore:erodium_walls",
+		"envirocore:ionite_blocks",
+		"envirocore:ionite_slabs",
+		"envirocore:ionite_stairs",
+		"envirocore:ionite_walls",
+		"envirocore:kyronite_blocks",
+		"envirocore:kyronite_slabs",
+		"envirocore:kyronite_stairs",
+		"envirocore:kyronite_wall",
+		"envirocore:litherite_blocks",
+		"envirocore:litherite_slabs",
+		"envirocore:litherite_stairs",
+		"envirocore:litherite_walls",
+		"envirocore:nanorite_blocks",
+		"envirocore:nanorite_slabs",
+		"envirocore:nanorite_stairs",
+		"envirocore:nanorite_walls",
+		"envirocore:pladium_blocks",
+		"envirocore:pladium_slabs",
+		"envirocore:pladium_stairs",
+		"envirocore:pladium_walls",
+		"envirocore:xerothium_blocks",
+		"envirocore:xerothium_slabs",
+		"envirocore:xerothium_stairs",
+		"envirocore:xerothium_walls",
+		
+		"forge:cobblestone",
+		"forge:dirt",
+		"forge:end_stones",
+		"forge:fence_gates",
+		"forge:glass",
+		"forge:glass_panes",
+		"forge:ingots",
+		"forge:mud_bricks",
+		"forge:mushrooms",
+		"forge:netherbricks",
+		"forge:ores",
+		"forge:plants",
+		"forge:sandstone",
+		"forge:seeds",
+		"forge:sheetmetals",
+		"forge:stained_glass_panes",
+		"forge:stone",
+		"forge:storage_blocks",
+		"forge:terracotta",
+		"forge:treated_wood_slab",
+		"forge:wool",
+		"forge:workbench",
+		
+		"minecraft:arrows",
+		"minecraft:banners",
+		"minecraft:buttons",
+		"minecraft:carpets",
+		"minecraft:coral_blocks",
+		"minecraft:doors",
+		"minecraft:fences",
+		"minecraft:flower_pots",
+		"minecraft:leaves",
+		"minecraft:logs",
+		"minecraft:planks",
+		"minecraft:pressure_plates",
+		"minecraft:rails",
+		"minecraft:saplings",
+		"minecraft:signs",
+		"minecraft:slabs",
+		"minecraft:stairs",
+		"minecraft:stone_bricks",
+		"minecraft:tall_flowers",
+		"minecraft:trapdoors",
+		"minecraft:walls",
+		"minecraft:wooden_fences",
+		"minecraft:wooden_pressure_plates",
+		"minecraft:wooden_slabs",
+		"minecraft:wooden_trapdoors",
+		
+		"quark:shards",
+		"quark:vertical_slabs",
+		"quark:wooden_vertical_slabs",
+		
+		"rsgauges:pressure_plates",
+		
+		"tconstruct:modifiable/melee",
+		"tconstruct:parts",
+		"tconstruct:seared_blocks",
+		"tconstruct:tables",
+		
+		"thermal:rockwool"
+	]
 
 ["Mod List"]
 	#Mod black/whitelist (Syntax " modid ")
-	modlist = ["ftbquests"]
+	modlist = [
+		"chiselsandbits",
+		"compactores",
+		"emendatusenigmatica",
+		"ftbquests",
+		"materialis",
+		"mightyarchitect",
+		"structurize",
+		"psipherals"
+	]
 
 ["Contains List"]
 	#Contains List (Synyax "word")
-	contains = ["apples", "creative"]
+	contains = [
+		"ceiling_banner",
+		"creative",
+		"debug",
+		"extendedcrafting",
+		"hanging_sign",
+		"ingot",
+		"nuke",
+		"sign_post",
+		"spawn_egg",
+		"stairs",
+		"vertical_slab"
+	]
 	#Enable Contains List
-	enablecontains = false
+	enablecontains = true
 
 ["Mob Drops"]
 	#Mob drops list (Syntax " minecraft or modname : mobregistryname ")
-	mobdropslist = ["minecraft:blaze", "minecraft:cave_spider", "minecraft:creeper", "minecraft:drowned", "minecraft:elder_guardian", "minecraft:enderman", "minecraft:endermite", "minecraft:evoker"]
+	mobdropslist = []
 	#Loot Bag drop chance from mobs (the higher the number the more common they are)
 	#Range: 1 ~ 100
 	dropchance = 10
@@ -94,4 +370,3 @@
 	allHostileMobs = false
 	#Make Loot Bags droppable from all passive and neutral mobs
 	allNonHostileMobs = false
-

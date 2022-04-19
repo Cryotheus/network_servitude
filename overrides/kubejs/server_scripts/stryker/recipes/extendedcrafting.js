@@ -1,26 +1,39 @@
-tiers_removed = [
+catalysts = [
+	'advanced',
+	'basic',
+	'crystaltine',
+	'elite',
+	'ender',
+	'enhanced_ender',
+	'redstone',
+	'ultimate',
+	'the_ultimate'
+]
+
+components = [
+	'advanced',
+	'basic',
+	'elite',
+	'ender',
+	'enhanced_ender',
+	'ultimate',
+	'the_ultimate'
+]
+
+tables = [
 	'basic',
 	'advanced',
 	'elite'
-]
-
-tiers = [
-	'basic',
-	'advanced',
-	'elite',
-	'ultimate'
 ]
 
 onEvent('recipes', event => {
 	//removals
 	event.remove({id: 'extendedcrafting:ultimate_table'})
 	
-	tiers.forEach(tier => {
-		event.remove({id: 'extendedcrafting:' + tier + '_catalyst'})
-		event.remove({id: 'extendedcrafting:' + tier + '_component'})
-	})
+	catalysts.forEach(tier => {event.remove({id: 'extendedcrafting:' + tier + '_catalyst'})})
+	components.forEach(tier => {event.remove({id: 'extendedcrafting:' + tier + '_component'})})
 	
-	tiers_removed.forEach(tier => {
+	tables.forEach(tier => {
 		event.remove({id: 'extendedcrafting:' + tier + '_table'})
 		event.remove({id: 'extendedcrafting:' + tier + '_auto_table'})
 	})
