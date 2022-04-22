@@ -66,6 +66,7 @@
 			subtitle: "The eldest."
 			description: ["Typo intended."]
 			dependencies: ["59E66FF7A7DD7CCE"]
+			hide: true
 			id: "0DD8D718B0A387AA"
 			tasks: [{
 				id: "6A6917E7B696F495"
@@ -81,6 +82,7 @@
 			subtitle: "...when I'm sleeepiing. One eeeyyyeee open when I'm sleeeping."
 			description: ["Have you ever thought that sleeping in minecraft was an annoying chore with no purpose beside warding off phantoms and other hostile mobs? If so, you'll be glad to hear the Bed Benefits mod will heal you and even cure negative potion effects when you sleep!"]
 			dependencies: ["59E66FF7A7DD7CCE"]
+			hide: true
 			id: "5702A43158ADC177"
 			tasks: [{
 				id: "590F21A0BCDA0303"
@@ -152,6 +154,7 @@
 			subtitle: "Story time."
 			description: ["Prevents mob spawning within 48 blocks. Mobs withing 24 will actively burn."]
 			dependencies: ["59E66FF7A7DD7CCE"]
+			hide: true
 			id: "612783C997028EA1"
 			tasks: [{
 				id: "027AF0409B4013D6"
@@ -180,6 +183,7 @@
 			subtitle: "Arbeit macht frei."
 			description: ["Early but tedious method to getting more materials. Place the Wooden Crank on top of the Quartz Grindstone, then use the crank to grind materials. You have a 90% chance to get a duplicate of what you grind. The Wooden Crank will break after repeated use."]
 			dependencies: ["59E66FF7A7DD7CCE"]
+			hide: true
 			id: "04FE860A6F7F4A8E"
 			tasks: [
 				{
@@ -214,6 +218,7 @@
 			x: -1.0d
 			y: 1.0d
 			dependencies: ["59E66FF7A7DD7CCE"]
+			hide: true
 			id: "403F63F3CC8803D1"
 			tasks: [{
 				id: "5B92617958BCA87B"
@@ -256,6 +261,7 @@
 			subtitle: "The perfect place to build your base"
 			description: ["Find a specific biome using this compass"]
 			dependencies: ["59E66FF7A7DD7CCE"]
+			hide: true
 			id: "0A41F2D2AD42D83C"
 			tasks: [{
 				id: "501AFB98B4AD2410"
@@ -289,6 +295,7 @@
 			y: -1.0d
 			subtitle: "Definitely not theft"
 			dependencies: ["59E66FF7A7DD7CCE"]
+			hide: true
 			id: "24E7CD9A1E7A970F"
 			tasks: [{
 				id: "2B5E5B25908E0993"
@@ -320,6 +327,7 @@
 			subtitle: "Why does everything need pearls?"
 			description: ["It's simple really: recipe \"balancing\""]
 			dependencies: ["59E66FF7A7DD7CCE"]
+			hide: true
 			id: "4CEEA1F7ACC30450"
 			tasks: [{
 				id: "6F40BFB2B5BA28E6"
